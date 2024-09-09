@@ -41,7 +41,7 @@ namespace UnityToolbarExtender.Examples
 		{
             GUILayout.FlexibleSpace();
 
-			string[] bntText = { "AwakeScene", "LobbyScene", "TutorialScene", "MainGameScene" };
+			string[] bntText = { "AwakeScene", "TitleScene", "LobbyScene", "TutorialScene", "MainGameScene" };
 			for (int i = 0; i < bntText.Length; i++)
 				CreateButton(bntText[i], bntText[i]);
 		}

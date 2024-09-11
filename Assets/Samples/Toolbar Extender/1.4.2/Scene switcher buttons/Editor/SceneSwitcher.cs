@@ -41,7 +41,7 @@ namespace UnityToolbarExtender.Examples
 		{
             GUILayout.FlexibleSpace();
 
-			string[] bntText = { "AwakeScene", "LobbyScene", "TutorialScene", "MainGameScene" };
+			string[] bntText = { "AwakeScene", "TitleScene", "LobbyScene", "TutorialScene", "MainGameScene" };
 			for (int i = 0; i < bntText.Length; i++)
 				CreateButton(bntText[i], bntText[i]);
 		}
@@ -56,7 +56,7 @@ namespace UnityToolbarExtender.Examples
             var saved = EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
             if (saved)
             {
-                _ = EditorSceneManager.OpenScene($"Assets/Scenes/{sceneName}.unity");
+                _ = EditorSceneManager.OpenScene($"Assets/1. Scenes/{sceneName}.unity");
             }
         }
 

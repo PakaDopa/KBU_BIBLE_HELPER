@@ -1,6 +1,7 @@
 using DG.Tweening;
 using Manager;
 using UnityEngine;
+using EasyTransition;
 
 public class TitleUI : MonoBehaviour
 {
@@ -16,6 +17,11 @@ public class TitleUI : MonoBehaviour
     [SerializeField] private float _moveValue;
     [SerializeField] private Vector3 _scaleValue;
 
+    [Header("Transition 값")]
+    TransitionManager transitionManager;
+    [SerializeField] private TransitionSettings transition;
+    [SerializeField] private float startDelay;
+
     void Start()
     {
         //Dotween 실행
@@ -24,13 +30,16 @@ public class TitleUI : MonoBehaviour
     private void Update()
     {
         if(Input.GetMouseButtonDown(0))
-            SceneLoadManager.Instance.MoveScene(SceneLoadManager.SceneType.Lobby);
+        {
+            DOTween.KillAll();
+            TransitionManager.Instance().Transition("LobbyScene", transition, startDelay);
+        }
         if (Input.touchCount > 0)
         {
-            Debug.Log(string.Format("{0}", Input.touchCount));
+            DOTween.KillAll();
             var touch = Input.GetTouch(0);
             if(touch.phase == TouchPhase.Began)
-                SceneLoadManager.Instance.MoveScene(SceneLoadManager.SceneType.Lobby);
+                TransitionManager.Instance().Transition("LobbyScene", transition, startDelay);
         }
     }
     void DoTextEffect()

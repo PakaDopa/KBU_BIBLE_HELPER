@@ -55,6 +55,7 @@ namespace Manager
         public override void Init()
         {
             _mode = TimeMode.NORMAL;
+            Debug.Log("TimeManager.cs Init Complete!");
         }
     }
 }

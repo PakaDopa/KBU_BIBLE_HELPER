@@ -1,4 +1,4 @@
-using DataLoad.Data;
+using DataLoader.Data;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -43,8 +43,8 @@ namespace Manager
         private void ChangeBGM(int sceneName)
         {
             var data = SaveManager.Instance.GetPlayerData();
-            if(data!= null && data.isBGM == false)
-                return;
+            //if(data!= null && data.isBGM == false)
+            //    return;
             audioSources[(int)SoundType.BGM].clip = bgmClips[sceneName].clip;
             audioSources[(int)SoundType.BGM].loop = true;   
             audioSources[(int)SoundType.BGM].Play();
@@ -88,13 +88,13 @@ namespace Manager
                     {
                         bgmSource.Stop();
                     }
-                    if(playerData != null && playerData.isBGM)
-                        AudioSourcePlay(bgmSource, clip, volume);
+                    //if(playerData != null && playerData.isBGM)
+                    //    AudioSourcePlay(bgmSource, clip, volume);
                     break;
                 case SoundType.EFFECT:
                     AudioSource effectSource = audioSources[(int)SoundType.EFFECT];
-                    if (playerData != null && playerData.isEffect)
-                        AudioSourcePlay(effectSource, clip, volume);
+                    //if (playerData != null && playerData.isEffect)
+                    //    AudioSourcePlay(effectSource, clip, volume);
                     break;
             }
         }

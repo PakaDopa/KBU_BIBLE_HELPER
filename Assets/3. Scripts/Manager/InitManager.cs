@@ -1,25 +1,27 @@
-using DataLoad.Data;
-using Manager;
 using UnityEngine;
+using EasyTransition;
+using DG.Tweening;
 
-public class InitManager : MonoBehaviour
+namespace Manager
 {
-    private void Awake()
+    public class InitManager : MonoBehaviour
     {
-        //Application.targetFrameRate = 60;
-        Screen.SetResolution(1920, 1080, Screen.fullScreen);
-        var data = SaveManager.Instance.GetPlayerData();
-        if(data == null)
+        private void Awake()
         {
-            PlayerData defaultData = new PlayerData();
-            defaultData.isTutorial = false;
-            defaultData.isEffect = true;
-            defaultData.isBGM = true;
-            defaultData.isShake = true;
-            defaultData.name = "";
+            Application.targetFrameRate = 60;
+            Screen.SetResolution(1080, 1920, Screen.fullScreen);
 
-            SaveManager.Instance.SaveData(Utils.MEventType.SaveData, this,
-                new TransformEventArgs(transform, defaultData));
+            DOTween.Init();
+
+            EventManager.Instance.Init();
+            SaveManager.Instance.Init();
+            TimeManager.Instance.Init();
+            SceneLoadManager.Instance.Init();
+        }
+
+        private void Start()
+        {
+            SceneLoadManager.Instance.MoveScene(SceneLoadManager.SceneType.Title);
         }
     }
 }

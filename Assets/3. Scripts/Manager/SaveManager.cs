@@ -1,4 +1,4 @@
-using DataLoad.Data;
+using DataLoader.Data;
 using System;
 using System.IO;
 using UnityEngine;
@@ -27,16 +27,12 @@ namespace Manager
                 return;
             }
 
-            // 약간의 암호화ㅋㅋ
             string json = JsonUtility.ToJson(data);
-            //File.WriteAllText(Path.Combine(Application.persistentDataPath, "PlayerData.json"), json);
             File.WriteAllText(Path.Combine(Application.dataPath, "PlayerData.json"), json);
         }
 
-        //Player Data를 가지고 옵니다.
         private PlayerData LoadData()
         {
-            //string path = Application.persistentDataPath + "/PlayerData.json";
             string path = Application.dataPath + "/PlayerData.json";
             Debug.Log(path);
 

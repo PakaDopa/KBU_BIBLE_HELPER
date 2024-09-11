@@ -1,7 +1,5 @@
 using DG.Tweening;
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+using Manager;
 using UnityEngine;
 
 public class TitleUI : MonoBehaviour
@@ -23,7 +21,18 @@ public class TitleUI : MonoBehaviour
         //Dotween 실행
         DoTextEffect();
     }
-
+    private void Update()
+    {
+        if(Input.GetMouseButtonDown(0))
+            SceneLoadManager.Instance.MoveScene(SceneLoadManager.SceneType.Lobby);
+        if (Input.touchCount > 0)
+        {
+            Debug.Log(string.Format("{0}", Input.touchCount));
+            var touch = Input.GetTouch(0);
+            if(touch.phase == TouchPhase.Began)
+                SceneLoadManager.Instance.MoveScene(SceneLoadManager.SceneType.Lobby);
+        }
+    }
     void DoTextEffect()
     {
         if (_titleText == null || _subTitleText == null || _infoText == null)

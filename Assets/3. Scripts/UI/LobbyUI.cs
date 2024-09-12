@@ -10,13 +10,42 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private TransitionSettings transition;
     [SerializeField] private float startDelay = 0f;
 
-    [Header("Dotween 대상 UI")]
+    [Header("Dotween Target Bottom UI")]
     [SerializeField] private RectTransform[] bnts;
-    private Sequence seq;
+    [Header("Dotween Target Top UI")]
+    [SerializeField] private RectTransform goldUI;
+    [SerializeField] private RectTransform playerUI;
+    [SerializeField] private float moveValue;
 
     public void Start()
     {
         // Start Aniamtion
+        Sequence bntSeq = DOTween.Sequence();
+        bntSeq.SetAutoKill(true); //Scene 전환시 삭제함
+
+        //botton ui
+        for(int i = bnts.Length - 1; i >= 0; i--)
+        {
+            RectTransform bnt = bnts[i];
+            bntSeq.Join(bnt.DOAnchorPosX(0, 0.5f)).SetDelay(0.125f);
+        }
+
+        DoInterfaceEffect(goldUI);
+        DoInterfaceEffect(playerUI);
+    }
+    void DoInterfaceEffect(RectTransform _rect)
+    {
+        Vector2 textPos = _rect.anchoredPosition;
+        float value = textPos.x - moveValue;
+        float backValue = textPos.x + moveValue;
+
+        Sequence titleTextSeq = DOTween.Sequence();
+        titleTextSeq.SetAutoKill(true);
+        titleTextSeq
+            .Append(_rect.DOAnchorPosX(value, 0.75f))
+            .Append(_rect.DOAnchorPosX(value + moveValue, 0.75f));
+
+        titleTextSeq.SetLoops(-1, LoopType.Restart);
     }
     public void SceneChangeMainGame()
     {

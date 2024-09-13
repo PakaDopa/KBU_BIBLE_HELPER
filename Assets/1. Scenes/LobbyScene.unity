@@ -230,7 +230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &299510813
 RectTransform:
   m_ObjectHideFlags: 0
@@ -508,7 +508,8 @@ MonoBehaviour:
   - {fileID: 2077385804}
   goldUI: {fileID: 1385143469}
   playerUI: {fileID: 706772188}
-  moveValue: 1
+  moveValue: 2
+  moveTime: 1
 --- !u!114 &437437469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1912,6 +1913,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2266745491163547221, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266745491163547221, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 437437468}
@@ -1938,6 +1943,26 @@ PrefabInstance:
     - target: {fileID: 5386217341660145467, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_text
       value: "\uC0C1\uC810"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386217341660145467, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386217341660145467, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386217341660145467, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.43787155
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386217341660145467, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.4009434
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386217341660145467, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 3019862118
       objectReference: {fileID: 0}
     - target: {fileID: 5969138289953862371, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_Name

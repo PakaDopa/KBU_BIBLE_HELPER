@@ -16,6 +16,7 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private RectTransform goldUI;
     [SerializeField] private RectTransform playerUI;
     [SerializeField] private float moveValue;
+    [SerializeField] private float moveTime;
 
     public void Start()
     {
@@ -42,8 +43,8 @@ public class LobbyUI : MonoBehaviour
         Sequence titleTextSeq = DOTween.Sequence();
         titleTextSeq.SetAutoKill(true);
         titleTextSeq
-            .Append(_rect.DOAnchorPosX(value, 0.75f))
-            .Append(_rect.DOAnchorPosX(value + moveValue, 0.75f));
+            .Append(_rect.DOAnchorPosX(value, moveTime))
+            .Append(_rect.DOAnchorPosX(value + moveValue, moveTime));
 
         titleTextSeq.SetLoops(-1, LoopType.Restart);
     }

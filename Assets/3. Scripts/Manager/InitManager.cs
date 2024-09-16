@@ -1,5 +1,4 @@
 using UnityEngine;
-using EasyTransition;
 using DG.Tweening;
 
 namespace Manager

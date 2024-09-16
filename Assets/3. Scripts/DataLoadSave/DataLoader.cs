@@ -8,7 +8,7 @@ namespace DataLoader
         [Header("true = CSV to Prefab 로직 실행")]
         [SerializeField] private bool doMakePrefab = false;
         
-        private string BibleDataBaseCsvPath = "Assets/2. Resources/8. CSV/BibleDataBase.csv";
+        private string BibleDataBaseCsvPath = "Assets/2. Resources/8. CSV/BibleCSV.csv";
 
         private void Awake()
         {
@@ -19,7 +19,7 @@ namespace DataLoader
             try
             {
                 List<Dictionary<string, object>> tCsv = dataLoader.LoadCSV(BibleDataBaseCsvPath);
-                bool isSuccess = dataLoader.TutorialCsvToPrefab(tCsv);
+                bool isSuccess = dataLoader.BibleCsvToPrefab(tCsv);
             }
             catch (System.Exception e)
             {

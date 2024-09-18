@@ -14,9 +14,6 @@ namespace Manager
 
         public void Awake()
         {
-            //Get CSV Data
-
-
             //Game Event Add
         }
 

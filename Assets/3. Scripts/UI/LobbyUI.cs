@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class LobbyUI : MonoBehaviour
 {
-    [Header("Scene ÀüÈ¯ º¯¼ö")]
+    [Header("Scene ï¿½ï¿½È¯ ï¿½ï¿½ï¿½ï¿½")]
     [SerializeField] private TransitionSettings transition;
     [SerializeField] private float startDelay = 0f;
 
@@ -22,7 +22,7 @@ public class LobbyUI : MonoBehaviour
     {
         // Start Aniamtion
         Sequence bntSeq = DOTween.Sequence();
-        bntSeq.SetAutoKill(true); //Scene ÀüÈ¯½Ã »èÁ¦ÇÔ
+        bntSeq.SetAutoKill(true); //Scene ï¿½ï¿½È¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
         //botton ui
         for(int i = bnts.Length - 1; i >= 0; i--)

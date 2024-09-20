@@ -10,7 +10,12 @@ namespace Utils
         XLarge,
         None,
     }
-
+    public enum SettingBntType
+    {
+        None,
+        ProblemCount,
+        ProblemRange,
+    }
     public enum TestamentType
     {
         None,

@@ -490,7 +490,7 @@ GameObject:
   - component: {fileID: 4379980360351636403}
   - component: {fileID: 3470009845395563796}
   - component: {fileID: 3737094231691110764}
-  - component: {fileID: 5992287816718597361}
+  - component: {fileID: 3066515793874320068}
   m_Layer: 5
   m_Name: '[Slot] ProblemCountText'
   m_TagString: Untagged
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5992287816718597361
+--- !u!114 &3066515793874320068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -565,7 +565,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4621158462490462198}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -597,10 +597,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 3737094231691110764}
-  toggleTransition: 1
-  graphic: {fileID: 0}
-  m_Group: {fileID: 8601457174587273011}
-  onValueChanged:
+  m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
@@ -615,7 +612,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 0
 --- !u!1 &5019883589220192409
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,7 +623,7 @@ GameObject:
   - component: {fileID: 7798566692717101801}
   - component: {fileID: 3461752919175581680}
   - component: {fileID: 7764140549435596005}
-  - component: {fileID: 8057350275168925991}
+  - component: {fileID: 802088405040138845}
   m_Layer: 5
   m_Name: '[Slot] ProblemCountText (2)'
   m_TagString: Untagged
@@ -693,7 +689,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8057350275168925991
+--- !u!114 &802088405040138845
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -702,7 +698,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5019883589220192409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -734,10 +730,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 7764140549435596005}
-  toggleTransition: 1
-  graphic: {fileID: 0}
-  m_Group: {fileID: 8601457174587273011}
-  onValueChanged:
+  m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
@@ -752,7 +745,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 0
 --- !u!1 &6739266773812375854
 GameObject:
   m_ObjectHideFlags: 0
@@ -1017,7 +1009,7 @@ GameObject:
   - component: {fileID: 1456329372534778603}
   - component: {fileID: 7588281572855778795}
   - component: {fileID: 7955150964720308466}
-  - component: {fileID: 7277205280692192132}
+  - component: {fileID: 7462705995465625127}
   m_Layer: 5
   m_Name: '[Slot] ProblemCountText (1)'
   m_TagString: Untagged
@@ -1083,7 +1075,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7277205280692192132
+--- !u!114 &7462705995465625127
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1092,7 +1084,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7716336364405154057}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -1124,10 +1116,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 7955150964720308466}
-  toggleTransition: 1
-  graphic: {fileID: 0}
-  m_Group: {fileID: 8601457174587273011}
-  onValueChanged:
+  m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
@@ -1142,4 +1131,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 0

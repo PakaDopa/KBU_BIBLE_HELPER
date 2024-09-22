@@ -1,32 +1,42 @@
 using DG.Tweening;
+using Manager;
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Utils;
 
 public class MainGameSettingPopupUI : MonoBehaviour
 {
+    [Header("GameManager Script")]
+    [SerializeField] private GameManager gameManager;
+
     [Header("Half Alpha Background Component")]
     [SerializeField] private RectTransform backTransform;
     [SerializeField] private AnimationCurve easeCurve;
 
-    [Header("설정 옵션들")]
+    [Header("Button RectTrasnform")]
     [SerializeField] private RectTransform[] settingRectTransform;
 
-    [Header("버튼 Event관리")]
-    [SerializeField] private Button[] problemCountBnts;
-    [SerializeField] private Button[] typeBnts;
+    private List<string> settingList;                   // 게임 설정 값을 전달하는 개체
 
-    [Header("게임 설정 값")]
-    [SerializeField] private int settingCount;            //결정된 문제 수
-    [SerializeField] private TestamentType problemType;   //성경 문제 타입 (전체, 구약, 신약)
-
+    private void Awake()
+    {
+        settingList = new List<string>();
+    }
     private void Start()
     {
-        ShowOption(0);
+        ShowDotween(0);
+    }
+    //Button Event Function
+    public void OnClickValueBnt(Button bnt)
+    {
+        string text = bnt.GetComponentInChildren<TMP_Text>().text;
+        settingList.Add(text);
     }
     public void OnClickBnt(int ind)
     {
-        ShowOption(ind);
+        ShowDotween(ind);
     }
     public void OnConfirmBnt()
     {
@@ -39,19 +49,22 @@ public class MainGameSettingPopupUI : MonoBehaviour
                 backTransform.gameObject.SetActive(false);
                 gameObject.SetActive(false);
             });
-    }
-    private void ShowOption(int ind)
-    {
-        //error control
-        if (settingRectTransform.Length < ind)
-            return;
 
-        ShowDotween(settingRectTransform[ind]);
+        //Sending Data
+        gameManager.GameInit(settingList);
     }
-    private void ShowDotween(RectTransform rectTransform)
+
+    //Dotween Function
+    private void ShowDotween(int nextInd)
     {
         Sequence seq = DOTween.Sequence();
+        var rectTransform = settingRectTransform[nextInd];
         seq.SetAutoKill(true);
         seq.Append(rectTransform.DOAnchorPosX(0, 0.5f).SetEase(Ease.InOutElastic));
+        if(nextInd > 0)
+        {
+            var preTransform = settingRectTransform[nextInd - 1];
+            seq.Prepend(preTransform.DOAnchorPosX(1000, 0.5f).SetEase(Ease.InOutElastic));
+        }
     }
 }

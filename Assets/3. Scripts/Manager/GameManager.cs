@@ -11,12 +11,11 @@ namespace Manager
         [Header("CSV 데이터")]
         [SerializeField] private AllBibleData datas;
         [SerializeField] private List<BibleData> problems;      // 실제 뽑힌 문제들
-
+         
         // Setting Panel UI로부터 건네받는 변수들
         [SerializeField] private int problemCount = 15;         // 문제 개수
         [SerializeField] private TestamentType testamentType;   // 출제 문제 범위
 
-        private BibleData currentProblem;                       // 지금 바라보고 있는 문제
         private int problemIndex = 0;                           // 지금 바라보고 있는 인덱스
 
         [Header("Timer 관련 데이터")]
@@ -80,14 +79,16 @@ namespace Manager
         }
         public void GameInit(List<string> settingList)
         {
+            problemIndex = 0;
             //PreInit
             MakeSettingData(settingList);
             //Make 30(n) Problems
             MakeProblems();
-            //Make data[index]
-
             //Shot Event
-            //EventManager.Instance.PostNotification(MEventType.GameStart, this, new TransformEventArgs(transform));
+            EventManager.Instance.PostNotification(MEventType.GameStart, this, new TransformEventArgs(transform));
         }
+
+        //접근 가능 변수
+        public BibleData GetCurrentProblem() => problems[problemIndex];
     }
 }

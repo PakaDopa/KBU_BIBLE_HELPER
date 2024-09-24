@@ -24,6 +24,10 @@ namespace Manager
         public float TimerTime { get { return timerTime; } }
         [SerializeField] private float firstWaitTime = 3.0f;    // 게임 처음 시작하고 대기 시간 default = 3s
 
+        [Header("Game Eed Panel Object")]
+        [SerializeField] private RectTransform gameEndPanel;
+        [SerializeField] private RectTransform halfAlphaPanel;
+
         private void Awake()
         {
             EventManager.Instance.AddListener(MEventType.GameNextProblem, NextProblem);
@@ -109,6 +113,9 @@ namespace Manager
             {
                 Debug.Log("!!!!!!!!Game End!!!!!!!!!!");
                 EventManager.Instance.PostNotification(MEventType.GameEnd, this, new TransformEventArgs(transform));
+
+                gameEndPanel.gameObject.SetActive(true);
+                halfAlphaPanel.gameObject.SetActive(true);
             }
             else
                 EventManager.Instance.PostNotification(MEventType.GameStart, this, new TransformEventArgs(transform));

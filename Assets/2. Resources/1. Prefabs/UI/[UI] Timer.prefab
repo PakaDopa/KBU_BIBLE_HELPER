@@ -242,6 +242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
+  isOn: 0
+  timerText: {fileID: 5111263398547099488}
 --- !u!1 &7986179297730014737
 GameObject:
   m_ObjectHideFlags: 0

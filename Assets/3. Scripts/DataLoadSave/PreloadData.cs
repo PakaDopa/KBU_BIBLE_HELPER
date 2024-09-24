@@ -100,7 +100,7 @@ namespace DataLoader
                     bibleDatas[i].answers[2] = objects[5].ToString();
                     bibleDatas[i].answers[3] = objects[6].ToString();
                     
-                    bibleDatas[i].answerIndex = int.Parse(objects[7].ToString()) - 1;
+                    bibleDatas[i].answerIndex = int.Parse(objects[7].ToString());
                     bibleDatas[i].testamentType = Converter.StringToEnum<TestamentType>(objects[8].ToString());
                 }
                 catch (Exception e)

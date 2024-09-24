@@ -10,7 +10,7 @@ namespace DataLoader.Data
         public string problem;              //문제
         public ProblemType problemType;     //문제 타입
         public string[] answers;            //답 4개
-        public int answerIndex;             //answerIndex - 1 = 인덱스
+        public int answerIndex;             //정답 번호
         public TestamentType testamentType; //구약, 신약 타입 나누기
     }
 }

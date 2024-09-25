@@ -12,11 +12,17 @@ public class MainGameEndPopupUI : MonoBehaviour
 
     [Header("Text Component")]
     [SerializeField] private TMP_Text[] scoreTexts;
-    [SerializeField] private TMP_Text[] comboText;
+    [SerializeField] private TMP_Text comboText;
 
     [Header("TransitionSettings")]
     [SerializeField] private TransitionSettings transitionSettings;
 
+    public void SetText(int score, int problemCount, int maxCombo)
+    {
+        scoreTexts[0].text = score.ToString();
+        scoreTexts[1].text = problemCount.ToString();
+        comboText.text = maxCombo.ToString();
+    }
     public void OnClick()
     {
         //로비 화변으로

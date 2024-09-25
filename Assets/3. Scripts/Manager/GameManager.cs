@@ -15,6 +15,7 @@ namespace Manager
          
         // Setting Panel UI로부터 건네받는 변수들
         [SerializeField] private int problemCount = 15;         // 문제 개수
+        public int ProblemCount { get { return problemCount; } }
         [SerializeField] private TestamentType testamentType;   // 출제 문제 범위
 
         private int problemIndex = 0;                           // 지금 바라보고 있는 인덱스
@@ -27,6 +28,10 @@ namespace Manager
         [Header("Game Eed Panel Object")]
         [SerializeField] private RectTransform gameEndPanel;
         [SerializeField] private RectTransform halfAlphaPanel;
+
+        private int maxCombo = 0;                               //최대 콤보
+        private int combo = 0;                                  //현재 콤보
+        private int answerCount = 0;                            //정답 횟수
 
         private void Awake()
         {
@@ -104,17 +109,29 @@ namespace Manager
         //이벤트 함수
         private void NextProblem(MEventType MEventType, Component Sender, EventArgs args = null)
         {
+            //debug log
             var tArgs = args as TransformEventArgs;
             if (tArgs != null)
                 Debug.Log(tArgs.value[0].ToString());
 
+            if (bool.Parse(tArgs.value[0].ToString()) == true)
+            {
+                combo++;
+                answerCount++;
+            }
+            else
+            {
+                maxCombo = Math.Max(maxCombo, combo);
+                combo = 0;
+            }
+
             problemIndex++;
             if (problemIndex >= problemCount)
             {
-                Debug.Log("!!!!!!!!Game End!!!!!!!!!!");
                 EventManager.Instance.PostNotification(MEventType.GameEnd, this, new TransformEventArgs(transform));
 
                 gameEndPanel.gameObject.SetActive(true);
+                gameEndPanel.GetComponent<MainGameEndPopupUI>().SetText(answerCount, problemCount, maxCombo);
                 halfAlphaPanel.gameObject.SetActive(true);
             }
             else

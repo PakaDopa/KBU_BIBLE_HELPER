@@ -13,4 +13,12 @@ namespace DataLoader.Data
         public int answerIndex;             //정답 번호
         public TestamentType testamentType; //구약, 신약 타입 나누기
     }
+
+    [Serializable]
+    public struct TestamentDictionary
+    {
+        public TestamentType testamentType;
+        public int number;
+        public bool isSolved;
+    }
 }

@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using Utils;
 
 namespace DataLoader.Data
 {
@@ -8,7 +7,16 @@ namespace DataLoader.Data
     [CreateAssetMenu(fileName = "PlayerData", menuName = "ScriptableObjects/Data/PlayerData", order = 1)]
     public class PlayerData : ScriptableObject
     {
-        public int index;
-        [SerializeField] public TPair[] tPairs;
+        public int playerId;        //for sever
+        public string playerName;
+        public int gold;
+        public TestamentDictionary[] testamentDictionary;
+        public void Init()
+        {
+            playerId = 0;
+            playerName = "";
+            gold = 0;
+            testamentDictionary = new TestamentDictionary[501];
+        }
     }
 }

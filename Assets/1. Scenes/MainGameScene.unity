@@ -2272,7 +2272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac26ea16f0f0de647acf4285d7fc1558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doMakePrefab: 1
+  doMakePrefab: 0
 --- !u!4 &1535065497
 Transform:
   m_ObjectHideFlags: 0

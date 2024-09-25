@@ -1914,7 +1914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2266745491163547221, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2266745491163547221, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1939,14 +1939,14 @@ PrefabInstance:
     - target: {fileID: 5174218369783169233, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -506367973, guid: cfad019ed67d67340b8789c395a4885d, type: 3}
+      objectReference: {fileID: -1558359430, guid: cfad019ed67d67340b8789c395a4885d, type: 3}
     - target: {fileID: 5386217341660145467, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_text
-      value: "\uC0C1\uC810"
+      value: "\uD034\uC988\uAE30\uB85D"
       objectReference: {fileID: 0}
     - target: {fileID: 5386217341660145467, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_fontColor.a
-      value: 0.7019608
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5386217341660145467, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_fontColor.b
@@ -1962,11 +1962,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5386217341660145467, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 3019862118
+      value: 4294930534
       objectReference: {fileID: 0}
     - target: {fileID: 5969138289953862371, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_Name
-      value: '[Button] ShopBnt'
+      value: '[Button] StudyNote'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

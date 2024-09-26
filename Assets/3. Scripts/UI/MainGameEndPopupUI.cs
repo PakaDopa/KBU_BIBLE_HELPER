@@ -10,9 +10,13 @@ public class MainGameEndPopupUI : MonoBehaviour
     [Header("GameManager Script")]
     [SerializeField] private GameManager gameManager;
 
+
     [Header("Text Component")]
     [SerializeField] private TMP_Text[] scoreTexts;
     [SerializeField] private TMP_Text comboText;
+
+    [Header("AnswerCheckPanel")]
+    [SerializeField] private RectTransform answerCheckPanel;
 
     [Header("TransitionSettings")]
     [SerializeField] private TransitionSettings transitionSettings;
@@ -22,6 +26,14 @@ public class MainGameEndPopupUI : MonoBehaviour
         scoreTexts[0].text = score.ToString();
         scoreTexts[1].text = problemCount.ToString();
         comboText.text = maxCombo.ToString();
+    }
+    public void OnClickOpenPanel()
+    {
+        answerCheckPanel.gameObject.SetActive(true);
+    }
+    public void OnClickClosePanel()
+    {
+        answerCheckPanel.gameObject.SetActive(false);
     }
     public void OnClick()
     {

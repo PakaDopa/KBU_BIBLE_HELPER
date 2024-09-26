@@ -15,7 +15,6 @@ namespace Manager
          
         // Setting Panel UI로부터 건네받는 변수들
         [SerializeField] private int problemCount = 15;         // 문제 개수
-        public int ProblemCount { get { return problemCount; } }
         [SerializeField] private TestamentType testamentType;   // 출제 문제 범위
 
         private int problemIndex = 0;                           // 지금 바라보고 있는 인덱스
@@ -32,6 +31,8 @@ namespace Manager
         private int maxCombo = 0;                               //최대 콤보
         private int combo = 0;                                  //현재 콤보
         private int answerCount = 0;                            //정답 횟수
+        private TestamentDictionary[] testamentDictionaries;    //정답 저장 (오답노트용) -> 사전에도 등록해야함. (게임끝)
+        public TestamentDictionary[] TestamentDictionaries { get { return testamentDictionaries; } }
 
         private void Awake()
         {
@@ -99,6 +100,7 @@ namespace Manager
             MakeSettingData(settingList);
             //Make 30(n) Problems
             MakeProblems();
+            testamentDictionaries = new TestamentDictionary[problemCount];
             //Shot Event
             EventManager.Instance.PostNotification(MEventType.GameStart, this, new TransformEventArgs(transform));
         }
@@ -114,13 +116,16 @@ namespace Manager
             if (tArgs != null)
                 Debug.Log(tArgs.value[0].ToString());
 
+            //정답일 때
             if (bool.Parse(tArgs.value[0].ToString()) == true)
             {
+                TestamentDictionaryInit(true);
                 combo++;
                 answerCount++;
             }
-            else
+            else //오답일 때
             {
+                TestamentDictionaryInit(false);
                 maxCombo = Math.Max(maxCombo, combo);
                 combo = 0;
             }
@@ -136,6 +141,12 @@ namespace Manager
             }
             else
                 EventManager.Instance.PostNotification(MEventType.GameStart, this, new TransformEventArgs(transform));
+        }
+        private void TestamentDictionaryInit(bool isSovled)
+        {
+            int number = GetCurrentProblem().number;
+            testamentDictionaries[problemIndex].number = number;
+            testamentDictionaries[problemIndex].isSolved = isSovled;
         }
     }
 }

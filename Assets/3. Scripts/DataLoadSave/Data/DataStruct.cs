@@ -6,7 +6,7 @@ namespace DataLoader.Data
     [Serializable]
     public struct BibleData
     {
-        public int number;                  //문제번호
+        public int number;                  //문제번호(id)
         public string problem;              //문제
         public ProblemType problemType;     //문제 타입
         public string[] answers;            //답 4개
@@ -17,7 +17,6 @@ namespace DataLoader.Data
     [Serializable]
     public struct TestamentDictionary
     {
-        public TestamentType testamentType;
         public int number;
         public bool isSolved;
     }

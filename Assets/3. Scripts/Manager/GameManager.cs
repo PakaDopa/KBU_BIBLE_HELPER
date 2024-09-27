@@ -12,6 +12,7 @@ namespace Manager
         [Header("CSV 데이터")]
         [SerializeField] private AllBibleData datas;
         [SerializeField] private List<BibleData> problems;      // 실제 뽑힌 문제들
+        public List<BibleData> GetProblems {  get { return problems; } }
          
         // Setting Panel UI로부터 건네받는 변수들
         [SerializeField] private int problemCount = 15;         // 문제 개수

@@ -362,6 +362,7 @@ GameObject:
   - component: {fileID: 5187854572227058875}
   - component: {fileID: 9082316277809992121}
   - component: {fileID: 7269806072227007800}
+  - component: {fileID: 3771356524607466316}
   m_Layer: 5
   m_Name: '[Slot] FeedbackSlot'
   m_TagString: Untagged
@@ -429,3 +430,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3771356524607466316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6283173475424820428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87b39f41e052a894ba4f578f03adcaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quiz: {fileID: 6277474786921555054}
+  answer: {fileID: 4064606821710077505}
+  number: 0
+  isSolved: 0
+  icon: {fileID: 1828223936135168167}
+  solvedSprite: {fileID: 2030848229, guid: cfad019ed67d67340b8789c395a4885d, type: 3}
+  unSolvedSprite: {fileID: -1558359430, guid: cfad019ed67d67340b8789c395a4885d, type: 3}

@@ -25,5 +25,7 @@ public class FeedbackSlot : MonoBehaviour
         this.answer.text = answer;
 
         icon.sprite = isSolved == true ? solvedSprite : unSolvedSprite;
+        if (!isSolved) //#FFBBBB
+            GetComponent<Image>().color = new Color(255, 187, 187);
     }
 }

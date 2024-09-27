@@ -25,7 +25,7 @@ public class MainGameEndPopupUI : MonoBehaviour
     {
         scoreTexts[0].text = score.ToString();
         scoreTexts[1].text = problemCount.ToString();
-        comboText.text = maxCombo.ToString();
+        comboText.text = string.Format("최대 콤보:{0}", maxCombo.ToString());
     }
     public void OnClickOpenPanel()
     {

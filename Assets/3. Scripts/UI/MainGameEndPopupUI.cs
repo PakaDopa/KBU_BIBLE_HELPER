@@ -1,3 +1,4 @@
+using DataLoader.Data;
 using DG.Tweening;
 using EasyTransition;
 using Manager;
@@ -42,6 +43,22 @@ public class MainGameEndPopupUI : MonoBehaviour
         EventManager.Instance.RemoveEvent(MEventType.GameEnd);
         EventManager.Instance.RemoveEvent(MEventType.GameStop);
         EventManager.Instance.RemoveEvent(MEventType.GameNextProblem);
+
+        //Save Quiz Log
+        PlayerDataManager.Instance.SaveData(MakeQuizLog());
+        //
         TransitionManager.Instance().Transition("LobbyScene", transitionSettings, 0.0f);
+    }
+
+    private QuizLog MakeQuizLog()
+    {
+        var type = gameManager.TestamentType;
+        QuizLog quizLog = new QuizLog();
+        quizLog.type = type;
+        quizLog.id = 0;
+        quizLog.score = int.Parse(scoreTexts[0].text);
+        quizLog.maxScore = int.Parse(scoreTexts[1].text);
+
+        return quizLog;
     }
 }

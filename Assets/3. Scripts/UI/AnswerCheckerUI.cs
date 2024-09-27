@@ -15,6 +15,8 @@ public class AnswerCheckerUI : MonoBehaviour
 
     private void Start()
     {
+        if (container.childCount > 0)
+            return;
         //Init Container
         TestamentDictionary[] testamentDictionaries = gameManager.TestamentDictionaries;
         BibleData[] bibleData = gameManager.GetProblems.ToArray();

@@ -18,6 +18,7 @@ namespace Manager
         [SerializeField] private int problemCount = 15;         // 문제 개수
         public int ProblemCount { get { return problemCount; } }
         [SerializeField] private TestamentType testamentType;   // 출제 문제 범위
+        public TestamentType TestamentType { get { return testamentType; } }
 
         private int problemIndex = 0;                           // 지금 바라보고 있는 인덱스
         public int ProblemIndex { get { return problemIndex; } }

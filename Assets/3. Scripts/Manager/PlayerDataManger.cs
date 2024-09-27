@@ -6,7 +6,7 @@ namespace Manager
 {
     public class PlayerDataManager : Singleton<PlayerDataManager>
     {
-        private static string filePath = Application.dataPath + "PlayerData.json";
+        private static string filePath = Application.dataPath + "/PlayerData.json";
         public PlayerData LoadData()
         {
             if (File.Exists(filePath))
@@ -24,6 +24,17 @@ namespace Manager
 
             string json = JsonUtility.ToJson(playerData);
             File.WriteAllText(filePath, json);
+        }
+        public void SaveData(QuizLog log)
+        {
+            PlayerData currentData = LoadData();
+            if (currentData == null)
+                Debug.LogError("Cannot Load PlayerData!!");
+            else
+            {
+                currentData.quizLogs.Add(log);
+                SaveData(currentData);
+            }
         }
         public override void Init()
         {

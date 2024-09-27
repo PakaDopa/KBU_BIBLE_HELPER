@@ -11,6 +11,7 @@ namespace UnityToolbarExtender.Examples
 		static ToolbarStyles()
 		{
 			commandButtonStyle = new GUIStyle("Command")
+
 			{
 				fontSize = 16,
 				alignment = TextAnchor.MiddleCenter,

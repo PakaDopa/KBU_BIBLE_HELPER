@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace DataLoader.Data
@@ -11,12 +12,14 @@ namespace DataLoader.Data
         public string playerName;
         public int gold;
         public TestamentDictionary[] testamentDictionary;
+        public List<QuizLog> quizLogs;
         public void Init()
         {
             playerId = 0;
             playerName = "";
             gold = 0;
             testamentDictionary = new TestamentDictionary[501];
+            quizLogs = new List<QuizLog>();
         }
     }
 }

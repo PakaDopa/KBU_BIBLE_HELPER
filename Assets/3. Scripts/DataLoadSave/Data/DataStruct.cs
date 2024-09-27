@@ -20,4 +20,13 @@ namespace DataLoader.Data
         public int number;
         public bool isSolved;
     }
+
+    [Serializable]
+    public struct QuizLog
+    {
+        public int id;
+        public TestamentType type;
+        public int score;
+        public int maxScore;
+    }
 }

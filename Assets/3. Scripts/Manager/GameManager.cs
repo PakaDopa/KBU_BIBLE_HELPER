@@ -16,9 +16,11 @@ namespace Manager
          
         // Setting Panel UI로부터 건네받는 변수들
         [SerializeField] private int problemCount = 15;         // 문제 개수
+        public int ProblemCount { get { return problemCount; } }
         [SerializeField] private TestamentType testamentType;   // 출제 문제 범위
 
         private int problemIndex = 0;                           // 지금 바라보고 있는 인덱스
+        public int ProblemIndex { get { return problemIndex; } }
 
         [Header("Timer 관련 데이터")]
         [SerializeField] private float timerTime = 10.0f;       // 각 문제당 주어지는 시간 default = 10s

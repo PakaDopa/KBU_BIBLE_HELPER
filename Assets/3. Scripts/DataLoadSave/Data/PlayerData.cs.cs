@@ -13,12 +13,19 @@ namespace DataLoader.Data
         public int gold;
         public TestamentDictionary[] testamentDictionary;
         [SerializeField] public List<QuizLog> quizLogs;
+
         public void Init()
         {
             playerId = 0;
             playerName = "";
             gold = 0;
             testamentDictionary = new TestamentDictionary[501];
+            for (int i = 0; i < testamentDictionary.Length; i++)
+            {
+                testamentDictionary[i].type = Utils.TestamentType.None;
+                testamentDictionary[i].number = -1;
+                testamentDictionary[i].isSolved = false;
+            }
             quizLogs = new List<QuizLog>();
         }
     }

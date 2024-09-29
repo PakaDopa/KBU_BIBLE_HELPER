@@ -46,10 +46,23 @@ public class MainGameEndPopupUI : MonoBehaviour
 
         //Save Quiz Log
         PlayerDataManager.Instance.SaveData(MakeQuizLog());
+        //Save Dictionary Log
+        TestamentDictionary[] testamentDictionaries = gameManager.TestamentDictionaries;
+        TestamentDictionary[] saveDatas = PlayerDataManager.Instance.LoadData().testamentDictionary;
+        for (int i = 0; i < saveDatas.Length; i++)
+        {
+            for(int j = 0; j < testamentDictionaries.Length; j++)
+            {
+                if (saveDatas[i].type == testamentDictionaries[j].type 
+                    && saveDatas[i].number == testamentDictionaries[i].number)
+                {
+
+                }
+            }
+        }
         //
         TransitionManager.Instance().Transition("LobbyScene", transitionSettings, 0.0f);
     }
-
     private QuizLog MakeQuizLog()
     {
         var type = gameManager.TestamentType;

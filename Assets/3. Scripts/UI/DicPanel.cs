@@ -17,7 +17,7 @@ public class DicPanel : MonoBehaviour
         foreach(BibleData bibleData in allBibleData.bibleDatas)
         {
             var obj = Instantiate(slotPrefab);
-            obj.GetComponent<DicSlot>().SetText(bibleData);
+            obj.GetComponent<DicSlot>().Init(bibleData);
             obj.transform.SetParent(container, false);
         }
     }

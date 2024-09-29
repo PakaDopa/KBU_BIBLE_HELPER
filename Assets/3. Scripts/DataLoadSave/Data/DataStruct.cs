@@ -17,6 +17,7 @@ namespace DataLoader.Data
     [Serializable]
     public struct TestamentDictionary
     {
+        public TestamentType type;
         public int number;
         public bool isSolved;
     }

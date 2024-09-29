@@ -150,6 +150,7 @@ namespace Manager
         private void TestamentDictionaryInit(bool isSovled)
         {
             int number = GetCurrentProblem().number;
+            testamentDictionaries[problemIndex].type = problems[problemIndex].testamentType;
             testamentDictionaries[problemIndex].number = number;
             testamentDictionaries[problemIndex].isSolved = isSovled;
         }

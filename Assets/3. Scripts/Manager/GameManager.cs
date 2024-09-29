@@ -11,6 +11,7 @@ namespace Manager
     {
         [Header("CSV 데이터")]
         [SerializeField] private AllBibleData datas;
+        public AllBibleData AllBD { get { return datas; } }
         [SerializeField] private List<BibleData> problems;      // 실제 뽑힌 문제들
         public List<BibleData> GetProblems {  get { return problems; } }
          

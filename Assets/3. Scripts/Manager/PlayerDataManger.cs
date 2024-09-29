@@ -12,7 +12,9 @@ namespace Manager
             if (File.Exists(filePath))
             {
                 string json = File.ReadAllText(filePath);
-                return JsonUtility.FromJson<PlayerData>(json);
+                PlayerData data = ScriptableObject.CreateInstance<PlayerData>();
+                JsonUtility.FromJsonOverwrite(json, data);
+                return data;
             }
             else
                 return null;

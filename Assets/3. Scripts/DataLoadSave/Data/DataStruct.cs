@@ -22,7 +22,7 @@ namespace DataLoader.Data
     }
 
     [Serializable]
-    public struct QuizLog
+    public class QuizLog
     {
         public int id;
         public TestamentType type;

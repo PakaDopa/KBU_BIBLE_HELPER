@@ -12,7 +12,7 @@ namespace DataLoader.Data
         public string playerName;
         public int gold;
         public TestamentDictionary[] testamentDictionary;
-        public List<QuizLog> quizLogs;
+        [SerializeField] public List<QuizLog> quizLogs;
         public void Init()
         {
             playerId = 0;

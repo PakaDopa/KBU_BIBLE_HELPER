@@ -1,12 +1,14 @@
 using DG.Tweening;
 using EasyTransition;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LobbyUI : MonoBehaviour
 {
-    [Header("Scene ��ȯ ����")]
+    [Header("Scene Transitions")]
+    [SerializeField] private RectTransform showLogPanel;   //퀴즈 로그 패널
+    [SerializeField] private RectTransform dicPanel;        //문제 도감 패널
+
+    [Header("Scene Transitions")]
     [SerializeField] private TransitionSettings transition;
     [SerializeField] private float startDelay = 0f;
 
@@ -48,8 +50,18 @@ public class LobbyUI : MonoBehaviour
 
         titleTextSeq.SetLoops(-1, LoopType.Restart);
     }
+
+    //Button Event
     public void SceneChangeMainGame()
     {
         TransitionManager.Instance().Transition("MainGameScene", transition, startDelay);
+    }
+    public void OnClick_ShowLogPanel(bool isEnable)
+    {
+        showLogPanel.gameObject.SetActive(isEnable);
+    }
+    public void OnClick_DicPanel(bool isEnable)
+    {
+        dicPanel.gameObject.SetActive(isEnable);
     }
 }

@@ -1,10 +1,7 @@
 using DG.Tweening;
 using Manager;
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
 using Utils;
@@ -29,13 +26,6 @@ public class MainGameCombo : MonoBehaviour
         effect = DOTween.Sequence();
         alwaysEffect = DOTween.Sequence();
         EventManager.Instance.AddListener(MEventType.GameEffect, TextChange);
-    }
-    private void Start()
-    {
-        //var rectTrans = GetComponent<RectTransform>();
-        //alwaysEffect.SetAutoKill(true)
-        //    .Append(rectTrans.DOShakeAnchorPos(1, 10))
-        //    .SetLoops(-1, LoopType.Restart);
     }
     private void SetEnable(bool enable)
     {

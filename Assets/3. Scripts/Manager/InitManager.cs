@@ -8,8 +8,7 @@ namespace Manager
         private void Awake()
         {
             Application.targetFrameRate = 60;
-            Screen.SetResolution(1080, 1920, Screen.fullScreen);
-
+            Screen.SetResolution(720, 1280, Screen.fullScreen);
             DOTween.Init();
 
             EventManager.Instance.Init();

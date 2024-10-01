@@ -20,7 +20,7 @@ namespace DataLoader.Data
     {
         public TestamentType type;
         public int number;
-        public bool isSolved;
+        public SolvedType solvedType;
     }
 
     [Serializable]

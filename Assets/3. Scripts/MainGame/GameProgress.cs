@@ -1,3 +1,4 @@
+using DG.Tweening;
 using Manager;
 using System;
 using UnityEngine;
@@ -12,11 +13,12 @@ namespace MainGame
         [SerializeField] private GameManager gameManager;
 
         private Slider slider;
+        private Sequence seq;
 
         private void Awake()
         {
             slider = GetComponent<Slider>();
-
+            seq = DOTween.Sequence();
             EventManager.Instance.AddListener(MEventType.GameStart, StartGame);
         }
 
@@ -24,8 +26,10 @@ namespace MainGame
         {
             int size = gameManager.ProblemIndex;
             int len = gameManager.ProblemCount;
-
-            slider.value = size / (float)len;
+            if (seq.IsPlaying() == true)
+                seq.Kill();
+            seq.SetAutoKill(true)
+               .Append(slider.DOValue((size / (float)len), 0.25f));
         }
     }
 }

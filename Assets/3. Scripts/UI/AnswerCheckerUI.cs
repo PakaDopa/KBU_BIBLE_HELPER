@@ -29,7 +29,7 @@ public class AnswerCheckerUI : MonoBehaviour
 
             var newSlot = Instantiate(slot);
             newSlot.transform.SetParent(container.transform, false);
-            newSlot.GetComponent<FeedbackSlot>().SetText(index, quiz, answer, testamentDictionaries[i].isSolved);
+            newSlot.GetComponent<FeedbackSlot>().SetText(index, quiz, answer, testamentDictionaries[i].solvedType);
         }
     }
 }

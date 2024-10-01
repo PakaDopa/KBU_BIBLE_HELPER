@@ -38,6 +38,17 @@ namespace Manager
                 SaveData(currentData);
             }
         }
+        public void SaveData(TestamentDictionary[] datas)
+        {
+            PlayerData currentData = LoadData();
+            if (currentData == null)
+                Debug.LogError("Cannot Load PlayerData!!");
+            else
+            {
+                currentData.testamentDictionary = datas;
+                SaveData(currentData);
+            }
+        }
         public override void Init()
         {
             //player Data를 가져오고, 없다면 새로 하나 만들어서 저장한다.

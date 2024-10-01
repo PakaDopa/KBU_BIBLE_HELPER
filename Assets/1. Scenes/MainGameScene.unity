@@ -24933,6 +24933,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 387203023}
     m_Modifications:
+    - target: {fileID: 905787742647987420, guid: 26dde2ca1c9bad84b81c31f3acf6ed7b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 317.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 905787742647987420, guid: 26dde2ca1c9bad84b81c31f3acf6ed7b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0014953613
+      objectReference: {fileID: 0}
     - target: {fileID: 4441354812578583154, guid: 26dde2ca1c9bad84b81c31f3acf6ed7b, type: 3}
       propertyPath: m_Name
       value: '[UI] Timer'
@@ -25007,7 +25015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6268102931657432284, guid: 26dde2ca1c9bad84b81c31f3acf6ed7b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1415
+      value: 1352
       objectReference: {fileID: 0}
     - target: {fileID: 6268102931657432284, guid: 26dde2ca1c9bad84b81c31f3acf6ed7b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -25022,7 +25030,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 593992564791969481, guid: 26dde2ca1c9bad84b81c31f3acf6ed7b, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26dde2ca1c9bad84b81c31f3acf6ed7b, type: 3}
@@ -25201,7 +25210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2120843474164731025, guid: 704e04298589e8b408d4d8067257623d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -59
+      value: -193
       objectReference: {fileID: 0}
     - target: {fileID: 2120843474164731025, guid: 704e04298589e8b408d4d8067257623d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

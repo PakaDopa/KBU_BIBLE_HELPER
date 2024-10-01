@@ -124,18 +124,22 @@ namespace Manager
         }
         public void SaveDictionaryData(TestamentDictionary[] testaments)
         {
+            TestamentDictionary[] playerData = PlayerDataManager.Instance.LoadData().testamentDictionary;
             //30문제가 testaments에 들어옴
-            foreach(TestamentDictionary t in testaments)
+            for(int i = 0; i < testaments.Length; i++)
             {
-                bool isSolved = t.isSolved;
-                datas.bibleDatas
-                    .Where(x => x.testamentType == t.type)
-                    .Where(y => y.number == t.number).ToList().ForEach(key =>
+                var target = testaments[i];
+
+                for(int j = 0; j < playerData.Length; j++)
+                {
+                    if(target.type == playerData[j].type
+                        && target.number == playerData[j].number)
                     {
-                        key.solvedType = isSolved == true ? SolvedType.Solved : SolvedType.NotSolved;
-                        Debug.Log(key.solvedType);
-                    });
+                        playerData[j].solvedType = target.solvedType;
+                    }
+                }
             }
+            PlayerDataManager.Instance.SaveData(playerData);
         }
         //접근 가능 변수 함수
         public BibleData GetCurrentProblem() => problems[problemIndex];
@@ -184,7 +188,7 @@ namespace Manager
             int number = GetCurrentProblem().number;
             testamentDictionaries[problemIndex].type = problems[problemIndex].testamentType;
             testamentDictionaries[problemIndex].number = number;
-            testamentDictionaries[problemIndex].isSolved = isSovled;
+            testamentDictionaries[problemIndex].solvedType = isSovled == true ? SolvedType.Solved : SolvedType.NotSolved;
         }
     }
 }

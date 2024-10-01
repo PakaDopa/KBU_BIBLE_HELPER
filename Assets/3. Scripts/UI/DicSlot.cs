@@ -2,6 +2,7 @@ using Cysharp.Threading.Tasks.Triggers;
 using DataLoader.Data;
 using Manager;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using Utils;
@@ -17,11 +18,11 @@ public class DicSlot : MonoBehaviour
 
     [Header("Color Viusal")]
     [SerializeField]
-    [ColorUsage(true, true)] private Color noTypeColor;
+    [ColorUsage(true, false)] private Color noTypeColor;
     [SerializeField]
-    [ColorUsage(true, true)] private Color solvedTypeColor;
+    [ColorUsage(true, false)] private Color solvedTypeColor;
     [SerializeField]
-    [ColorUsage(true, true)] private Color unsolvedTypeColor;
+    [ColorUsage(true, false)] private Color unsolvedTypeColor;
     //문제 푼 여부에 따라서 어떻게 보일지를 정함 (퀴즈에서 안 나온 경우, 푼 경우, 틀린 경우)
 
     [Header("Icon Viusal")]
@@ -32,11 +33,18 @@ public class DicSlot : MonoBehaviour
     public void Init(BibleData bibleData)
     {
         SetText(bibleData);
-        //SetViusal(bibleData);
+        SetViusal(bibleData);
     }
     public void SetViusal(BibleData bibleData)
     {
-        SolvedType type = bibleData.solvedType;
+        TestamentDictionary[] playerData = PlayerDataManager.Instance.LoadData().testamentDictionary;
+        //1 or 2
+        int index = 0;
+        if (bibleData.testamentType == TestamentType.NewTestament)
+            index = 250;
+        index += bibleData.number;
+
+        SolvedType type = playerData[index].solvedType;
         switch(type)
         {
             case SolvedType.Hidden:

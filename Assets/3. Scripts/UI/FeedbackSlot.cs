@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Utils;
 
 public class FeedbackSlot : MonoBehaviour
 {
@@ -18,12 +19,12 @@ public class FeedbackSlot : MonoBehaviour
     [SerializeField] private Sprite unSolvedSprite;
 
 
-    public void SetText(int number, string quiz, string answer, bool isSolved)
+    public void SetText(int number, string quiz, string answer, SolvedType solvedType)
     {
         this.number = number;
         this.quiz.text = quiz;
         this.answer.text = answer;
-
+        bool isSolved = solvedType == SolvedType.Solved ? true : false;
         icon.sprite = isSolved == true ? solvedSprite : unSolvedSprite;
         if (isSolved == false) //#FFBBBB
             GetComponent<Image>().color = new Color(255, 187, 187);

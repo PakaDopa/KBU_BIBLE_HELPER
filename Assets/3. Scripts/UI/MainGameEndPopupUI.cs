@@ -55,10 +55,9 @@ public class MainGameEndPopupUI : MonoBehaviour
 
         //Save Quiz Log
         PlayerDataManager.Instance.SaveData(MakeQuizLog());
-        //Save Dictionary Log
+        //Save Dictionary Data
         TestamentDictionary[] testamentDictionaries = gameManager.TestamentDictionaries;
         gameManager.SaveDictionaryData(testamentDictionaries);
-        //
         swipeEvent.Raise();
         TransitionManager.Instance().Transition("LobbyScene", transitionSettings, 0.0f);
     }

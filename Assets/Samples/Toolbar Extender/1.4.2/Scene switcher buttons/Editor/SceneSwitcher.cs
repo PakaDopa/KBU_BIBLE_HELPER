@@ -11,6 +11,7 @@ namespace UnityToolbarExtender.Examples
 		static ToolbarStyles()
 		{
 			commandButtonStyle = new GUIStyle("Command")
+
 			{
 				fontSize = 16,
 				alignment = TextAnchor.MiddleCenter,
@@ -41,7 +42,7 @@ namespace UnityToolbarExtender.Examples
 		{
             GUILayout.FlexibleSpace();
 
-			string[] bntText = { "AwakeScene", "TitleScene", "LobbyScene", "TutorialScene", "MainGameScene" };
+			string[] bntText = { "AwakeScene", "TitleScene", "LobbyScene", "TutorialScene", "MainGameScene", "ExamGameScene" };
 			for (int i = 0; i < bntText.Length; i++)
 				CreateButton(bntText[i], bntText[i]);
 		}

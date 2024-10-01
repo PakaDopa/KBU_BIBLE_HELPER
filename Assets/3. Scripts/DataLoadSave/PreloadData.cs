@@ -11,8 +11,10 @@ namespace DataLoader
 {
     public class PreloadData
     {
-        private const string TutorialCsvPath = "Assets/03. Prefabs/DataPrefabs/";
-        private const string TutorialTextsFileName = "TutorialTexts.asset";
+        private const string CsvPath = "Assets/2. Resources/1. Prefabs/Data/";
+
+        private const string TutorialTextsFileName = "BibleCSV.asset";
+        private const string BibleDataFileName = "BibleCSV.asset";
 
         public List<Dictionary<string, object>> LoadCSV(string filePath)
         {
@@ -25,7 +27,7 @@ namespace DataLoader
 #if UNITY_EDITOR
             try
             {
-                AssetDatabase.DeleteAsset(TutorialCsvPath + TutorialTextsFileName);
+                AssetDatabase.DeleteAsset(CsvPath + TutorialTextsFileName);
                 AssetDatabase.Refresh();
                 AssetDatabase.SaveAssets();
             }
@@ -69,7 +71,48 @@ namespace DataLoader
             tData.tPairs = tPairs;
             tData.index = 0;
 
-            AssetDatabase.CreateAsset(tData, TutorialCsvPath + TutorialTextsFileName);
+            AssetDatabase.CreateAsset(tData, CsvPath + TutorialTextsFileName);
+
+            AssetDatabase.Refresh();
+            AssetDatabase.SaveAssets();
+#endif
+            return true;
+        }
+        public bool BibleCsvToPrefab(List<Dictionary<string, object>> data)
+        {
+#if UNITY_EDITOR
+            if (data == null)
+                return false;
+
+            BibleData[] bibleDatas = new BibleData[data.Count];
+            for(int i = 0; i < data.Count; i++)
+            {
+                object[] objects = data[i].Values.ToArray();
+                try
+                {
+                    bibleDatas[i].number = int.Parse(objects[0].ToString());
+                    bibleDatas[i].problem = objects[1].ToString();
+                    bibleDatas[i].problemType = Converter.StringToEnum<ProblemType>(objects[2].ToString());
+
+                    bibleDatas[i].answers = new string[4];
+                    bibleDatas[i].answers[0] = objects[3].ToString();
+                    bibleDatas[i].answers[1] = objects[4].ToString();
+                    bibleDatas[i].answers[2] = objects[5].ToString();
+                    bibleDatas[i].answers[3] = objects[6].ToString();
+                    
+                    bibleDatas[i].answerIndex = int.Parse(objects[7].ToString());
+                    bibleDatas[i].testamentType = Converter.StringToEnum<TestamentType>(objects[8].ToString());
+                    bibleDatas[i].solvedType = Converter.StringToEnum<SolvedType>(objects[9].ToString());
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+            }
+
+            var datas = ScriptableObject.CreateInstance<AllBibleData>();
+            datas.bibleDatas = bibleDatas;
+            AssetDatabase.CreateAsset(datas, CsvPath + BibleDataFileName);
 
             AssetDatabase.Refresh();
             AssetDatabase.SaveAssets();

@@ -14,6 +14,7 @@ public class TransformEventArgs : EventArgs
         this.value = value;
     }
 }
+
 namespace Manager
 {
     public class EventManager : Singleton<EventManager>

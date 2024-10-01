@@ -38,26 +38,8 @@ namespace Manager
         private void Start()
         {
             BGMClear();
-        }
+        }       
 
-        private void ChangeBGM(int sceneName)
-        {
-            var data = SaveManager.Instance.GetPlayerData();
-            //if(data!= null && data.isBGM == false)
-            //    return;
-            audioSources[(int)SoundType.BGM].clip = bgmClips[sceneName].clip;
-            audioSources[(int)SoundType.BGM].loop = true;   
-            audioSources[(int)SoundType.BGM].Play();
-        }
-        public void ChangeBGM(int sceneName, bool pause)
-        {
-            if (pause == false)
-            {
-                BGMClear();
-            }
-            else
-                ChangeBGM(sceneName);
-        }
         public void BGMClear()
         {
             if (audioSources == null)
@@ -78,7 +60,8 @@ namespace Manager
 
         public void Play(string name, SoundType type = SoundType.EFFECT, float volume = 0.5f)
         {
-            playerData = SaveManager.Instance.GetPlayerData();
+            //playerData = SaveManager.Instance.GetPlayerData();
+            playerData = PlayerDataManager.Instance.LoadData();
             AudioClip clip = GetAudioClip(name, type);
             switch(type)
             {

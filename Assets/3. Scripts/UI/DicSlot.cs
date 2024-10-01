@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks.Triggers;
 using DataLoader.Data;
 using Manager;
 using TMPro;
@@ -8,6 +9,12 @@ public class DicSlot : MonoBehaviour
 {
     [SerializeField] private TMP_Text text;
 
+    [SerializeField]
+    [ColorUsage(false, true)] private Color noTypeColor;
+    [SerializeField]
+    [ColorUsage(false, true)] private Color solvedTypeColor;
+    [SerializeField]
+    [ColorUsage(false, true)] private Color UnSolvedTypeColor;
     //문제 푼 여부에 따라서 어떻게 보일지를 정함 (퀴즈에서 안 나온 경우, 푼 경우, 틀린 경우)
 
     public void Init(BibleData bibleData)
@@ -17,10 +24,17 @@ public class DicSlot : MonoBehaviour
     }
     public void SetViusal(BibleData bibleData)
     {
-        QuizLog[] logs = PlayerDataManager.Instance.LoadData().quizLogs.ToArray();
-        for(int i = 0; i < logs.Length; i++)
+        SolvedType type = bibleData.solvedType;
+        switch(type)
         {
-
+            case SolvedType.Hidden:
+                break;
+            case SolvedType.Solved:
+                break;
+            case SolvedType.NotSolved:
+                break;
+            default:
+                break;
         }
     }
     public void SetText(BibleData bibleData)

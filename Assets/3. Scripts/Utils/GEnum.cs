@@ -29,6 +29,13 @@ namespace Utils
         All,
     }
     [Serializable]
+    public enum SolvedType
+    {
+        Hidden,
+        Solved,
+        NotSolved
+    }
+    [Serializable]
     public enum ProblemType
     {
         MultipleChoice = 0, //객관식

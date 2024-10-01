@@ -24,6 +24,7 @@ MonoBehaviour:
     - "\uC77C\uACF1\uC9F8 \uB0A0"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 2
     problem: "\uD558\uB098\uB2D8\uC740 \uBA70\uCE60\uB3D9\uC548 \uC138\uC0C1\uC744
       \uCC3D\uC870\uD558\uC168\uB294\uAC00?"
@@ -35,6 +36,7 @@ MonoBehaviour:
     - "10\uC77C"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 3
     problem: "\uD558\uB098\uB2D8\uC740 \uBA70\uCE60 \uB0A0\uC5D0 \uC778\uAC04\uC744
       \uCC3D\uC870\uD558\uC168\uB294\uAC00?"
@@ -46,6 +48,7 @@ MonoBehaviour:
     - "\uC77C\uACF1\uC9F8 \uB0A0"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 4
     problem: "\uB2E4\uC74C\uC740 \uD558\uB098\uB2D8\uC774 \uB204\uAD6C\uC5D0\uAC8C
       \uD55C \uB9D0\uC778\uAC00? \"\"\uB0B4\uAC00 \uB108\uB85C \uC5EC\uC790\uC640
@@ -59,6 +62,7 @@ MonoBehaviour:
     - "\uAC00\uC778"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 5
     problem: "\uB77C\uBA55\uC758 \uC790\uC190 \uC911 \uC545\uAE30(\uC218\uAE08\uACFC
       \uD241\uC18C)\uB97C \uC7A1\uC740 \uC790\uC758 \uC870\uC0C1\uC774 \uB41C \uC0AC\uB78C\uC740
@@ -71,6 +75,7 @@ MonoBehaviour:
     - "\uB3C4\uBC1C"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 6
     problem: "\uB77C\uBA55\uC758 \uC790\uC190 \uC911 \uAD6C\uB9AC\uC640 \uC1E0\uB85C
       \uC5EC\uB7EC \uAC00\uC9C0 \uAE30\uAD6C\uB97C \uB9CC\uB4E4\uC5C8\uB358 \uC0AC\uB78C\uC740
@@ -83,6 +88,7 @@ MonoBehaviour:
     - "\uB450\uBC1C\uAC00\uC778"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 7
     problem: "\uD558\uB098\uB2D8\uC774 \uC544\uB2F4\uC5D0\uAC8C \uC8FD\uC740 \uC544\uBCA8
       \uB300\uC2E0 \uC8FC\uC2E0 \uC544\uB4E4\uC758 \uC774\uB984\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -94,6 +100,7 @@ MonoBehaviour:
     - "\uB124\uC624"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 8
     problem: "\uD558\uB098\uB2D8\uAED8\uC11C \uD64D\uC218\uB85C \uC138\uC0C1\uC744
       \uC2EC\uD310\uD558\uC2E4 \uB54C, \uCC3D\uC138\uAE30 6\uC7A5 9\uC808\uC5D0\uC11C
@@ -108,6 +115,7 @@ MonoBehaviour:
     - "\uC544\uBE0C\uB77C\uD568"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 9
     problem: "\uB178\uC544\uC758 \uB300\uD64D\uC218 \uB54C \uBA70\uCE60 \uB3D9\uC548
       \uBE44\uAC00 \uB545\uC5D0 \uC3DF\uC544\uC84C\uB294\uAC00?"
@@ -119,6 +127,7 @@ MonoBehaviour:
     - "40\uC77C\uAC04"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 10
     problem: "\uD558\uB098\uB2D8\uAED8\uC11C \uD798\uC758 \uC8C4\uB85C \uC778\uD558\uC5EC
       \uAC00\uB098\uC548\uC740 \uB204\uAD6C\uC758 \uC885\uC774 \uB420 \uAC83\uC774\uB77C\uACE0
@@ -131,6 +140,7 @@ MonoBehaviour:
     - "\uC57C\uBCB3"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 11
     problem: "\uC2DC\uB0A0 \uD3C9\uC9C0\uC5D0\uC11C \uC77C\uC5B4\uB09C \uC77C\uB85C
       \uD558\uB098\uB2D8\uAED8\uC11C \uC5B8\uC5B4\uB97C \uD63C\uC7A1\uCF00 \uD558\uC168\uACE0,
@@ -144,6 +154,7 @@ MonoBehaviour:
     - "\uAC00\uC778\uC758 \uC0B4\uC778"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 12
     problem: "\uB2E4\uC74C\uC740 \uB204\uAD6C\uC5D0\uAC8C \uD55C \uB9D0\uC778\uAC00
       \"\"\uB0B4\uAC00 \uB108\uB85C \uD070 \uBBFC\uC871\uC744 \uC774\uB8E8\uACE0
@@ -157,6 +168,7 @@ MonoBehaviour:
     - "\uC544\uBE0C\uB77C\uD568"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 13
     problem: "\uCC3D\uC138\uAE30 14\uC7A5\uC5D0\uC11C \uC544\uBE0C\uB77C\uD568\uC740
       \uC804\uC7C1\uC5D0\uC11C \uB3CC\uC544\uC624\uB294 \uAE38\uC5D0 \uC5BB\uC740
@@ -170,6 +182,7 @@ MonoBehaviour:
     - "\uBA5C\uAE30\uC138\uB371"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 14
     problem: "\uC544\uBE0C\uB77C\uD568\uC774 \uD558\uAC08\uC744 \uD1B5\uD574 \uB0B3\uC740
       \uC544\uB4E4\uB85C \uC7A5\uCC28 \uC7A5\uC131\uD558\uC5EC \uAD11\uC57C\uC5D0\uC11C
@@ -182,6 +195,7 @@ MonoBehaviour:
     - "\uC774\uC2A4\uB9C8\uC5D8"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 15
     problem: "\uC544\uBE0C\uB77C\uD568 \uC774\uC0AD\uC744 \uBC88\uC81C\uB85C \uB4DC\uB9AC\uB824\uB2E4
       \uD558\uB098\uB2D8\uC774 \uC900\uBE44\uD55C \uC218\uC591\uC73C\uB85C \uBC88\uC81C\uB97C
@@ -194,6 +208,7 @@ MonoBehaviour:
     - "\uC5EC\uD638\uC640 \uB2DB\uC2DC"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 16
     problem: "\uC6C3\uC74C'\uC774\uB780 \uB73B\uC758 \uC774\uB984\uC744 \uAC00\uC9C4
       \uC544\uBE0C\uB77C\uD568\uC758 \uC544\uB4E4\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -205,6 +220,7 @@ MonoBehaviour:
     - "\uC544\uBE0C\uB77C\uD568"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 17
     problem: "\uC544\uBE0C\uB77C\uD568\uC740 \uD558\uB098\uB2D8\uC73C\uB85C\uBD80\uD130
       \uBA78\uB9DD\uB420 \uC18C\uB3D4\uACFC \uACE0\uBAA8\uB77C\uC5D0 \uC0B4\uACE0
@@ -217,6 +233,7 @@ MonoBehaviour:
     - "\uBA5C\uAE30\uC138\uB371"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 18
     problem: "\uBA78\uB9DD\uD558\uB294 \uC18C\uB3D4\uACFC \uACE0\uBAA8\uB77C\uB97C
       \uD0C8\uCD9C\uD558\uBA74\uC11C \uB8FB\uC758 \uC544\uB0B4\uAC00 \uB4A4\uB97C
@@ -230,6 +247,7 @@ MonoBehaviour:
     - "\uC18C\uAE08\uAE30\uB465"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 19
     problem: "\uD587 \uC871\uC18D \uC5D0\uBE0C\uB860\uC758 \uBC2D\uC5D0 \uC788\uB294
       \uACF3\uC73C\uB85C \uC544\uBE0C\uB77C\uD568\uC774 \uADF8\uC758 \uC544\uB0B4
@@ -242,6 +260,7 @@ MonoBehaviour:
     - "\uBBF8\uC2A4\uBC14\uAD74"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 20
     problem: "\uC57C\uACF1\uC740 \uC790\uC2E0\uC758 \uD615 \uC5D0\uC11C\uC5D0\uAC8C
       \uB5A1\uACFC \uD325\uC8FD \uD55C \uADF8\uB987\uC744 \uC8FC\uACE0 \uBB34\uC5C7\uC744
@@ -254,6 +273,7 @@ MonoBehaviour:
     - "\uC7A5\uC790\uAD8C"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 21
     problem: "\uC57C\uACF1\uC740 \uD615 \uC5D0\uC11C\uB97C \uD53C\uD574 \uB3C4\uB9DD\uAC00\uB294
       \uAE38\uC5D0 \uB3CC\uC744 \uBCA0\uAC1C \uC0BC\uC544 \uC7A0\uC744 \uC790\uB294\uB370
@@ -269,6 +289,7 @@ MonoBehaviour:
     - "\uC608\uB8E8\uC0B4\uB818"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 22
     problem: "\uC57C\uACF1\uC758 \uB124 \uBA85 \uC544\uB0B4\uC5D0 \uC18D\uD558\uC9C0
       \uC54A\uB294 \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -280,6 +301,7 @@ MonoBehaviour:
     - "\uB77C\uD569"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 23
     problem: "\uC57C\uACF1\uC774 \uC544\uB0B4\uB4E4 \uC911\uC5D0 \uAC00\uC7A5 \uC0AC\uB791\uD558\uC600\uC73C\uBA70
       \uC694\uC149\uACFC \uBCA0\uB0D0\uBBFC\uC744 \uB0B3\uC740 \uC5EC\uC778\uC740
@@ -292,6 +314,7 @@ MonoBehaviour:
     - "\uBE4C\uD558"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 24
     problem: "\uC57C\uACF1\uC774 \uC5D0\uC11C\uB97C \uB9CC\uB098\uAE30 \uC804 \uD558\uB098\uB2D8\uACFC
       \uC528\uB984\uD55C \uD6C4 \uBC14\uB010 \uC774\uB984\uC73C\uB85C \"\"\uB124\uAC00
@@ -306,6 +329,7 @@ MonoBehaviour:
     - "\uB9C8\uD558\uB098\uC784"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 25
     problem: "\uC57C\uACF1\uC774 \uC5D0\uC11C\uB97C \uB9CC\uB098\uAE30 \uC804 \uD558\uB098\uB2D8\uACFC
       \uC528\uB984\uD558\uACE0 \uCD95\uBCF5\uC744 \uBC1B\uC740 \uACF3\uC73C\uB85C
@@ -320,6 +344,7 @@ MonoBehaviour:
     - "\uBE0C\uB2C8\uC5D8"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 26
     problem: "\uC57C\uACF1\uC758 \uC544\uB4E4\uB4E4\uC774 \uAFC8\uAFB8\uB294 \uC790\uB85C
       \uBD80\uB974\uBA70 \uC628 \uC774\uC2ED\uC5D0 \uD314\uC544 \uB118\uACBC\uB358
@@ -332,6 +357,7 @@ MonoBehaviour:
     - "\uB0A9\uB2EC\uB9AC"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 27
     problem: "\uC694\uC149\uC744 \uC8FD\uC774\uC9C0 \uB9D0\uACE0 \uBBF8\uB514\uC548
       \uC0C1\uC778\uB4E4\uC5D0\uAC8C \uD314\uC790\uACE0 \uC81C\uC548\uD55C \uC0AC\uB78C\uC740
@@ -344,6 +370,7 @@ MonoBehaviour:
     - "\uBCA0\uB0D0\uBBFC"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 28
     problem: "\uCC3D\uC138\uAE30 39\uC7A5\uC5D0\uC11C \uC694\uC149\uC5D0 \uB300\uD574
       \uC798 \uBABB \uB9D0\uD55C \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -357,6 +384,7 @@ MonoBehaviour:
       \uC778\uD574 \uBCF5\uC744 \uC8FC\uC168\uB2E4"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 29
     problem: "\uC57C\uACF1\uC758 \uAC00\uC871\uC774 \uC560\uAD7D\uC73C\uB85C \uB0B4\uB824\uAC00
       \uBC14\uB85C\uC5D0\uAC8C \uC5BB\uC740 \uB545\uC740 \uC5B4\uB514\uC778\uAC00?"
@@ -368,6 +396,7 @@ MonoBehaviour:
     - "\uC0AC\uB9C8\uB9AC\uC544"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 30
     problem: "\uC57C\uACF1\uC758 \uCD95\uBCF5 \uC911\uC5D0\uC11C \uADDC\uC640 \uD1B5\uCE58\uC790\uC758
       \uC9C0\uD321\uC774\uAC00 \uB5A0\uB098\uC9C0 \uC54A\uC744 \uAC83\uC774\uB77C\uACE0
@@ -380,6 +409,7 @@ MonoBehaviour:
     - "\uC2A4\uBD88\uB860"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 31
     problem: "\uD638\uB819\uC0B0 \uB5A8\uAE30\uB098\uBB34 \uBD88\uAF43 \uAC00\uC6B4\uB370
       \uB098\uD0C0\uB098\uB358 \uD558\uB098\uB2D8\uAED8\uC11C \uBAA8\uC138\uC5D0\uAC8C
@@ -392,6 +422,7 @@ MonoBehaviour:
     - "\uB098\uB294 \uC2A4\uC2A4\uB85C \uC788\uB294 \uC790\uB2E4"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 32
     problem: "\uBAA8\uC138\uAC00 \uC774\uC2A4\uB77C\uC5D8\uC744 \uC774\uB04C \uC9C0\uB3C4\uC790\uB85C
       \uD558\uB098\uB2D8\uC758 \uBD80\uB974\uC2EC\uC744 \uBC1B\uC740 \uB54C \uB098\uC774\uB294
@@ -404,6 +435,7 @@ MonoBehaviour:
     - "100\uC138"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 33
     problem: "\uBAA8\uC138\uC758 \uD615\uC73C\uB85C \uCD9C\uC560\uAD7D\uC744 \uBAA8\uC138\uC640
       \uD568\uAED8 \uC774\uB04C\uC5C8\uC9C0\uB9CC \uAE08\uC1A1\uC544\uC9C0 \uC22D\uBC30\uB97C
@@ -416,6 +448,7 @@ MonoBehaviour:
     - "\uC5EC\uD638\uC218\uC544"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 34
     problem: "\uC560\uAD7D\uC5D0 \uB0B4\uB9B0 10\uAC00\uC9C0 \uC7AC\uC559 \uC911\uC5D0
       \uCCAB \uBC88\uC9F8 \uC7AC\uC559\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -427,6 +460,7 @@ MonoBehaviour:
     - "\uBB3C\uC774 \uD53C\uAC00 \uB418\uB294 \uC7AC\uC559"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 35
     problem: "\uC560\uAD7D\uC655 \uBC14\uB85C\uC5D0\uAC8C \uD558\uB098\uB2D8\uC774
       \uB0B4\uB9B0 10\uAC00\uC9C0 \uC7AC\uC559 \uC911 \uB9C8\uC9C0\uB9C9 \uC7AC\uC559\uC740
@@ -439,6 +473,7 @@ MonoBehaviour:
     - "\uB098\uC77C \uAC15\uACFC \uD558\uC218\uAC00 \uD53C\uB85C \uBCC0\uD568"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 36
     problem: "\uC774\uC2A4\uB77C\uC5D8 \uC790\uC190\uC774 \uC560\uAD7D\uC5D0 \uAC70\uC8FC\uD55C
       \uC9C0 \uBA87 \uB144 \uB9CC\uC5D0 \uC560\uAD7D\uC744 \uB098\uC654\uB294\uAC00?"
@@ -450,6 +485,7 @@ MonoBehaviour:
     - "500\uB144"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 37
     problem: "\uD558\uB098\uB2D8\uC740 \uC65C \uCD9C\uC560\uAD7D\uD55C \uC774\uC2A4\uB77C\uC5D8\uC744
       \uAC00\uAE4C\uC6B4 \uBE14\uB808\uC14B\uB545\uC73C\uB85C \uC778\uB3C4\uD558\uC9C0
@@ -463,6 +499,7 @@ MonoBehaviour:
       \uB3CC\uC544\uAC08 \uAC83\uC744 \uC5FC\uB824\uD574\uC11C"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 38
     problem: "\uC774\uC2A4\uB77C\uC5D8 \uBC31\uC131\uC774 \uAD11\uC57C\uC5D0\uC11C
       \uAC70\uB454 \uD558\uB8E8 \uBD84\uC758 \uB9CC\uB098\uC758 \uC591\uC740 \uC5BC\uB9C8\uC778\uAC00?"
@@ -474,6 +511,7 @@ MonoBehaviour:
     - "\uD55C \uAC00\uC871\uC774 \uB2E4\uC12F \uC624\uBA5C"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 39
     problem: "\uD64D\uD574\uB97C \uAC74\uB10C \uD6C4 \uC18C\uACE0\uB97C \uC7A1\uACE0
       \uC774\uC2A4\uB77C\uC5D8 \uC5EC\uC778\uB4E4\uC744 \uC778\uB3C4\uD558\uC5EC
@@ -487,6 +525,7 @@ MonoBehaviour:
     - "\uC5D8\uB9AC\uC0AC\uBCB3"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 40
     problem: "\uCD9C\uC560\uAD7D\uD55C \uC774\uC2A4\uB77C\uC5D8 \uBC31\uC131\uB4E4\uC774
       \uACE0\uAE30\uB97C \uBA39\uC9C0 \uBABB\uD558\uB294 \uAC83\uC744 \uC6D0\uB9DD\uD558\uC790
@@ -499,6 +538,7 @@ MonoBehaviour:
     - "\uBA54\uCD94\uB77C\uAE30"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 41
     problem: "\uBAA8\uC138\uAC00 \uC544\uB0B4 \uC2ED\uBCF4\uB77C\uB97C \uD1B5\uD574
       \uB0B3\uC740 \uCCAB \uBC88\uC9F8 \uC544\uB4E4\uB85C \uC774\uBC29\uC5D0\uC11C
@@ -512,6 +552,7 @@ MonoBehaviour:
     - "\uBBC0\uB0AB\uC138"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 42
     problem: "\uCC9C\uBD80\uC7A5, \uBC31\uBD80\uC7A5\uACFC \uAC19\uC740 \uC774\uC2A4\uB77C\uC5D8
       \uC9C0\uB3C4\uC790\uB97C \uC138\uC6B0\uB294\uB370 \uBAA8\uC138\uC758 \uC7A5\uC778
@@ -525,6 +566,7 @@ MonoBehaviour:
     - "\uBD88\uC758\uD55C \uC774\uC775\uC744 \uBBF8\uC6CC\uD558\uB294 \uC790"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 43
     problem: "\uC2ED\uACC4\uBA85\uACFC \uAD00\uB828\uB41C \uAC83\uC73C\uB85C \uD2C0\uB9B0
       \uAC83\uC740 \uC5B4\uB290 \uAC83\uC778\uAC00?"
@@ -536,6 +578,7 @@ MonoBehaviour:
     - "\uC2DC\uB0B4\uC0B0"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 44
     problem: "\uC2ED\uACC4\uBA85\uC911 \uB124 \uBC88\uC9F8 \uACC4\uBA85\uC740 \uBB34\uC5C7\uC778\uAC00?"
     problemType: 0
@@ -546,6 +589,7 @@ MonoBehaviour:
     - "\uC548\uC2DD\uC77C\uC744 \uAC70\uB8E9\uD788 \uC9C0\uD0A4\uB77C"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 45
     problem: "\uC1A1\uACF3\uC73C\uB85C \uC885\uC758 \uADC0\uB97C \uB6AB\uB294\uB2E4\uB294
       \uAC83\uC740 \uBB34\uC2A8 \uC758\uBBF8\uC778\uAC00?"
@@ -557,6 +601,7 @@ MonoBehaviour:
     - "\uC885\uC2E0\uD1A0\uB85D \uC8FC\uC778\uC5D0\uAC8C \uC18D\uD568"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 46
     problem: "\uC560\uAD7D\uC5D0\uC11C \uB098\uC628 \uBAA8\uB4E0 \uC774\uC2A4\uB77C\uC5D8
       \uBC31\uC131\uB4E4 \uAC00\uC6B4\uB370 \uC7A5\uC815\uC758 \uC218\uB294?"
@@ -568,6 +613,7 @@ MonoBehaviour:
     - "100\uB9CC"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 47
     problem: "\uC774\uC2A4\uB77C\uC5D8\uC758 3\uB300 \uC808\uAE30 \uC911 \uD558\uB098\uB85C
       \uBC2D\uC5D0\uC11C \uAC70\uB454 \uCCAB \uC5F4\uB9E4\uB97C \uD1B5\uD574 \uD558\uB098\uB2D8\uC758
@@ -581,6 +627,7 @@ MonoBehaviour:
     - "\uBD80\uB9BC\uC808"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 48
     problem: "\uD558\uB098\uB2D8\uC740 \uC774\uC2A4\uB77C\uC5D8\uC774 \uBB34\uAD50\uC808\uC744
       \uAE30\uAC04\uB3D9\uC548 \uBB34\uAD50\uBCD1\uC744 \uBA70\uCE60\uAC04 \uBA39\uC73C\uB77C\uACE0
@@ -593,6 +640,7 @@ MonoBehaviour:
     - "30\uC77C"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 49
     problem: "\uC774\uC2A4\uB77C\uC5D8\uC774 \uAD11\uC57C\uC0DD\uD65C\uC744 \uD558\uBA74\uC11C
       \uB9E4\uC77C \uBA39\uC740 \uAC83\uC73C\uB85C \uAE5F\uC528\uAC19\uC774 \uD76C\uACE0
@@ -605,6 +653,7 @@ MonoBehaviour:
     - "\uBA54\uCD94\uB77C\uAE30"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 50
     problem: "\uBAA8\uC138\uAC00 \uC2DC\uB0B4\uC0B0\uC5D0 \uC62C\uB77C\uAC00 \uC788\uB294
       \uB3D9\uC548 \uC774\uC2A4\uB77C\uC5D8 \uBC31\uC131\uC774 \uBC94\uD55C \uC8C4\uB294
@@ -617,6 +666,7 @@ MonoBehaviour:
     - "\uC560\uAD7D\uC73C\uB85C \uB3CC\uC544\uAC10"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 51
     problem: "\uC5EC\uD638\uC640\uC758 \uACC4\uBA85 \uC911 \uD558\uB098\uB77C\uB3C4
       \uADF8\uB987 \uBC94\uD558\uC600\uC744 \uB54C \uB4DC\uB9AC\uB294 \uC81C\uC0AC\uB294
@@ -629,6 +679,7 @@ MonoBehaviour:
     - "\uD654\uBAA9\uC81C"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 52
     problem: "\uC18D\uC8C4\uC81C\uB97C \uB4DC\uB9B4 \uB54C \uD615\uD3B8\uC774 \uC548
       \uB418\uBA74 \uBE44\uB458\uAE30 \uB300\uC2E0 \uBB34\uC5C7\uC744 \uC608\uBB3C\uB85C
@@ -641,6 +692,7 @@ MonoBehaviour:
     - "\uACE0\uC6B4 \uAC00\uB8E8"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 53
     problem: "\uC544\uB860\uC758 \uC544\uB4E4 \uB098\uB2F5\uACFC \uC544\uBE44\uD6C4\uAC00
       \uC8FD\uC740 \uC774\uC720\uB294 \uBB34\uC5C7\uC778\uAC00?"
@@ -656,6 +708,7 @@ MonoBehaviour:
       \uBD88\uC744 \uB2F4\uC544 \uBD84\uD5A5\uD568"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 54
     problem: "\uC5EC\uD638\uC640\uAED8 \uB4DC\uB9AC\uB294 \uBAA8\uB4E0 \uC18C\uC81C\uBB3C\uC5D0
       \uB123\uC9C0 \uB9D0\uB77C\uACE0 \uC9C0\uC815\uD574\uC11C \uB9D0\uC500\uD558\uC2E0
@@ -668,6 +721,7 @@ MonoBehaviour:
     - "\uD5A5\uC720"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 55
     problem: "\uB808\uC704\uAE30\uC5D0\uC11C \uC0DD\uBB3C\uC758 \uD53C\uB97C \uBA39\uC9C0
       \uB9D0\uC544\uC57C \uD558\uB294 \uC774\uC720\uB85C \uC124\uBA85\uD558\uB294
@@ -680,6 +734,7 @@ MonoBehaviour:
     - "\uD53C\uC758 \uC0C9\uAE54\uB85C \uC778\uD574"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 56
     problem: "\uB545\uC744 \uC26C\uAC8C \uD558\uB294 \uC548\uC2DD\uB144\uC740 \uBA87\uC9F8
       \uD574\uC778\uAC00?"
@@ -691,6 +746,7 @@ MonoBehaviour:
     - "\uC77C\uACF1\uC9F8 \uD574"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 57
     problem: "\uC548\uC2DD\uB144 \uC77C\uACF1 \uBC88 \uB3D9\uC548, \uACE7 \uC0AC\uC2ED
       \uAD6C\uB144\uC774 \uC9C0\uB098 \uC624\uC2ED \uB144\uC744 \uAC70\uB8E9\uD558\uAC8C
@@ -704,6 +760,7 @@ MonoBehaviour:
     - "\uCD95\uBCF5\uC758 \uD574"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 58
     problem: "\uCE60\uCE60\uC808\uC758 \uB2E4\uB978 \uC774\uB984\uC740 \uBB34\uC5C7\uC778\uAC00?"
     problemType: 0
@@ -714,6 +771,7 @@ MonoBehaviour:
     - "\uCD08\uB9C9\uC808"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 59
     problem: "\uD558\uB098\uB2D8\uC774 \uC774\uC2A4\uB77C\uC5D8 \uC790\uC190 \uAC00\uC6B4\uB370
       \uBAA8\uB4E0 \uCC98\uC74C \uD0DC\uC5B4\uB09C \uC790 \uB300\uC2E0\uC5D0 \uC790\uC2E0\uC5D0\uAC8C
@@ -726,6 +784,7 @@ MonoBehaviour:
     - "\uBCA0\uB0D0\uBBFC"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 60
     problem: "\uB808\uC704\uC778\uC740 \uD76C\uB9C9 \uBD09\uC0AC\uB97C 25\uC138\uBD80\uD130
       \uC2DC\uC791\uD574\uC11C \uBA87 \uC138\uAE4C\uC9C0 \uD560 \uC218 \uC788\uC5C8\uB294\uAC00?"
@@ -737,6 +796,7 @@ MonoBehaviour:
     - "70\uC138"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 61
     problem: "\uAD11\uC57C\uC0DD\uD65C \uC911 \uBC31\uC131\uC774 \uC545\uD55C \uB9D0\uB85C
       \uC6D0\uB9DD\uD558\uC790 \uD558\uB098\uB2D8\uC774 \uC774\uC5D0 \uC9C4\uB178\uD558\uC154\uC11C
@@ -750,6 +810,7 @@ MonoBehaviour:
     - "\uAE30\uB7C7 \uC544\uB974\uBC14"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 62
     problem: "\uBAA8\uC138\uAC00 \uAC00\uB098\uC548\uC5D0 12\uBA85\uC758 \uC815\uD0D0\uAFBC\uC744
       \uBCF4\uB0B8\uB2E4. \uC774\uB4E4 \uC911 \uB3CC\uC544\uC640\uC11C \uAE0D\uC815\uC801\uC778
@@ -762,6 +823,7 @@ MonoBehaviour:
     - "\uC5EC\uD638\uC218\uC544, \uB974\uC6B0\uBCA4"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 63
     problem: "\uBC1C\uB78C \uC120\uC9C0\uC790\uAC00 \uAE08\uC740 \uBCF4\uD654\uB97C
       \uBC1B\uACE0 \uC774\uC2A4\uB77C\uC5D8\uC744 \uC800\uC8FC\uD558\uAE30 \uC704\uD558\uC5EC
@@ -774,6 +836,7 @@ MonoBehaviour:
     - "\uB098\uADC0"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 64
     problem: "\uBC1C\uB78C\uC758 \uC608\uC5B8 \uC911\uC5D0 \uBBFC\uC871\uB4E4 \uAC00\uC6B4\uB370
       \uC73C\uB738\uC774\uAE34 \uD558\uC9C0\uB9CC \uADF8\uC758 \uC885\uB9D0\uC740
@@ -786,6 +849,7 @@ MonoBehaviour:
     - "\uC544\uB9D0\uB809"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 65
     problem: "\uAD6C\uC57D\uC5D0\uC11C \uD3EC\uB3C4\uC8FC\uC640 \uB3C5\uC8FC\uB97C
       \uBA40\uB9AC\uD558\uACE0, \uBA38\uB9AC\uC5D0 \uC2DD\uB3C4\uB97C \uB300\uC9C0
@@ -800,6 +864,7 @@ MonoBehaviour:
     - "\uC81C\uC0AC\uC7A5"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 66
     problem: "\uBAA8\uC138\uAC00 \uC694\uB2E8 \uB3D9\uD3B8\uC5D0 \uAC70\uC8FC\uD558\uB294
       \uAC83\uC744 \uD5C8\uB77D\uD55C 3\uC9C0\uD30C\uC5D0 \uC18D\uD558\uC9C0 \uC54A\uB294
@@ -812,6 +877,7 @@ MonoBehaviour:
     - "\uBBC0\uB0AB\uC138"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 67
     problem: "\uAC00\uB098\uC548 \uB545\uC744 \uC815\uBCF5\uD55C \uD6C4 \uBD80\uC9C0\uC911\uC5D0
       \uC0B4\uC778\uD55C \uC790\uB97C \uBCF4\uD638\uD558\uAE30 \uC704\uD574 \uD2B9\uBCC4\uD788
@@ -824,6 +890,7 @@ MonoBehaviour:
     - "\uC5EC\uB9AC\uACE0\uC131"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 68
     problem: "\uC544\uB4E4\uC774 \uC5C6\uB2E4\uB294 \uC774\uC720\uB85C \uAE30\uC5C5\uC744
       \uBC1B\uC9C0 \uBABB\uD558\uAC8C \uB418\uC790 \uC774\uC5D0 \uB300\uD574 \uC774\uC758\uB97C
@@ -838,6 +905,7 @@ MonoBehaviour:
     - "\uC2AC\uB85C\uBE0C\uD56B"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 69
     problem: "\uBAA8\uC138\uAC00 \uC5B8\uC57D\uC758 \uB450 \uB3CC\uD310\uC744 \uBC1B\uACE0\uC790
       \uC0AC\uC2ED\uC8FC \uC0AC\uC2ED\uC57C\uB97C \uBA38\uBB3C\uB800\uB358 \uC0B0\uC758
@@ -850,6 +918,7 @@ MonoBehaviour:
     - "\uD638\uB819\uC0B0"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 70
     problem: "\uC774\uC2A4\uB77C\uC5D8 \uBC31\uC131\uC774 \uAD11\uC57C\uC5D0\uC11C
       \uAE08\uC1A1\uC544\uC9C0\uB97C \uC22D\uBC30\uD55C \uC0AC\uAC74\uACFC \uAD00\uB828\uC774
@@ -862,6 +931,7 @@ MonoBehaviour:
     - "\uAE08\uC1A1\uC544\uC9C0\uB97C \uBE7B\uC544 \uC2DC\uB0C7\uBB3C\uC5D0 \uBFCC\uB9BC"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 71
     problem: "\uC728\uBC95\uC5D0 \uC758\uD558\uBA74 \uC545\uC778\uC744 \uCC98\uBC8C\uD558\uB294
       \uD0DC\uD615\uC740 \uCD5C\uACE0 \uBA87 \uB300\uAE4C\uC9C0 \uB54C\uB9B4 \uC218
@@ -874,6 +944,7 @@ MonoBehaviour:
     - "50\uB300"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 72
     problem: "\uC9C0\uD61C\uC790\uC758 \uB208\uC744 \uC5B4\uB461\uAC8C\uD558\uACE0
       \uC758\uC778\uC758 \uB9D0\uC744 \uAD7D\uAC8C \uD558\uB294 \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -885,6 +956,7 @@ MonoBehaviour:
     - "\uB9C9\uB300\uAE30"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 73
     problem: "\uD558\uB098\uB2D8\uAED8\uC11C \uBC2D\uC5D0\uC11C \uACE1\uC2DD\uC744
       \uBCA8 \uB54C \uB204\uAD6C\uB97C \uC704\uD574 \uB0A8\uACA8\uB450\uB77C \uB9DD\uB839\uD558\uC168\uB2E4.
@@ -898,6 +970,7 @@ MonoBehaviour:
     - "\uB098\uADF8\uB124"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 74
     problem: "\uC5EC\uD638\uC218\uC544\uB294 \uC5B4\uB5A4 \uC0AC\uB78C\uC774 \uC8FD\uC740
       \uD6C4 \uC774\uC2A4\uB77C\uC5D8\uC758 \uC9C0\uB3C4\uC790\uAC00 \uB418\uC5C8\uB294\uAC00?"
@@ -909,6 +982,7 @@ MonoBehaviour:
     - "\uC544\uBE0C\uB77C\uD568"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 75
     problem: "\uC6B0\uB9AC\uAC00 \uB4E3\uC790 \uACE7 \uB9C8\uC74C\uC774 \uB179\uC558\uACE0
       \uB108\uD76C\uB85C \uB9D0\uBBF8\uC554\uC544 \uC0AC\uB78C\uC774 \uC815\uC2E0\uC744
@@ -925,6 +999,7 @@ MonoBehaviour:
     - "\uB2E4\uB9D0"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 76
     problem: "\uAC00\uB098\uC548 \uB545\uC5D0 \uC785\uC131\uD558\uBA74\uC11C \uC5EC\uD638\uC218\uC544\uAC00
       \uC774\uB048 \uC774\uC2A4\uB77C\uC5D8 \uBC31\uC131\uC774 \uAC74\uB10C \uAC15\uC740
@@ -937,6 +1012,7 @@ MonoBehaviour:
     - "\uC720\uBE0C\uB77C\uB370\uAC15"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 77
     problem: "\uAC00\uB098\uC548 \uC815\uBCF5\uC744 \uC704\uD574 \uC694\uB2E8\uAC15\uC744
       \uAC74\uB10C \uD6C4 \uAC15\uC5D0\uC11C \uAC00\uC838\uC628 \uC5F4\uB450\uAC1C\uC758
@@ -949,6 +1025,7 @@ MonoBehaviour:
     - "\uB2E4\uBA54\uC139"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 78
     problem: "\uC774\uC2A4\uB77C\uC5D8 \uBC31\uC131\uB4E4\uC774 \uC131 \uC8FC\uC704\uB97C
       \uB3CC\uBA70 \uB098\uD314\uC744 \uBD88\uACE0 \uD070 \uC18C\uB9AC\uB97C \uB0B4\uC11C
@@ -961,6 +1038,7 @@ MonoBehaviour:
     - "\uC608\uB8E8\uC0B4\uB818"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 79
     problem: "\uD558\uB098\uB2D8\uAED8 \uBC14\uCCD0\uC57C \uD558\uB294 \uBB3C\uAC74\uC744
       \uC790\uC2E0\uC774 \uAC00\uC9C0\uB294 \uBC94\uC8C4\uB97C \uC800\uC9C0\uB978
@@ -973,6 +1051,7 @@ MonoBehaviour:
     - "\uC544\uACE8 \uACE8\uC9DC\uAE30"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 80
     problem: "\uC5EC\uB9AC\uACE0\uC131 \uC544\uC774 \uC131 \uC815\uBCF5 \uC18C\uC2DD\uC744
       \uB4E3\uACE0 \uC774\uC2A4\uB77C\uC5D8\uACFC \uD654\uCE5C\uD558\uACE0\uC790
@@ -987,6 +1066,7 @@ MonoBehaviour:
     - "\uAE30\uBE0C\uC628"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 81
     problem: "\uC5EC\uBD84\uB0B4\uC758 \uC544\uB4E4 \uAC08\uB819\uC774 \uC790\uC2E0\uC758
       \uC0B0\uC9C0\uB97C \uB2EC\uB77C\uACE0 \uC694\uAD6C\uD558\uC790 \uC5EC\uD638\uC218\uC544\uAC00
@@ -999,6 +1079,7 @@ MonoBehaviour:
     - "\uB9C8\uD558\uB098\uC784"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 82
     problem: "\uC694\uB2E8\uAC15 \uB3D9\uD3B8\uC744 \uAE30\uC5C5\uC73C\uB85C \uCC28\uC9C0\uD55C
       \uC9C0\uD30C\uAC00 \uC544\uB2CC \uAC83\uC740?"
@@ -1010,6 +1091,7 @@ MonoBehaviour:
     - "\uC5D0\uBE0C\uB77C\uC784"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 83
     problem: "\uC560\uAD7D\uC5D0\uC11C \uAC00\uC838\uC628 \uC694\uC149\uC758 \uBF08\uB97C
       \uC7A5\uC0AC\uD55C \uACF3\uC740 \uC5B4\uB514\uC778\uAC00?"
@@ -1021,6 +1103,7 @@ MonoBehaviour:
     - "\uBE0C\uC5D8\uC138\uBC14"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 84
     problem: "\uC774\uC2A4\uB77C\uC5D8\uC758 \uC67C\uC190\uC7A1\uC774 \uC0AC\uC0AC\uB85C
       \uBAA8\uC555 \uC655 \uC5D0\uAE00\uB860\uC744 \uC8FD\uC774\uACE0 \uAD6C\uC6D0\uC744
@@ -1033,6 +1116,7 @@ MonoBehaviour:
     - "\uC0AC\uBB34\uC5D8"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 85
     problem: "\uC774\uC2A4\uB77C\uC5D8\uC758 \uC0AC\uC0AC \uC0BC\uAC08\uC774 \uBE14\uB808\uC14B
       \uC0AC\uB78C 600\uBA85\uC744 \uC8FD\uC77C \uB54C \uC0AC\uC6A9\uD55C \uB3C4\uAD6C\uB294
@@ -1045,6 +1129,7 @@ MonoBehaviour:
     - "\uB9C9\uB300\uAE30"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 86
     problem: "\uAE30\uC0DD\uC758 \uC790\uB140\uB85C \uD0DC\uC5B4\uB09C \uD6C4 \uC554\uBAAC\uC744
       \uBB3C\uB9AC\uCE58\uACE0 \uB3CC\uC544\uC62C \uB54C \uC790\uAE30\uB97C \uC9D1\uBB38\uC5D0\uC11C
@@ -1058,6 +1143,7 @@ MonoBehaviour:
     - "\uB4DC\uBCF4\uB77C"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 87
     problem: "\uC0BC\uBC31 \uC6A9\uC0AC\uC640 \uD568\uAED8 \uB098\uD314\uACFC \uD56D\uC544\uB9AC\uC640
       \uD683\uBD88\uB85C \uBB34\uC7A5\uD558\uAC8C \uD558\uC5EC \uBBF8\uB514\uC548
@@ -1070,6 +1156,7 @@ MonoBehaviour:
     - "\uC637\uB2C8\uC5D8"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 88
     problem: "\uC0AC\uC0AC \uC2DC\uB300\uB97C \uC124\uBA85\uD55C \uAC83 \uC911 \uD2C0\uB9B0
       \uAC83\uC740?"
@@ -1082,6 +1169,7 @@ MonoBehaviour:
       \uD589\uD568"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 89
     problem: "\uADF8 \uB54C\uC5D0 \uC774\uC2A4\uB77C\uC5D8\uC5D0 \uC655\uC774 \uC5C6\uC73C\uBBC0\uB85C
       \uC0AC\uB78C\uC774 \uAC01\uAE30 \uC790\uAE30\uC758 \uC18C\uACAC\uC5D0 \uC633\uC740
@@ -1095,6 +1183,7 @@ MonoBehaviour:
     - "\uC5F4\uC655\uAE30\uC0C1"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 90
     problem: "\uC774\uC2A4\uB77C\uC5D8\uC758 12\uBA85 \uC0AC\uC0AC \uC911 \uC720\uC77C\uD55C
       \uC5EC\uC790 \uC0AC\uC0AC\uB294 \uB204\uAD6C\uC778\uAC00?"
@@ -1106,6 +1195,7 @@ MonoBehaviour:
     - "\uC5D0\uC2A4\uB354"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 91
     problem: "\uC5EC\uB8F9\uBC14\uC54C\uC758 \uC544\uB4E4\uB85C \uC790\uAE30 \uD615\uC81C
       70\uBA85\uC744 \uC8FD\uC774\uACE0 \uC774\uC2A4\uB77C\uC5D8\uC758 \uC655\uC774
@@ -1118,6 +1208,7 @@ MonoBehaviour:
     - "\uC544\uBE0C\uB77C\uD568"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 92
     problem: "\uC774\uC2A4\uB77C\uC5D8\uC758 \uC0AC\uC0AC\uB85C \uBE14\uB808\uC14B
       \uC5EC\uC778 \uB4E4\uB9B4\uB77C\uC5D0\uAC8C \uB9C8\uC74C\uC744 \uBE7C\uC557\uACA8
@@ -1132,6 +1223,7 @@ MonoBehaviour:
     - "\uD5E4\uB77C\uD074\uB808\uC2A4"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 93
     problem: "\uC5B4\uB5A4 \uB808\uC704\uC778\uC758 \uCCA9\uC774 \uAE30\uBE0C\uC544\uC5D0\uC11C
       \uB2A5\uC695\uC744 \uB2F9\uD558\uACE0 \uC8FD\uC740 \uD6C4 \uC77C\uC5B4\uB09C
@@ -1145,6 +1237,7 @@ MonoBehaviour:
     - "\uC5D0\uBE0C\uB77C\uC784"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 94
     problem: "\uB8FB\uAE30\uC5D0 \uB098\uC624\uB294 \uC778\uBB3C\uC774 \uC544\uB2CC
       \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -1156,6 +1249,7 @@ MonoBehaviour:
     - "\uC5D8\uB9AC\uBA5C\uB809"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 95
     problem: "\uB8FB\uC740 \uC774\uBC29 \uC5EC\uC778\uC73C\uB85C \uC608\uC218\uC758
       \uC871\uBCF4\uC5D0 \uAE30\uB85D\uB41C \uC778\uBB3C\uC774\uB2E4. \uADF8\uB140\uB294
@@ -1168,6 +1262,7 @@ MonoBehaviour:
     - "\uC0AC\uB9C8\uB9AC\uC544"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 96
     problem: "\uBAA8\uC555 \uC5EC\uC778\uC73C\uB85C \uBCF4\uC544\uC2A4\uC640 \uACB0\uD63C\uD558\uC5EC
       \uB2E4\uC717\uC758 \uC870\uC0C1\uC774 \uB41C \uC5EC\uC778\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -1179,6 +1274,7 @@ MonoBehaviour:
     - "\uB098\uC624\uBBF8"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 97
     problem: "\uB2E4\uC74C\uC740 \uB204\uAD6C\uC758 \uB9D0\uC778\uAC00? \"\"\uC5B4\uBA38\uB2C8\uC758
       \uBC31\uC131\uC774 \uB098\uC758 \uBC31\uC131\uC774 \uB418\uACE0 \uC5B4\uBA38\uB2C8\uC758
@@ -1191,6 +1287,7 @@ MonoBehaviour:
     - "\uC624\uB974\uBC14"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 98
     problem: "\uBAA8\uC555 \uC5EC\uC778 \uB8FB\uC758 \uC2DC\uC5B4\uBA38\uB2C8\uB85C
       \uBCF4\uC544\uC2A4\uC640\uC758 \uACB0\uD63C\uC744 \uB3C4\uC654\uB358 \uC5EC\uC778\uC740
@@ -1203,6 +1300,7 @@ MonoBehaviour:
     - "\uC5D8\uB9AC\uC0AC\uBCB3"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 99
     problem: "\uC5D8\uAC00\uB098\uC758 \uC544\uB0B4 \uD55C\uB098\uC758 \uAC04\uC808\uD55C
       \uAE30\uB3C4\uB85C \uC774\uC2A4\uB77C\uC5D8\uC744 \uC774\uB04C \uC601\uC801
@@ -1216,6 +1314,7 @@ MonoBehaviour:
     - "\uC0AC\uBB34\uC5D8"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 100
     problem: "\uD761\uB2C8\uC640 \uBE44\uB290\uD558\uC2A4\uC758 \uC544\uBC84\uC9C0\uB85C
       \uC544\uB4E4\uC758 \uC798\uBABB\uC744 \uCC45\uB9DD\uD558\uC9C0 \uC54A\uACE0
@@ -1231,6 +1330,7 @@ MonoBehaviour:
     - "\uC5D8\uB9AC\uD6C4"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 101
     problem: "\uC5EC\uD638\uC640\uAED8\uC11C \uC5EC\uAE30\uAE4C\uC9C0 \uC6B0\uB9AC\uB97C
       \uB3C4\uC6B0\uC168\uB2E4\"\"\uB77C\uB294 \uC758\uBBF8\uB97C \uAC00\uC9C4 \uB9D0\uC740
@@ -1243,6 +1343,7 @@ MonoBehaviour:
     - "\uC5EC\uD638\uC640 \uC774\uB808"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 102
     problem: "\uC0AC\uBB34\uC5D8\uC774 \uB2E4\uC717\uC758 \uC9D1\uC5D0 \uAE30\uC068\uC744
       \uBD80\uC6B0\uB7EC \uC654\uC744 \uB54C \uB2E4\uC717\uC740 \uBB34\uC5C7\uC744
@@ -1255,6 +1356,7 @@ MonoBehaviour:
     - "\uBCF4\uC774\uC9C0 \uC54A\uB294 \uACF3\uC5D0 \uC228\uC5B4 \uC788\uC5C8\uB2E4"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 103
     problem: "\uB2E4\uC74C\uC740 \uB204\uAD6C\uC758 \uB9D0\uC778\uAC00? \"\"\uB108\uB294
       \uCE7C\uACFC \uCC3D\uACFC \uB2E8\uCC3D\uC73C\uB85C \uB0B4\uAC8C \uC624\uAC70\uB2C8\uC640
@@ -1269,6 +1371,7 @@ MonoBehaviour:
     - "\uC544\uBE0C\uB77C\uD568"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 104
     problem: "\uB2E4\uC717\uC774 \uAC70\uC778 \uACE8\uB9AC\uC557\uC744 \uC774\uAE30\uB294\uB370
       \uC0AC\uC6A9\uD55C \uBB34\uAE30\uB294 \uBB34\uC5C7\uC778\uAC00?"
@@ -1280,6 +1383,7 @@ MonoBehaviour:
     - "\uB3CC"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 105
     problem: "\uB2E4\uC717\uC774 \uBD88\uC548\uD574\uD558\uB294 \uC545\uB839\uC5D0
       \uBD99\uC7A1\uD78C \uC0AC\uC6B8\uC744 \uC704\uD574 \uC5F0\uC8FC\uD55C \uC545\uAE30\uB294
@@ -1292,6 +1396,7 @@ MonoBehaviour:
     - "\uD2B8\uB7FC\uD3AB"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 106
     problem: "\uC774\uC2A4\uB77C\uC5D8\uC758 \uCCAB\uBC88\uC9F8 \uC655\uC73C\uB85C
       \uCC98\uC74C\uC5D0\uB294 \uACB8\uC190\uD558\uC600\uC73C\uB098 \uC810\uCC28
@@ -1308,6 +1413,7 @@ MonoBehaviour:
     - "\uB974\uD638\uBCF4\uC554"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 107
     problem: "\uC0AC\uC6B8\uC758 \uC544\uB4E4\uC774\uC9C0\uB9CC \uB2E4\uC717\uC744
       \uC790\uAE30 \uC0DD\uBA85\uAC19\uC774 \uC0AC\uB791\uD558\uACE0 \uD53C\uC2E0\uC744
@@ -1320,6 +1426,7 @@ MonoBehaviour:
     - "\uC544\uAE30\uC2A4"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 108
     problem: "\uB2E4\uC74C\uC740 \uB204\uAD6C\uC758 \uD589\uB3D9\uC744 \uBB18\uC0AC\uD55C
       \uAC83\uC778\uAC00? \"\"\uADF8\uB4E4\uC758 \uC55E\uC5D0\uC11C \uADF8 \uD589\uB3D9\uC744
@@ -1333,6 +1440,7 @@ MonoBehaviour:
     - "\uC694\uB098\uB2E8"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 109
     problem: "\uB2E4\uC717\uC774 \uC0AC\uC6B8\uC744 \uC8FD\uC77C \uC218 \uC788\uB294
       \uC5EC\uB7EC \uBC88\uC758 \uAE30\uD68C\uC5D0\uB3C4 \uC8FD\uC774\uC9C0 \uC54A\uC558\uB358
@@ -1345,6 +1453,7 @@ MonoBehaviour:
     - "\uC0AC\uC6B8\uC774 \uBD80\uD558\uB85C\uC11C \uB2E4\uC717\uC744 \uC544\uAEF4\uC11C"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 110
     problem: "\uC774\uC2A4\uB77C\uC5D8\uC758 \uC6A9\uB9F9\uD55C \uC7A5\uC218\uB85C\uC11C
       \uBA85\uC131\uC744 \uB5A8\uCE5C \uC2A4\uB8E8\uC57C\uC758 \uC138 \uC544\uB4E4\uC774
@@ -1357,6 +1466,7 @@ MonoBehaviour:
     - "\uC544\uC0AC\uD5EC"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 111
     problem: "\uC0AC\uC6B8\uC758 \uAD70\uC0AC\uB839\uAD00\uC73C\uB85C \uC774\uC2A4\uBCF4\uC14B\uC744
       \uC655\uC73C\uB85C \uC138\uC6E0\uC73C\uB098 \uC694\uC555\uC5D0\uAC8C \uC8FD\uC784\uC744
@@ -1369,6 +1479,7 @@ MonoBehaviour:
     - "\uBC14\uC544\uB098"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 112
     problem: "\uB2E4\uC717\uC774 \uC694\uB098\uB2E8\uACFC\uC758 \uC6B0\uC815\uC744
       \uC0DD\uAC01\uD574\uC11C \uC740\uCD1D\uC744 \uBCA0\uD480\uC5B4 \uC655\uC758
@@ -1382,6 +1493,7 @@ MonoBehaviour:
     - "\uB974\uD638\uBCF4\uC554"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 113
     problem: "\uB2E4\uC717\uC774 \uC6B0\uB9AC\uC544\uC758 \uC544\uB0B4 \uBC14\uC138\uBC14\uC640
       \uAC04\uC74C\uD558\uC600\uC744 \uB54C \uC655\uC744 \uCC45\uB9DD\uD55C \uC120\uC9C0\uC790\uB294
@@ -1394,6 +1506,7 @@ MonoBehaviour:
     - "\uC694\uC2DC\uC57C"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 114
     problem: "\uB2E4\uC717\uC774 \uC0AC\uB791\uD55C \uC544\uB4E4\uB85C \uC678\uBAA8\uAC00
       \uCD9C\uC911\uD558\uC600\uC9C0\uB9CC \uC554\uB17C\uC774 \uC790\uC2E0\uC758
@@ -1408,6 +1521,7 @@ MonoBehaviour:
     - "\uC194\uB85C\uBAAC"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 115
     problem: "\uC0AC\uBB34\uC5D8\uD558 24\uC7A5\uC5D0 \uAE30\uB85D\uB41C \uB2E4\uC717\uC758
       \uC778\uAD6C\uC870\uC0AC \uB54C\uBB38\uC5D0 \uD558\uB098\uB2D8\uC758 \uC2EC\uD310\uC744
@@ -1421,6 +1535,7 @@ MonoBehaviour:
     - "3\uB2EC\uB3D9\uC548 \uC6D0\uC218\uC5D0\uAC8C \uCAD3\uAE40"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 116
     problem: "\uB2E4\uC717\uC774 \uC8FD\uC740 \uD6C4\uC5D0 \uC655\uC704\uB97C \uACC4\uC2B9\uD55C
       \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -1432,6 +1547,7 @@ MonoBehaviour:
     - "\uC5EC\uD638\uC57C\uB2E4"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 117
     problem: "\uB2E4\uC717\uC774 \uC774\uC2A4\uB77C\uC5D8\uC744 \uD1B5\uCE58\uD55C
       \uAE30\uAC04\uC740 \uC5BC\uB9C8\uC778\uAC00?"
@@ -1443,6 +1559,7 @@ MonoBehaviour:
     - "50\uB144"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 118
     problem: "\uB2E4\uC74C\uC740 \uB204\uAC00 \uD55C \uB9D0\uC778\uAC00? \"\"\uB204\uAC00
       \uC8FC\uC758 \uC774 \uB9CE\uC740 \uBC31\uC131\uC744 \uC7AC\uD310\uD560 \uC218
@@ -1457,6 +1574,7 @@ MonoBehaviour:
     - "\uC544\uB3C4\uB2C8\uC544"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 119
     problem: "\uC194\uB85C\uBAAC\uC740 \uC77C\uCC9C\uBC88\uC81C\uB97C \uB4DC\uB9B0
       \uD6C4, \uD558\uB098\uB2D8\uAED8\uC11C \uB098\uD0C0\uB098\uC2E0 \uAFC8\uC5D0\uC11C
@@ -1469,6 +1587,7 @@ MonoBehaviour:
     - "\uAD8C\uB825"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 120
     problem: "\uC194\uB85C\uBAAC\uC774 \uC131\uC804\uC744 \uAC74\uCD95\uD560 \uB54C
       \uBC31\uD5A5\uBAA9\uACFC \uC7A3\uB098\uBB34 \uC7AC\uBAA9\uC744 \uC81C\uACF5\uD55C
@@ -1481,6 +1600,7 @@ MonoBehaviour:
     - "\uC544\uD558\uC2DC\uC57C"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 121
     problem: "\uC194\uB85C\uBAAC\uC740 \uD558\uB098\uB2D8\uC758 \uC131\uC804\uC744
       \uBA87 \uB144 \uB3D9\uC548 \uAC74\uCD95\uD558\uC600\uB294\uAC00?"
@@ -1492,6 +1612,7 @@ MonoBehaviour:
     - "10\uB144"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 122
     problem: "\uC131\uC804\uC758 \uB450\uAE30\uB465\uC73C\uB85C \uC624\uB978\uCABD\uC740
       \uC57C\uAE34\uC774\uB77C \uC774\uB984 \uBD99\uC600\uB2E4. \uADF8\uB807\uB2E4\uBA74
@@ -1504,6 +1625,7 @@ MonoBehaviour:
     - "\uC5D0\uBE0C\uB77C\uC784"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 123
     problem: "\uC194\uB85C\uBAAC\uC774 \uD788\uB78C\uC5D0\uAC8C \uC900 \uAC08\uB9B4\uB9AC
       \uC131\uC74D\uC774\uC9C0\uB9CC \uD788\uB78C\uC774 \uC774\uC5D0 \uB9CC\uC871\uD558\uC9C0
@@ -1516,6 +1638,7 @@ MonoBehaviour:
     - "\uBE4C\uB9BD\uBCF4"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 124
     problem: "\uC194\uB85C\uBAAC\uC740 \uD6C4\uAD81\uACFC \uCCA9\uC744 \uD569\uCCD0
       \uBAA8\uB450 \uBA87 \uBA85\uC744 \uB450\uC5C8\uB294\uAC00?"
@@ -1527,6 +1650,7 @@ MonoBehaviour:
     - "\uC77C\uCC9C\uBA85"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 125
     problem: "\uC194\uB85C\uBAAC\uC758 \uC544\uB4E4\uC778 \uB974\uD638\uBCF4\uC554
       \uC2DC\uB300\uC5D0 \uC774\uC2A4\uB77C\uC5D8\uC740 \uBD84\uC5F4\uB418\uC5B4
@@ -1541,6 +1665,7 @@ MonoBehaviour:
     - "\uC0AC\uB9C8\uB9AC\uC544"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 126
     problem: "\uB974\uD638\uBCF4\uC554\uC5D0 \uB9DE\uC11C \uC774\uC2A4\uB77C\uC5D8
       \uC5F4\uC9C0\uD30C\uAC00 \uC655\uC73C\uB85C \uC138\uC6B4 \uC0AC\uB78C\uC740
@@ -1553,6 +1678,7 @@ MonoBehaviour:
     - "\uC544\uB3C4\uB2C8\uC57C"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 127
     problem: "\uAC00\uB098\uC548 \uC810\uB839 \uB54C \uC800\uC8FC\uBC1B\uC740 \uC5EC\uB9AC\uACE0\uC131\uC744
       \uC7AC\uAC74\uD558\uB2E4\uAC00 \uB9CF\uC544\uB4E4\uACFC \uB9C9\uB0B4 \uC544\uB4E4\uC744
@@ -1565,6 +1691,7 @@ MonoBehaviour:
     - "\uC544\uD558\uC2A4"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 128
     problem: "\uC5D8\uB9AC\uC57C \uC120\uC9C0\uC790\uAC00 \uD558\uB098\uB2D8\uC758
       \uB2A5\uB825\uC744 \uD798\uC785\uC5B4 \uBC14\uC54C\uACFC \uC544\uC138\uB77C
@@ -1578,6 +1705,7 @@ MonoBehaviour:
     - "\uAC9F\uC138\uB9C8\uB124"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 129
     problem: "\uC120\uC9C0\uC790 \uC5D8\uB9AC\uC57C \uD6C4\uACC4\uC790\uB85C \uC218\uB134
       \uC5EC\uC778\uC758 \uC544\uB4E4\uC744 \uC0B4\uB9B0 \uC120\uC9C0\uC790\uB294
@@ -1590,6 +1718,7 @@ MonoBehaviour:
     - "\uC0AC\uBB34\uC5D8"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 130
     problem: "\uC774\uC2A4\uB77C\uC5D8 \uC5ED\uC0AC\uC5D0\uC11C \uC545\uD588\uB358
       \uC544\uD569\uC655\uC758 \uC544\uB0B4\uB85C \uC628\uAC16 \uC545\uD589\uC744
@@ -1602,6 +1731,7 @@ MonoBehaviour:
     - "\uB9C8\uB9AC\uC544"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 131
     problem: "\uC8FD\uC744 \uBCD1\uC5D0 \uAC78\uB9B0 \uD788\uC2A4\uAE30\uC57C\uAC00
       \uD558\uB098\uB2D8\uC758 \uAE0D\uD73C\uD558\uC2EC\uC744 \uAD6C\uD558\uB294
@@ -1614,6 +1744,7 @@ MonoBehaviour:
     - "25\uB144"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 132
     problem: "\uC120\uC9C0\uC790 \uC774\uC0AC\uC57C\uB294 \uD788\uC2A4\uAE30\uC57C\uC5D0\uAC8C
       \uC720\uB2E4\uAC00 \uC5B4\uB5A4 \uB098\uB77C\uC5D0\uAC8C \uBA78\uB9DD \uB420
@@ -1627,6 +1758,7 @@ MonoBehaviour:
     - "\uBC14\uBCA8\uB860"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 133
     problem: "\uB2E4\uC717\uC774 \uD558\uB098\uB2D8\uC758 \uADA4\uB97C \uC62E\uAE30\uB2E4\uAC00
       \uC6C3\uC0AC\uAC00 \uC8FD\uC790 \uB204\uAD6C\uC758 \uC9D1\uC73C\uB85C \uC62E\uACA8
@@ -1639,6 +1771,7 @@ MonoBehaviour:
     - "\uC624\uBCA7\uC5D0\uB3D4"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 134
     problem: "\uB2E4\uC717\uC758 \uC778\uAD6C\uC870\uC0AC\uB85C \uC804\uC5FC\uBCD1\uC774
       \uB3CC\uB358 \uC911\uC5D0 \uB2E4\uC717\uC774 \uB4DC\uB9AC\uB294 \uBC88\uC81C\uB97C
@@ -1652,6 +1785,7 @@ MonoBehaviour:
     - "\uC624\uB974\uB09C\uC758 \uD0C0\uC791\uB9C8\uB2F9"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 135
     problem: "\uD558\uB098\uB2D8\uC774 \uB2E4\uC717\uC5D0\uAC8C \uC131\uC804 \uAC74\uCD95\uC744
       \uD5C8\uB77D\uD558\uC9C0 \uC54A\uC740 \uC774\uC720\uB294 \uBB34\uC5C7\uC778\uAC00?"
@@ -1663,6 +1797,7 @@ MonoBehaviour:
     - "\uC194\uB85C\uBAAC\uC744 \uB354\uC6B1 \uC0AC\uB791\uD574\uC11C"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 136
     problem: "\uB2E4\uC74C\uC740 \uB204\uAC00 \uD55C \uB9D0\uC778\uAC00? \"\"\uB0B4
       \uC544\uBC84\uC9C0\uB294 \uAC00\uC8FD \uCC44\uCC0D\uC73C\uB85C \uB108\uD76C\uB97C
@@ -1676,6 +1811,7 @@ MonoBehaviour:
     - "\uB974\uD638\uBCF4\uC554"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 137
     problem: "\uD558\uB098\uB2D8\uC774 \uB9C8\uC74C\uC744 \uAC10\uB3D9\uC2DC\uCF1C
       \uC720\uB300\uC778\uB4E4\uC744 \uD3EC\uB85C\uC0DD\uD65C\uC5D0\uC11C \uD574\uBC29\uC2DC\uCF1C
@@ -1688,6 +1824,7 @@ MonoBehaviour:
     - "\uC544\uD558\uC218\uC5D0\uB85C"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 138
     problem: "\uBC14\uC0AC \uC655 \uACE0\uB808\uC2A4\uAC00 \uC720\uB300\uC778\uB4E4\uC744
       \uC608\uB8E8\uC0B4\uB818\uC73C\uB85C \uB3CC\uC544\uAC00\uB3C4\uB85D \uC870\uCE58\uD55C
@@ -1700,6 +1837,7 @@ MonoBehaviour:
     - "\uC5EC\uD638\uC640\uC758 \uC131\uC804 \uC7AC\uAC74"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 139
     problem: "\uC5D0\uC2A4\uB77C\uB294 \uBB34\uC5C7\uC744 \uD1B5\uD574 \uC774\uC2A4\uB77C\uC5D8\uC758
       \uC8C4\uC545\uC744 \uACE0\uBC1C\uD558\uACE0 \uD68C\uAC1C\uB97C \uC774\uB04C\uC5C8\uB294\uAC00?"
@@ -1711,6 +1849,7 @@ MonoBehaviour:
     - "\uC728\uBC95 \uC77D\uAE30\uC640 \uC124\uBA85"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 140
     problem: "\uB290\uD5E4\uBBF8\uC57C\uAC00 \uC5B4\uB5A4 \uC9C1\uC704\uC5D0 \uC788\uC744
       \uB54C \uC608\uB8E8\uC0B4\uB818 \uC131\uC758 \uBE44\uCC38\uD55C \uC0C1\uD669\uC744
@@ -1723,6 +1862,7 @@ MonoBehaviour:
     - "\uC131\uBB38 \uC9C0\uD0A4\uB294 \uC790"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 141
     problem: "\uB290\uD5E4\uBBF8\uC57C\uAC00 \uC608\uB8E8\uC0B4\uB818\uC758 \uBE44\uCC38\uD55C
       \uC0C1\uD669\uC744 \uC54C\uACE0 \uB09C \uD6C4 \uAC00\uC7A5 \uBA3C\uC800 \uD55C
@@ -1735,6 +1875,7 @@ MonoBehaviour:
     - "\uC655\uC5D0\uAC8C \uBCF4\uACE0"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 142
     problem: "\uB290\uD5E4\uBBF8\uC57C\uC758 \uC131\uBCBD \uC7AC\uAC74\uC744 \uBC29\uD574\uD55C
       \uD638\uB860 \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -1746,6 +1887,7 @@ MonoBehaviour:
     - "\uB9D0\uAE30\uC57C"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 143
     problem: "\uB290\uD5E4\uBBF8\uC57C\uAC00 \uC608\uB8E8\uC0B4\uB818 \uC131\uBCBD\uC744
       \uC7AC\uAC74\uD558\uAC8C \uBC31\uC131\uB4E4\uC744 \uB3C5\uB824\uD558\uBA74\uC11C
@@ -1758,6 +1900,7 @@ MonoBehaviour:
     - "\uC655\uC774 \uCDA9\uBD84\uD55C \uC7AC\uB8CC\uB97C \uD6C4\uC6D0\uD55C\uB2E4"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 144
     problem: "\uB290\uD5E4\uBBF8\uC57C\uAC00 \uC728\uBC95\uCC45\uC744 \uAC00\uC838\uC640
       \uBC31\uC131\uB4E4\uC5D0\uAC8C \uC77D\uC5B4\uC8FC\uB3C4\uB85D \uBD80\uD0C1\uD55C
@@ -1770,6 +1913,7 @@ MonoBehaviour:
     - "\uC0AC\uBB34\uC5D8"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 145
     problem: "\uB290\uD5E4\uBBF8\uC57C\uC758 \uAC1C\uD601 \uC911 \uC728\uBC95\uCC45\uC5D0\uC11C
       \uD558\uB098\uB2D8\uC758 \uCD1D\uD68C\uC5D0 \uC601\uC6D0\uD788 \uB4E4\uC5B4\uC624\uC9C0
@@ -1783,6 +1927,7 @@ MonoBehaviour:
     - "\uC0AC\uB9C8\uB9AC\uC544 \uC0AC\uB78C"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 146
     problem: "\uBAA8\uB974\uB4DC\uAC1C\uC758 \uC694\uCCAD\uC744 \uB4E3\uACE0 '\uC8FD\uC73C\uBA74
       \uC8FD\uC73C\uB9AC\uB77C'\uB294 \uBBFF\uC74C\uC73C\uB85C \uC655 \uC55E\uC5D0
@@ -1796,6 +1941,7 @@ MonoBehaviour:
     - "\uC5D0\uC2A4\uB354"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 147
     problem: "\uC5D0\uC2A4\uB354\uB294 \uC5B4\uB5A4 \uC655\uC758 \uC655\uBE44\uC778\uAC00?"
     problemType: 0
@@ -1806,6 +1952,7 @@ MonoBehaviour:
     - "\uC544\uD558\uC218\uC5D0\uB85C"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 148
     problem: "\uC5D0\uC2A4\uB354\uC11C\uC5D0\uC11C \uC720\uB2E4 \uC0AC\uB78C\uC744
       \uBAA8\uB450 \uC8FD\uC774\uACE0\uC790 \uD588\uC9C0\uB9CC \uC2E4\uD328\uD558\uACE0
@@ -1818,6 +1965,7 @@ MonoBehaviour:
     - "\uB290\uD5E4\uBBF8\uC57C"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 149
     problem: "\uC5D0\uC2A4\uB354\uAC00 \uC720\uB2E4 \uBBFC\uC871\uC744 \uAD6C\uC6D0\uD558\uBA74\uC11C
       \uC774\uB97C \uAE30\uB150\uD558\uC5EC \uC9C0\uD0A4\uAC8C \uB41C \uC808\uAE30\uB294
@@ -1830,6 +1978,7 @@ MonoBehaviour:
     - "\uC624\uC21C\uC808"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 150
     problem: "\uC5D0\uC2A4\uB354\uC11C\uC5D0 \uB4F1\uC7A5\uD558\uB294 \uC778\uBB3C\uC774
       \uC544\uB2CC \uAC83\uC740?"
@@ -1841,6 +1990,7 @@ MonoBehaviour:
     - "\uC544\uD558\uC218\uC5D0\uB85C"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 151
     problem: "\uC6A5\uAE30 1\uC7A5\uC5D0\uC11C \uC6A5\uC740 \uC5B4\uB5A4 \uC0AC\uB78C\uC774\uB77C\uACE0
       \uC18C\uAC1C\uB418\uACE0 \uC788\uB294\uAC00?"
@@ -1852,6 +2002,7 @@ MonoBehaviour:
     - "\uC815\uC9C1, \uC0AC\uB791"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 152
     problem: "\uC6A5\uC744 \uC704\uB85C\uD558\uAE30 \uC704\uD574 \uCC3E\uC544\uC628
       \uCE5C\uAD6C \uC911\uC5D0 \uC544\uB2CC \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -1863,6 +2014,7 @@ MonoBehaviour:
     - "\uC5D8\uB9AC\uBC14\uC2A4"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 153
     problem: "\uC6A5\uC740 \uCE5C\uAD6C\uB4E4\uACFC \uD568\uAED8 \uBA70\uCE60 \uB3D9\uC548
       \uAD34\uB85C\uC6CC \uD558\uB294\uAC00?"
@@ -1874,6 +2026,7 @@ MonoBehaviour:
     - "10\uC77C"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 154
     problem: "\uC6A5\uC740 \uC790\uC2E0\uC758 \uBB34\uC5C7\uC744 \uC800\uC8FC\uD558\uC600\uB294\uAC00?"
     problemType: 0
@@ -1884,6 +2037,7 @@ MonoBehaviour:
     - "\uC790\uB140"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 155
     problem: "\uC6A5\uC740 \uACE0\uB09C\uC774 \uB108\uBB34 \uC2EC\uD574 \uBB34\uC5C7\uC744
       \uAE4E\uB294 \uACE0\uD1B5\uC744 \uB2F9\uD55C\uB2E4\uACE0 \uBE44\uC720\uD558\uB294\uAC00?"
@@ -1895,6 +2049,7 @@ MonoBehaviour:
     - "\uC804\uB2A5\uC790"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 156
     problem: "\uC2DC\uD3B8 18\uD3B8\uC5D0\uC11C \uC800\uC790\uB294 \uC5EC\uD638\uC640\uB294
       \uB098\uC758 \uBC18\uC11D, \uC694\uC0C8, \uAC74\uC9C0\uC2DC\uB294 \uC774, \uB098\uC758
@@ -1909,6 +2064,7 @@ MonoBehaviour:
     - "\uAD6C\uC6D0\uC758 \uD22C\uAD6C, \uC0B0\uC131"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 157
     problem: "\uADF8\uB9AC\uC2A4\uB3C4\uAED8\uC11C \uC2ED\uC790\uAC00\uC5D0\uC11C
       \uACE0\uB09C \uBC1B\uC73C\uC2E4 \uAC83\uC744 \uC608\uC5B8\uD558\uACE0 \uC788\uB294
@@ -1921,6 +2077,7 @@ MonoBehaviour:
     - "\uC2DC\uD3B8 37\uD3B8"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 158
     problem: "\uB2E4\uC717\uC740 \uBC27\uC138\uBC14\uC640 \uB3D9\uCE68\uD55C \uD6C4
       \uD558\uB098\uB2D8\uAED8 \uD68C\uAC1C\uD558\uBA70 \uBB34\uC5C7\uC744 \uC0C8\uB86D\uAC8C
@@ -1933,6 +2090,7 @@ MonoBehaviour:
     - "\uC8C4\uB85C \uAC00\uB4DD\uD55C \uC601"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 159
     problem: "\uC2DC\uD3B8\uC5D0\uC11C \"\"\uC545\uC778\uB4E4\uC758 \uAF80\uB97C
       \uB530\uB974\uC9C0 \uC544\uB2C8\uD558\uBA70 \uC8C4\uC778\uB4E4\uC758 \uAE38\uC5D0
@@ -1947,6 +2105,7 @@ MonoBehaviour:
     - "\uC728\uBC95 \uC788\uB294 \uC0AC\uB78C"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 160
     problem: "\uB2E4\uC717\uC740 \uC5EC\uD638\uC640\uAED8\uC11C \uC790\uC2E0\uC744
       \uD480\uBC2D\uC5D0 \uB204\uC774\uC2DC\uBA70 \uC5B4\uB514\uB85C \uC778\uB3C4\uD558\uC2E0\uB2E4\uACE0
@@ -1959,6 +2118,7 @@ MonoBehaviour:
     - "\uAE30\uC068\uC758 \uBB3C\uAC00"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 161
     problem: "\uC2DC\uD3B8 119\uD3B8\uC5D0\uC11C \uC800\uC790\uB294 \uCCAD\uB144\uC758
       \uD589\uC2E4\uC744 \uAE68\uB057\uD558\uAC8C \uD558\uB294 \uAC83\uC740 ( )\uC744
@@ -1972,6 +2132,7 @@ MonoBehaviour:
     - "\uB9D0\uC500"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 162
     problem: "\uC2DC\uD3B8\uC740 \uCD1D \uBA87\uD3B8\uC73C\uB85C \uAD6C\uC131\uB418\uC5B4
       \uC788\uB294\uAC00?"
@@ -1983,6 +2144,7 @@ MonoBehaviour:
     - "150\uD3B8"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 163
     problem: "\uC7A0\uC5B8\uC5D0\uC11C \uC800\uC790\uB294 \uC5EC\uD638\uC640\uB97C
       ( )  \uD558\uB294 \uAC83\uC774 \uC9C0\uC2DD\uC758 \uADFC\uBCF8\uC774\uBA70,
@@ -1996,6 +2158,7 @@ MonoBehaviour:
     - "\uC0AC\uB791"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 164
     problem: "\uC7A0\uC5B8\uC5D0\uC11C \uC800\uC790\uB294 ( )\uC774 \uC0DD\uBA85\uC758
       \uADFC\uC6D0\uC774\uAE30\uC5D0 \uADF8 \uC5B4\uB290 \uAC83\uBCF4\uB2E4 \uC9C0\uCF1C\uC57C
@@ -2008,6 +2171,7 @@ MonoBehaviour:
     - "\uB9C8\uC74C"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 165
     problem: "\uC880 \uB354 \uC790\uC790 \uC880 \uB354 \uC878\uC790 \uC880 \uB354
       \uB204\uC6CC\uC788\uC790\uACE0 \uB9D0\uD558\uB294 \uC0AC\uB78C\uC5D0\uAC8C\uB294
@@ -2020,6 +2184,7 @@ MonoBehaviour:
     - "\uC7AC\uC559"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 166
     problem: "\uC7A0\uC5B8 25\uC7A5\uC5D0\uC11C \uC2AC\uAE30\uB85C\uC6B4 \uC790\uC758
       \uCC45\uB9DD\uC740 \uCCAD\uC885\uD558\uB294 \uADC0\uC5D0 \uBB34\uC5C7\uC73C\uB85C
@@ -2032,6 +2197,7 @@ MonoBehaviour:
     - "\uAE08 \uACE0\uB9AC, \uBC31\uAE08 \uC7A5\uC2DD"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 167
     problem: "\uC7A0\uC5B8\uC758 \uC800\uC790\uB294 \uB204\uAD6C\uC778\uAC00?"
     problemType: 0
@@ -2042,6 +2208,7 @@ MonoBehaviour:
     - "\uC194\uB85C\uBAAC"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 168
     problem: "\uC804\uB3C4\uC11C\uC5D0\uC11C \uC800\uC790\uB294 \uC9C0\uD61C\uAC00
       \uB9CE\uC73C\uBA74 ( )\uC774 \uB9CE\uACE0, \uC9C0\uC2DD\uC744 \uB354\uD558\uB294
@@ -2055,6 +2222,7 @@ MonoBehaviour:
     - "\uBC88\uB1CC, \uC5ED\uACBD"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 169
     problem: "\uC804\uB3C4\uC11C \uCCAD\uB144\uC758 \uB54C\uC5D0 ( )\uB97C \uAE30\uC5B5\uD558\uB77C\uACE0
       \uAD8C\uBA74\uD55C\uB2E4. \uBE48\uCE78\uC5D0 \uB4E4\uC5B4\uAC08 \uB9D0\uC740
@@ -2067,6 +2235,7 @@ MonoBehaviour:
     - "\uCC3D\uC870\uC8FC"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 170
     problem: "\uC804\uB3C4\uC11C\uC5D0\uC11C \uC194\uB85C\uBAAC\uC740 \uD558\uB098\uB2D8\uC774
       \uBAA8\uB4E0 \uAC83\uC744 \uB54C\uB97C \uB530\uB77C \uC9C0\uC73C\uC2DC\uACE0,
@@ -2081,6 +2250,7 @@ MonoBehaviour:
     - "\uBA85\uCCA0"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 171
     problem: "\uC804\uB3C4\uC11C\uB97C \uD1B5\uD574 \uC804\uB3C4\uC790\uB294 \uC9C0\uD61C\uAC00
       \uBB34\uC5C7\uBCF4\uB2E4 \uB0AB\uB2E4\uACE0 \uB9D0\uD588\uB294\uAC00?"
@@ -2092,6 +2262,7 @@ MonoBehaviour:
     - "\uB2A5\uB825"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 172
     problem: "\uC544\uAC00\uC11C\uC758 \uC800\uC790\uB294 \uB204\uAD6C\uC778\uAC00?"
     problemType: 0
@@ -2102,6 +2273,7 @@ MonoBehaviour:
     - "\uC194\uB85C\uBAAC"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 173
     problem: "\uC544\uAC00\uC11C 2\uC7A5\uC5D0\uC11C \uB098\uB294 \uC0AC\uB860\uC758
       \uC218\uC120\uD654\uC694 \uACE8\uC9DC\uAE30\uC758 \uBB34\uC5C7\uC774\uB77C\uACE0
@@ -2114,6 +2286,7 @@ MonoBehaviour:
     - "\uBB34\uD654\uACFC\uB098\uBB34"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 174
     problem: "\uC0AC\uB791\uD558\uB294 \uC790\uC758 \uBAB8\uC740 \uC544\uB85C\uC0C8\uAE34
       \uC0C1\uC544\uC5D0 \uBB34\uC5C7\uC744 \uC785\uD78C \uAC83 \uAC19\uB2E4\uACE0
@@ -2126,6 +2299,7 @@ MonoBehaviour:
     - "\uAD6C\uB9AC"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 175
     problem: "\uC544\uAC00\uC11C\uC5D0\uC11C\uB294 \uC0AC\uB791\uD558\uB294 \uC790\uC758
       \uD0A4\uB97C \uC774 \uB098\uBB34\uC5D0 \uBE44\uC720\uD558\uACE0 \uC788\uB2E4.
@@ -2138,6 +2312,7 @@ MonoBehaviour:
     - "\uBB34\uD654\uACFC\uB098\uBB34"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 176
     problem: "\uC774\uC2DC\uC57C 10\uC7A5 5\uC808\uC5D0 \uAE30\uB85D\uB41C \uC9C4\uB178\uC758
       \uB9C9\uB300\uAE30\uAC00 \uC0C1\uC9D5\uD558\uB294 \uB098\uB77C\uB294 \uC5B4\uB514\uC778\uAC00?"
@@ -2149,6 +2324,7 @@ MonoBehaviour:
     - "\uC557\uC218\uB974"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 177
     problem: "\uC774\uC0AC\uC57C\uC11C\uB294 \uCD1D \uBA87\uC7A5\uC73C\uB85C \uC774\uB8E8\uC5B4\uC838
       \uC788\uB294\uAC00?"
@@ -2160,6 +2336,7 @@ MonoBehaviour:
     - "66\uC7A5"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 178
     problem: "\uC774\uC0AC\uC57C \uC120\uC9C0\uC790\uC758 \uB450 \uC544\uB4E4\uC758
       \uC774\uB984\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -2171,6 +2348,7 @@ MonoBehaviour:
     - "\uC2A4\uC54C\uC57C\uC229\uACFC \uBBF8\uD560\uC0B4\uB784\uD558\uC2A4\uBE44\uC2A4"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 179
     problem: "\uB2E4\uC74C\uC740 \uC5B4\uB514\uB97C \uD5A5\uD55C \uC608\uC5B8\uC778\uAC00?
       \"\"\uC8FC \uB9CC\uAD70\uC758 \uC5EC\uD638\uC640\uAED8\uB85C\uBD80\uD130 \uC774\uB974\uB294
@@ -2185,6 +2363,7 @@ MonoBehaviour:
     - "\uD658\uC0C1\uC758 \uACE8\uC9DC\uAE30"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 180
     problem: "\uC774\uC0AC\uC57C 30\uC7A5\uC5D0\uC11C \uC720\uB2E4 \uBC31\uC131\uC744
       \uD5A5\uD574 \uC774\uB4E4\uC740 \uD328\uC5ED\uD55C \uBC31\uC131\uC774\uC790,
@@ -2198,6 +2377,7 @@ MonoBehaviour:
     - "\uC6B8\uBD80\uC9D6\uB294 \uC18C\uB9AC"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 181
     problem: "\uC774\uC0AC\uC57C 53\uC7A5\uC5D0\uC11C \uACE0\uB09C \uBC1B\uB294 \uC885\uC740
       \uB204\uAD6C\uB97C \uAC00\uB974\uD0A4\uB294\uAC00?"
@@ -2209,6 +2389,7 @@ MonoBehaviour:
     - "\uC608\uC218\uADF8\uB9AC\uC2A4\uB3C4"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 182
     problem: "\uC608\uB808\uBBF8\uC57C 1\uC7A5\uC5D0\uC11C \uC608\uB808\uBBF8\uC57C\uB294
       \uB204\uAD6C\uC758 \uC544\uB4E4\uB85C \uC18C\uAC1C\uB418\uB294\uAC00?"
@@ -2220,6 +2401,7 @@ MonoBehaviour:
     - "\uC694\uC2DC\uC57C"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 183
     problem: "\uC774\uC2A4\uB77C\uC5D8 \uBC31\uC131\uB4E4\uC774 \uD558\uB098\uB2D8\uAED8
       \uB3CC\uC544\uC624\uAE30 \uC704\uD574 \uBC84\uB824\uC57C \uD560 \uAC83\uC740
@@ -2232,6 +2414,7 @@ MonoBehaviour:
     - "\uAD50\uB9CC\uD55C \uB9C8\uC74C"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 184
     problem: "\uC608\uB808\uBBF8\uC57C 17\uC7A5\uC5D0\uC11C \uB9C8\uC74C\uC774 \uC5EC\uD638\uC640\uC5D0\uAC8C\uC11C
       \uB5A0\uB09C \uC0AC\uB78C\uC740 \uBB34\uC5C7\uC744 \uBC1B\uB294\uB2E4\uACE0
@@ -2244,6 +2427,7 @@ MonoBehaviour:
     - "\uC2EC\uD310"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 185
     problem: "\uC608\uB808\uBBF8\uC57C\uB97C \uB54C\uB9AC\uACE0 \uBCA0\uB0D0\uBBFC
       \uBB38 \uC704\uCE35\uC5D0 \uBB36\uC740 \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -2255,6 +2439,7 @@ MonoBehaviour:
     - "\uC2DC\uB4DC\uAE30\uC57C"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 186
     problem: "\uD558\uB098\uB2D8\uC740 \uC720\uB2E4 \uBC31\uC131\uC774 \uBA87 \uB144
       \uB3D9\uC548 \uBC14\uBCA8\uB860\uC758 \uD3EC\uB85C\uC0DD\uD65C\uC774 \uB418\uAC8C
@@ -2267,6 +2452,7 @@ MonoBehaviour:
     - "70\uB144"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 187
     problem: "\uC720\uB2E4\uC758 \uC545\uD589\uC73C\uB85C \uC0DD\uAE34 \uC774\uAC83\uC740
       \uC601\uC6D0\uD788 \uAEBC\uC9C0\uC9C0 \uC54A\uB294\uB2E4. \uC774\uAC83\uC740
@@ -2279,6 +2465,7 @@ MonoBehaviour:
     - "\uBD84\uB178\uC758 \uBD88"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 188
     problem: "\uC608\uB808\uBBF8\uC57C\uB294 \uBB34\uC5C7\uC73C\uB85C \uC2DC\uC628\uC744
       \uB36E\uC5C8\uB2E4\uACE0 \uD558\uB098\uB2D8\uC758 \uC9C4\uB178\uB97C \uD45C\uD604\uD558\uB294\uAC00?"
@@ -2290,6 +2477,7 @@ MonoBehaviour:
     - "\uAD6C\uB984"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 189
     problem: "\uC608\uB808\uBBF8\uC57C\uB294 \uBC31\uC131\uB4E4\uC774 \uC794\uC778\uD558\uC5EC
       \uB9C8\uCE58 \uAD11\uC57C\uC758 \uC774\uAC83\uACFC \uAC19\uB2E4\uACE0 \uD55C\uB2E4.
@@ -2302,6 +2490,7 @@ MonoBehaviour:
     - "\uD0C0\uC870"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 190
     problem: "\uC608\uB808\uBBF8\uC57C\uC560\uAC00 4\uC7A5\uC5D0\uC11C \uB0B4 \uB538
       \uBC31\uC131\uC758 \uC8C4\uAC00 \uBB34\uC5C7\uC758 \uC8C4\uC545\uBCF4\uB2E4
@@ -2314,6 +2503,7 @@ MonoBehaviour:
     - "\uC557\uC218\uB974"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 191
     problem: "\uBC31\uC131\uC774 \uBA78\uB9DD\uD560 \uB54C \uC790\uBE44\uB85C\uC6B4
       \uBD80\uB140\uB4E4\uC774 \uC790\uC2E0\uC758 \uC190\uC73C\uB85C \uBB34\uC5C7\uC744
@@ -2326,6 +2516,7 @@ MonoBehaviour:
     - "\uAC00\uC8FD"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 192
     problem: "\uC5D0\uC2A4\uAC94 1\uC7A5\uC5D0\uC11C \uC5D0\uC2A4\uAC94\uC774 \uBCF8
       \uC0DD\uBB3C\uC758 \uC5BC\uAD74\uC774 \uC544\uB2CC \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -2337,6 +2528,7 @@ MonoBehaviour:
     - "\uB3C5\uC218\uB9AC"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 193
     problem: "\uC5D0\uC2A4\uAC94\uC774 \uB450\uB8E8\uB9C8\uB9AC \uCC45\uC744 \uBA39\uC73C\uB2C8
       \uBB34\uC5C7\uCC98\uB7FC \uB2EC\uB2E4\uACE0 \uD588\uB294\uAC00?"
@@ -2348,6 +2540,7 @@ MonoBehaviour:
     - "\uC0DD\uBA85"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 194
     problem: "\uC5D0\uC2A4\uAC94 14\uC7A5\uC5D0\uC11C \uD558\uB098\uB2D8\uC774 \uC608\uB8E8\uC0B4\uB818\uC5D0
       \uB0B4\uB9B0 \uB124 \uAC00\uC9C0 \uBC8C \uAC00\uC6B4\uB370 \uC544\uB2CC \uAC83\uC740
@@ -2360,6 +2553,7 @@ MonoBehaviour:
     - "\uC0AC\uB098\uC6B4 \uC9D0\uC2B9"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 195
     problem: "\uC5D0\uC2A4\uAC94 15\uC7A5\uC5D0\uC11C \uC608\uB8E8\uC0B4\uB818 \uC8FC\uBBFC\uB4E4\uC744
       \uC5B4\uB5A4 \uB098\uBB34\uC5D0 \uBE44\uC720\uD558\uB294\uAC00?"
@@ -2371,6 +2565,7 @@ MonoBehaviour:
     - "\uD3EC\uB3C4\uB098\uBB34"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 196
     problem: "\uC624\uD758\uB9AC\uC640 \uC624\uD758\uB9AC\uBC14\uB294 \uBB34\uC5C7\uC744
       \uC0C1\uC9D5\uD558\uB294\uAC00?"
@@ -2382,6 +2577,7 @@ MonoBehaviour:
     - "\uC0AC\uB9C8\uB9AC\uC544\uC640 \uC608\uB8E8\uC0B4\uB818"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 197
     problem: "\uC5D0\uC2A4\uAC94 19\uC7A5\uC5D0\uC11C \uC774\uC2A4\uB77C\uC5D8 \uACE0\uAD00\uB4E4\uC744
       \uC704\uD574 \uBB34\uC5C7\uC744 \uC9C0\uC73C\uB77C\uACE0 \uD558\uB294\uAC00?"
@@ -2393,6 +2589,7 @@ MonoBehaviour:
     - "\uAE30\uB3C4"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 198
     problem: "\uC5D0\uC2A4\uAC94 24\uC7A5\uC5D0\uC11C '\uB179\uC2A8 \uAC00\uB9C8'\uB294
       \uBB34\uC5C7\uC744 \uC0C1\uC9D5\uD558\uB294\uAC00?"
@@ -2404,6 +2601,7 @@ MonoBehaviour:
     - "\uC608\uB8E8\uC0B4\uB818"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 199
     problem: "\uB2E4\uB2C8\uC5D8\uC740 \uBA70\uCE60 \uB3D9\uC548 \uCC44\uC2DD\uC744
       \uC2DC\uD5D8\uD558\uC5EC \uC640\uC758 \uC74C\uC2DD\uC744 \uBA39\uC740 \uC18C\uB144\uB4E4\uBCF4\uB2E4
@@ -2416,6 +2614,7 @@ MonoBehaviour:
     - "12\uC77C"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 200
     problem: "\uC655\uC774 \uB9CC\uB4E0 \uC2E0\uC0C1\uC5D0 \uC808\uD558\uC9C0 \uC54A\uB294
       \uC0AC\uB78C\uC744 \uC8FD\uC774\uACE0\uC790 \uC5B4\uB514\uC5D0 \uB358\uC838
@@ -2428,6 +2627,7 @@ MonoBehaviour:
     - "\uD480\uBB34\uBD88"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 201
     problem: "\uBCA8\uC0AC\uC0B4\uACFC \uADC0\uC871\uB4E4\uC774 \uBCF8 \uC0AC\uB78C\uC758
       \uC190\uAC00\uB77D\uC774 \uBCBD\uC5D0 \uC4F4 \uAE00\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -2439,6 +2639,7 @@ MonoBehaviour:
     - "\uBA54\uB124 \uBA54\uB124 \uB370\uAC94 \uC6B0\uBC14\uB974\uC2E0"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 202
     problem: "\uB2E4\uB2C8\uC5D8\uC740 \uAE08\uB839\uC774 \uC120\uD3EC\uB418\uC5C8\uC74C\uC5D0\uB3C4
       \uD558\uB8E8\uC5D0 \uBA87 \uBC88 \uAE30\uB3C4 \uD558\uC600\uB294\uAC00?"
@@ -2450,6 +2651,7 @@ MonoBehaviour:
     - "9\uBC88"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 203
     problem: "\uACE0\uB808\uC2A4\uC655 3\uB144\uC5D0 \uB2E4\uB2C8\uC5D8\uC5D0\uAC8C
       \uBCF4\uC5EC\uC8FC\uC2E0 \uD658\uC0C1\uC740 \uBB34\uC5C7\uC5D0 \uAD00\uD55C
@@ -2462,6 +2664,7 @@ MonoBehaviour:
     - "\uD070 \uC804\uC7C1"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 204
     problem: "\uD638\uC138\uC544\uC640 \uACB0\uD63C\uD55C \uC5EC\uC778\uC758 \uC774\uB984\uC740
       \uBB34\uC5C7\uC778\uAC00?"
@@ -2473,6 +2676,7 @@ MonoBehaviour:
     - "\uB77C\uD5EC"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 205
     problem: "\uD638\uC138\uC544 6\uC7A5\uC5D0\uC11C \uD558\uB098\uB2D8\uC740 \uBC88\uC81C\uBCF4\uB2E4
       \uBB34\uC5C7\uC744 \uC544\uB294 \uAC83\uC744 \uC6D0\uD55C\uB2E4\uACE0 \uB9D0\uD558\uB294\uAC00?"
@@ -2484,6 +2688,7 @@ MonoBehaviour:
     - "\uC120\uC9C0\uC790"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 206
     problem: "\uD638\uC138\uC544\uC758 \uC14B\uC9F8 \uC544\uB4E4\uC778 \uB85C\uC554\uBBF8\uC758
       \uB73B\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -2495,6 +2700,7 @@ MonoBehaviour:
     - "\uAE0D\uD73C\uD788 \uC5EC\uAE40\uC744 \uBC1B\uC9C0 \uBABB\uD55C\uB2E4"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 207
     problem: "\uD558\uB098\uB2D8\uAED8\uC11C \uC774\uAC83\uC73C\uB85C \uC18C\uB9DD\uC758
       \uBB38\uC744 \uC0BC\uC544\uC8FC\uC2E0\uB2E4\uACE0 \uD558\uC168\uB2E4. \uC774\uAC83\uC740
@@ -2507,6 +2713,7 @@ MonoBehaviour:
     - "\uD658\uC0C1\uC758 \uACE8\uC9DC\uAE30"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 208
     problem: "\uC694\uC5D8\uC740 \uBC94\uC8C4\uD55C \uBBFC\uC871\uC744 \uC2EC\uD310\uD558\uC2DC\uAE30
       \uC704\uD574 \uBB34\uC5C7\uC744 \uBCF4\uB0B4\uC168\uB2E4\uACE0 \uB9D0\uD558\uB294\uAC00?"
@@ -2518,6 +2725,7 @@ MonoBehaviour:
     - "\uBA54\uB69C\uAE30 \uB5BC"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 209
     problem: "\uC694\uC5D8\uC11C 2\uC7A5\uC5D0\uC11C \uB299\uC740\uC774\uB294 \uAFC8\uC744
       \uAFB8\uBA70 \uB108\uD76C \uC80A\uC740\uC774\uB294 \uBB34\uC5C7\uC744 \uBCFC
@@ -2530,6 +2738,7 @@ MonoBehaviour:
     - "\uACFC\uAC70"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 210
     problem: "\uC5EC\uD638\uC640\uC758 \uC774\uB984\uC744 \uBD80\uB974\uB294 \uC790\uB294
       \uBB34\uC5C7\uC744 \uC5BB\uB294\uB2E4\uACE0 \uC694\uC5D8\uC11C\uB294 \uB9D0\uD558\uACE0
@@ -2542,6 +2751,7 @@ MonoBehaviour:
     - "\uAD8C\uB825"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 211
     problem: "\uC774\uC2A4\uB77C\uC5D8\uC740 \uC2E0\uBC1C \uD55C \uCF24\uB808 \uAC12\uC73C\uB85C
       \uC5B4\uB5A4 \uC0AC\uB78C\uC744 \uD314\uC558\uB294\uAC00?"
@@ -2553,6 +2763,7 @@ MonoBehaviour:
     - "\uAC00\uB09C\uD55C \uC0AC\uB78C"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 212
     problem: "\uC0AC\uB9C8\uB9AC\uC544\uC5D0 \uC0AC\uB294 \uBC14\uC0B0\uC758 \uC554\uC18C\uB4E4\uC740
       \uADF8\uB4E4\uC758 \uC8C4\uB85C \uC778\uD574 \uC5B4\uB514\uC5D0 \uB358\uC838\uC9C0\uB294\uAC00?"
@@ -2564,6 +2775,7 @@ MonoBehaviour:
     - "\uD558\uB974\uBAAC"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 213
     problem: "\uC544\uBAA8\uC2A4 \uC120\uC9C0\uC790\uB294 \uC774\uAC83\uC744 \uBB3C
       \uAC19\uC774, \uACF5\uC758\uB97C \uB9C8\uB974\uC9C0 \uC54A\uB294 \uAC15 \uAC19\uC774
@@ -2577,6 +2789,7 @@ MonoBehaviour:
     - "\uC740\uD61C"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 214
     problem: "\uC544\uBAA8\uC2A4\uB294 \uB4DC\uACE0\uC544\uC758 \uBAA9\uC790 \uCD9C\uC2E0\uC73C\uB85C
       \uC774\uAC83\uC744 \uC7AC\uBC30\uD558\uB358 \uB18D\uBD80\uC600\uB2E4. \uC774\uAC83\uC740
@@ -2589,6 +2802,7 @@ MonoBehaviour:
     - "\uBC97\uB098\uBB34"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 215
     problem: "\uBC14\uC704 \uD2C8\uC5D0 \uAC70\uD558\uBA70 \uB192\uC740 \uACF3\uC5D0
       \uC704\uCE58\uD55C \uB098\uB77C\uB85C \uAD50\uB9CC\uD568\uC5D0 \uB300\uD558\uC5EC
@@ -2601,6 +2815,7 @@ MonoBehaviour:
     - "\uC557\uC218\uB974"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 216
     problem: "\uC5D0\uB3D4\uC740 \uB204\uAD6C\uC5D0\uAC8C \uD589\uD55C \uD3EC\uC545\uC73C\uB85C
       \uB9D0\uBBF8\uC554\uC544 \uC2EC\uD310\uC744 \uBC1B\uB294\uAC00?"
@@ -2612,6 +2827,7 @@ MonoBehaviour:
     - "\uC774\uC0AD"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 217
     problem: "\uC624\uBC14\uB31C\uC11C\uB294 \uC804\uCCB4 \uBA87\uC7A5\uC73C\uB85C
       \uAD6C\uC131\uB418\uC5B4 \uC788\uB294\uAC00?"
@@ -2623,6 +2839,7 @@ MonoBehaviour:
     - "4\uC7A5"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 218
     problem: "\uB2C8\uB290\uC6E8\uB85C \uAC00\uB77C\uB294 \uD558\uB098\uB2D8\uC758
       \uBA85\uB839\uC744 \uAC70\uC5ED\uD558\uACE0 \uC694\uB098\uB294 \uC5B4\uB514\uB85C
@@ -2635,6 +2852,7 @@ MonoBehaviour:
     - "\uB2E4\uBA54\uC139"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 219
     problem: "\uD68C\uAC1C\uD55C \uC694\uB098\uAC00 \uB2C8\uB290\uC6E8\uB85C \uAC00\uC11C
       \uD558\uB8FB\uAE38\uC744 \uD589\uD558\uBA70 \uC5B4\uB5A4 \uBA54\uC2DC\uC9C0\uB97C
@@ -2647,6 +2865,7 @@ MonoBehaviour:
     - "30\uC77C\uC774 \uC9C0\uB098\uBA74 \uB2C8\uB290\uC6E8\uAC00 \uC7A5\uC131\uD558\uB9AC\uB77C"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 220
     problem: "\uB2C8\uB290\uC6E8 \uBC31\uC131\uB4E4\uC774 \uD68C\uAC1C\uD558\uBA74\uC11C
       \uC785\uC740 \uC637\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -2658,6 +2877,7 @@ MonoBehaviour:
     - "\uAD75\uC740 \uBCA0\uC637"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 221
     problem: "\uD558\uB098\uB2D8\uC740 \uC26C\uACE0 \uC788\uB294 \uC694\uB098\uC5D0\uAC8C
       \uBB34\uC5C7\uC744 \uC8FC\uC2DC\uBA74\uC11C \uADF8\uB298\uC744 \uB9CC\uB4E4\uC5B4
@@ -2670,6 +2890,7 @@ MonoBehaviour:
     - "\uBC15\uB11D\uCFE8"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 222
     problem: "\uC694\uB098\uAC00 \uC131\uC744 \uB3D9\uCABD\uC73C\uB85C \uAC00\uC11C
       \uCD08\uB9C9\uC744 \uC9D3\uACE0 \uADF8\uB298\uC5D0 \uC549\uC740 \uC774\uC720\uB294
@@ -2683,6 +2904,7 @@ MonoBehaviour:
       \uCCAD\uD558\uB824\uACE0"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 223
     problem: "\uBBF8\uAC00\uB294 \uBA54\uC2DC\uC544\uC758 \uD0C4\uC0DD\uC774 \uC774\uACF3\uC5D0\uC11C
       \uC774\uB8E8\uC5B4\uC9C8 \uAC83\uC744 \uC608\uC5B8\uD55C\uB2E4. \uC774\uACF3\uC740
@@ -2695,6 +2917,7 @@ MonoBehaviour:
     - "\uBCA0\uB4E4\uB808\uD5F4"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 224
     problem: "\uC774\uACF3\uC740 \uB538 \uC2DC\uC628\uC758 \uC8C4\uC758 \uADFC\uBCF8\uC774\uB77C\uACE0
       \uD55C\uB2E4. \uC774\uACF3\uC740 \uC5B4\uB514\uC778\uAC00?"
@@ -2706,6 +2929,7 @@ MonoBehaviour:
     - "\uC5D0\uBE0C\uB77C\uC784"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 225
     problem: "\uBBF8\uAC00\uC11C 6\uC7A5\uC5D0\uC11C \uD558\uB098\uB2D8\uC774 \uC774\uC2A4\uB77C\uC5D8\uC744
       \uC560\uAD7D \uB545\uC5D0\uC11C \uC778\uB3C4\uD558\uAE30 \uC704\uD574 \uBCF4\uB0B8
@@ -2718,6 +2942,7 @@ MonoBehaviour:
     - "\uBBF8\uB9AC\uC554"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 226
     problem: "\uBBF8\uAC00\uC11C 7\uC7A5\uC5D0\uC11C \uC5B4\uB5A4 \uC790\uAC00 \uC138\uC0C1\uC5D0\uC11C
       \uB04A\uC5B4\uC84C\uACE0, \uC5B4\uB5A4 \uC790\uAC00 \uC0AC\uB78C\uB4E4 \uAC00\uC6B4\uB370
@@ -2730,6 +2955,7 @@ MonoBehaviour:
     - "\uACBD\uAC74, \uC874\uADC0"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 227
     problem: "\uB098\uD648 1\uC7A5\uC5D0\uC11C \uC5EC\uD638\uC640\uAED8\uC11C\uB294
       \uB2C8\uB290\uC6E8\uB97C \uBB34\uC5C7\uC73C\uB85C \uC9C4\uBA78\uD558\uC2E0\uB2E4\uACE0
@@ -2742,6 +2968,7 @@ MonoBehaviour:
     - "\uBC94\uB78C\uD558\uB294 \uBB3C"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 228
     problem: "\uBAA8\uB4E0 \uC0B0\uC131\uC740 \uC774 \uB098\uBB34\uC758 \uCC98\uC74C
       \uC775\uC740 \uC5F4\uB9E4\uAC00 \uD754\uB4E4\uAE30\uB9CC \uD558\uBA74 \uBA39\uB294
@@ -2755,6 +2982,7 @@ MonoBehaviour:
     - "\uAC00\uC2DC\uB098\uBB34"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 229
     problem: "\uC5EC\uD638\uC640\uB294 \uC120\uD558\uC2DC\uBA70 \uD658\uB09C \uB0A0\uC5D0
       \uC774\uAC83\uC774\uB2E4. \uC774\uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -2766,6 +2994,7 @@ MonoBehaviour:
     - "\uC18C\uC6D0"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 230
     problem: "\uB098\uD6D4\uC11C\uB294 \uC5B4\uB290 \uB098\uB77C\uC5D0 \uB300\uD55C
       \uBB35\uC2DC\uC778\uAC00?"
@@ -2777,6 +3006,7 @@ MonoBehaviour:
     - "\uC557\uC218\uB974"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 231
     problem: "\uD558\uBC15\uAD6D 1\uC7A5\uC5D0\uC11C \"\"\uB108\uD76C\uC758 \uC0DD\uC804\uC5D0
       \uB0B4\uAC00 \uD55C \uAC00\uC9C0 \uC77C\"\"\uC744 \uD589\uD558\uC2DC\uACA0\uB2E4\uACE0
@@ -2789,6 +3019,7 @@ MonoBehaviour:
     - "\uBA54\uC2DC\uC57C \uD0C4\uC0DD"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 232
     problem: "\uD558\uBC15\uAD6D \uC120\uC9C0\uC790\uB294 \uBB3C\uC774 \uBC14\uB2E4\uB97C
       \uB36E\uC74C \uAC19\uC774 \uBB34\uC5C7\uC744 \uC778\uC815\uD558\uB294 \uAC83\uC774
@@ -2801,6 +3032,7 @@ MonoBehaviour:
     - "\uC120\uC9C0\uC790\uC758 \uB2A5\uB825"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 233
     problem: "\uD558\uBC15\uAD6D 3\uC7A5\uC5D0\uC11C \uD558\uBC15\uAD6D \uC120\uC9C0\uC790\uB294
       \uBB34\uD654\uACFC\uB098\uBB34\uAC00 \uBB34\uC131\uD558\uC9C0 \uBABB\uD558\uACE0,
@@ -2815,6 +3047,7 @@ MonoBehaviour:
     - "\uC5EC\uD638\uC640"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 234
     problem: "\uD558\uBC15\uAD6D 3\uC7A5\uC5D0\uC11C \uC624\uC9C1 \uC5EC\uD638\uC640\uB294
       \uC774\uACF3\uC5D0 \uACC4\uC2DC\uB2C8 \uC628 \uB545\uC740 \uADF8 \uC55E\uC5D0\uC11C
@@ -2827,6 +3060,7 @@ MonoBehaviour:
     - "\uC0AC\uB9C8\uB9AC\uC544\uC640 \uC608\uB8E8\uC0B4\uB818"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 235
     problem: "\uD558\uBC15\uAD6D\uC5D0\uC11C \uC758\uC778\uC740 \uBB34\uC5C7\uC73C\uB85C
       \uC0B4\uC544\uC57C \uD55C\uB2E4\uACE0 \uD558\uB294\uAC00?"
@@ -2838,6 +3072,7 @@ MonoBehaviour:
     - "\uBD09\uC0AC"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 236
     problem: "\uC2A4\uBC14\uB0D0 2\uC7A5\uC5D0\uC11C \uC5EC\uD638\uC640\uC758 \uADDC\uB840\uB97C
       \uC9C0\uD0A4\uB294 \uC790\uB4E4\uC740 \uC5EC\uD638\uC640\uB97C \uCC3E\uC73C\uBA70
@@ -2850,6 +3085,7 @@ MonoBehaviour:
     - "\uB2A5\uB825\uACFC \uD310\uB2E8"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 237
     problem: "\uC2A4\uBC14\uB0D0 2\uC7A5\uC5D0\uC11C \uAC00\uC0AC\uB294 \uBC84\uB9BC\uC744
       \uB2F9\uD558\uBA70 \uC544\uC2A4\uAE00\uB860\uC740 \uD3D0\uD5C8\uAC00 \uB418\uACE0
@@ -2862,6 +3098,7 @@ MonoBehaviour:
     - "\uBE14\uB808\uC14B"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 238
     problem: "\uC2A4\uBC14\uB0D0 2\uC7A5\uC5D0\uC11C \uC5EC\uD638\uC640\uAED8\uC11C
       \uBD81\uCABD\uC744 \uD5A5\uD558\uC5EC \uC190\uC744 \uD3B4\uC11C \uC5B4\uB5A4
@@ -2874,6 +3111,7 @@ MonoBehaviour:
     - "\uC557\uC218\uB974"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 239
     problem: "\uC2A4\uBC14\uB0D0\uB294 \uB204\uAD6C\uC758 \uC544\uB4E4\uC778\uAC00?"
     problemType: 0
@@ -2884,6 +3122,7 @@ MonoBehaviour:
     - "\uC694\uC5D8"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 240
     problem: "\uD559\uAC1C\uC11C 1\uC7A5\uC5D0\uC11C \uC131\uC804 \uAC74\uCD95\uC774
       \uB2E4\uC2DC \uC2DC\uC791\uB41C \uC2DC\uAE30\uB294 \uC5B8\uC81C \uC778\uAC00?"
@@ -2895,6 +3134,7 @@ MonoBehaviour:
     - "\uB2E4\uB9AC\uC624\uC655 2\uB144 6\uC6D4 24\uC77C"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 241
     problem: "\uD559\uAC1C\uC11C 2\uC7A5\uC5D0\uC11C \uD559\uAC1C \uC120\uC9C0\uC790\uB294
       \uD558\uB098\uB2D8\uAED8\uC11C \uBAA8\uB4E0 \uB098\uB77C\uB97C \uC9C4\uB3D9\uC2DC\uCF1C
@@ -2908,6 +3148,7 @@ MonoBehaviour:
     - "\uD3C9\uAC15"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 242
     problem: "\uD559\uAC1C \uC120\uC9C0\uC790\uB294 \uD558\uB098\uB2D8\uAED8\uC11C
       \uC7AC\uAC74\uB41C \uC131\uC804\uC5D0 \uBB34\uC5C7\uC744 \uC8FC\uC2E0\uB2E4\uACE0
@@ -2920,6 +3161,7 @@ MonoBehaviour:
     - "\uBCF4\uBC30"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 243
     problem: "\uD559\uAC1C\uC11C 1\uC7A5\uC5D0\uC11C \uC5EC\uD638\uC640\uAED8\uC11C\uB294
       \uBB34\uC5C7\uC73C\uB85C \uB9D0\uBBF8\uC554\uC544 \uAE30\uBED0\uD558\uACE0
@@ -2932,6 +3174,7 @@ MonoBehaviour:
     - "\uC131\uC804 \uAC74\uCD95"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 244
     problem: "\uD559\uAC1C \uC120\uC9C0\uC790\uB294 \uC5EC\uD638\uC640\uAED8\uC11C
       \uC81C\uC0AC\uC7A5\uC5D0\uAC8C \uBB34\uC5C7\uC5D0 \uB300\uD574 \uBB3C\uC744
@@ -2944,6 +3187,7 @@ MonoBehaviour:
     - "\uC601\uAD11"
     answerIndex: 1
     testamentType: 1
+    solvedType: 0
   - number: 245
     problem: "\uC2A4\uAC00\uB7B4\uAC00 \uBCF8 \uD658\uC0C1 \uC911 \uD654\uC11D\uB958\uB098\uBB34
       \uC0AC\uC774\uC5D0 \uC11C \uC788\uB294 \uC790\uB294 \uBB34\uC5C7\uC744 \uD0C0\uACE0
@@ -2956,6 +3200,7 @@ MonoBehaviour:
     - "\uC790\uC90F\uBE5B \uB098\uADC0"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 246
     problem: "\uD558\uB098\uB2D8\uAED8\uC11C \uC2A4\uAC00\uB7B4 \uC120\uC9C0\uC790\uC5D0\uAC8C
       \uBCF4\uC5EC\uC900 \uB4F1\uC794\uC740 \uBA87 \uAC1C\uC778\uAC00?"
@@ -2967,6 +3212,7 @@ MonoBehaviour:
     - "8\uAC1C"
     answerIndex: 3
     testamentType: 1
+    solvedType: 0
   - number: 247
     problem: "\uD558\uB098\uB2D8\uC740 \uC608\uB8E8\uC0B4\uB818 \uC131\uC744 \uC5B4\uB5A4
       \uC131\uC74D\uC774\uB77C \uB9D0\uC500\uD558\uC2DC\uB294\uAC00?"
@@ -2978,6 +3224,7 @@ MonoBehaviour:
     - "\uACF5\uC758\uC758 \uC131"
     answerIndex: 2
     testamentType: 1
+    solvedType: 0
   - number: 248
     problem: "\uB9D0\uB77C\uAE30 4\uC7A5\uC5D0\uC11C \uC5EC\uD638\uC640\uB97C \uACBD\uC678\uD558\uB294
       \uC790\uC5D0\uAC8C\uB294 \uC5B4\uB5A4 \uD574\uAC00 \uB5A0\uC62C\uB77C\uC11C
@@ -2990,6 +3237,7 @@ MonoBehaviour:
     - "\uACF5\uC758\uB85C\uC6B4 \uD574"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 249
     problem: "\uB9D0\uB77C\uAE30 1\uC7A5\uC5D0\uC11C \uC5EC\uD638\uC640\uAED8\uC11C
       \uC5D0\uC11C\uB294 \uBBF8\uC6CC\uD558\uC600\uC73C\uBA70 \uADF8\uC758 \uC0B0\uB4E4\uC744
@@ -3004,6 +3252,7 @@ MonoBehaviour:
     - "\uC774\uB9AC"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 250
     problem: "\uB9D0\uB77C\uAE30 3\uC7A5\uC5D0\uC11C \uB9D0\uB77C\uAE30 \uC120\uC9C0\uC790\uB294
       \uB108\uD76C\uC758 \uC628\uC804\uD55C \uC774\uAC83\uC744 \uCC3D\uACE0\uC5D0
@@ -3016,6 +3265,7 @@ MonoBehaviour:
     - "\uC2ED\uC77C\uC870"
     answerIndex: 4
     testamentType: 1
+    solvedType: 0
   - number: 1
     problem: "\uB9C8\uD0DC\uBCF5\uC74C 1\uC7A5\uC5D0 \uC18C\uAC1C\uB41C \uC608\uC218\uB2D8\uC758
       \uC871\uBCF4\uC5D0 \uC5B8\uAE09\uB418\uC9C0 \uC54A\uB294 \uC5EC\uC790\uB294
@@ -3028,6 +3278,7 @@ MonoBehaviour:
     - "\uB77C\uD569"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 2
     problem: "\uD5E4\uB8FB\uC655\uC774 \uC544\uAE30 \uC608\uC218\uB97C \uC8FD\uC774\uB824\uD558\uC790,
       \uC8FC\uC758 \uC0AC\uC790\uB294 \uC694\uC149\uC5D0\uAC8C \uC5B4\uB514\uB85C
@@ -3040,6 +3291,7 @@ MonoBehaviour:
     - "\uC608\uB8E8\uC0B4\uB818"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 3
     problem: "\uB2E4\uC74C \uC911 \uC138\uB840 \uC694\uD658\uC758 \uBAA8\uC2B5\uC744
       \uC124\uBA85\uD55C \uAC83\uC73C\uB85C \uB9DE\uC9C0 \uC54A\uB294 \uAC83\uC740?"
@@ -3051,6 +3303,7 @@ MonoBehaviour:
     - "\uBA54\uB69C\uAE30\uC640 \uC11D\uCCAD\uC744 \uC74C\uC2DD\uC73C\uB85C \uBA39\uC5C8\uB2E4"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 4
     problem: "\uB9C8\uD0DC\uBCF5\uC74C\uC5D0\uC11C \uCCAB \uBC88\uC9F8\uB85C \uC608\uC218\uB2D8\uAED8\uC11C
       \uACE0\uCE58\uC2E0 \uBCD1\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -3062,6 +3315,7 @@ MonoBehaviour:
     - "\uC911\uD48D\uBCD1"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 5
     problem: "\uBC14\uB9AC\uC0C8\uC778\uB4E4\uC774 \uC608\uC218\uB2D8\uC744 \uC8FD\uC774\uB824\uACE0
       \uCC98\uC74C\uC73C\uB85C \uC758\uB17C\uD55C \uAC83\uC740 \uC5B8\uC81C\uBD80\uD130\uC778\uAC00?"
@@ -3073,6 +3327,7 @@ MonoBehaviour:
     - "\uD55C\uCABD \uC190 \uB9C8\uB978 \uC0AC\uB78C\uC744 \uACE0\uCE58\uC2E0 \uD6C4\uBD80\uD130"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 6
     problem: "\uB85C\uB9C8 \uCD1D\uB3C5 \uBE4C\uB77C\uB3C4\uAC00 \"\"\uB124\uAC00
       \uC720\uB300\uC778\uC758 \uC655\uC774\uB0D0\"\" \uBB3B\uC790 \uC608\uC218\uB2D8\uC740
@@ -3086,6 +3341,7 @@ MonoBehaviour:
       \uBABB\uD55C\uB2E4"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 7
     problem: "\uB9C8\uAC00\uBCF5\uC74C\uC740 \uCC98\uC74C\uBD80\uD130 \uC608\uC218\uB2D8\uC744
       \uC5B4\uB5BB\uAC8C \uBD80\uB974\uBA70 \uC2DC\uC791\uD558\uB294\uAC00?"
@@ -3097,6 +3353,7 @@ MonoBehaviour:
     - "\uD558\uB098\uB2D8\uC758 \uC544\uB4E4 \uC608\uC218 \uADF8\uB9AC\uC2A4\uB3C4"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 8
     problem: "\uAC70\uB77C\uC0AC \uC9C0\uC5ED\uC758 \uADC0\uC2E0\uB4E4\uB9B0 \uC0AC\uB78C\uC740
       \uC608\uC218\uB2D8\uC744 \uB204\uAD6C\uB77C\uACE0 \uBD88\uB800\uB294\uAC00?"
@@ -3108,6 +3365,7 @@ MonoBehaviour:
     - "\uD558\uB098\uB2D8\uC758 \uC544\uB4E4 "
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 9
     problem: "\uB9C8\uAC00\uBCF5\uC74C\uC5D0\uC11C \uC608\uC218\uB2D8\uAED8\uC11C
       \uC7AC\uBB3C\uC774 \uB9CE\uC740 \uCCAD\uB144\uC5D0\uAC8C \uC608\uB97C \uB4E4\uC5B4
@@ -3120,6 +3378,7 @@ MonoBehaviour:
     - "\uC548\uC2DD\uC77C\uC744 \uAC70\uB8E9\uD788 \uC9C0\uD0A4\uB77C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 10
     problem: "\uC608\uC218\uB2D8\uC774 \uB204\uAD6C\uC758 \uC9D1\uC5D0\uC11C \uC2DD\uC0AC\uD558\uC2E4
       \uB54C, \uD55C \uC5EC\uC790\uAC00 \uD5A5\uC720\uB97C \uC608\uC218\uB2D8\uC758
@@ -3132,6 +3391,7 @@ MonoBehaviour:
     - "\uC57C\uC774\uB85C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 11
     problem: "\uB9C8\uAC00\uBCF5\uC74C\uC5D0 \uB530\uB974\uBA74, \uC608\uC218\uB2D8\uAED8\uC11C
       \"\"\uC5D8\uB9AC \uC5D8\uB9AC \uB77C\uB9C8 \uC0AC\uBC15\uB2E4\uB2C8\"\"\uB77C\uACE0
@@ -3144,6 +3404,7 @@ MonoBehaviour:
     - "\uAD6C\uC2DC"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 12
     problem: "\uB204\uAC00\uBCF5\uC74C\uC5D0\uC11C \uD558\uB098\uB2D8\uC744 \uD5A5\uD574
       \"\"\uB2A5\uD558\uC2E0 \uC774\uAC00 \uD070 \uC77C\uC744 \uB0B4\uAC8C \uD589\uD558\uC168\uC73C\uB2C8
@@ -3158,6 +3419,7 @@ MonoBehaviour:
     - "\uC138\uB808 \uC694\uD55C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 13
     problem: "\uC608\uC218\uB2D8\uC744 \uB9CC\uB0AC\uB358 \uC5EC\uC120\uC9C0\uC790
       \uC548\uB098\uB294 \uC5B4\uB290 \uC9C0\uD30C \uCD9C\uC2E0\uC778\uAC00?"
@@ -3169,6 +3431,7 @@ MonoBehaviour:
     - "\uBBC0\uB0AB\uC138"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 14
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uB098\uC778\uC131\uC758 \uACFC\uBD80\uC758
       \uC544\uB4E4\uC744 \uC0B4\uB9AC\uC2DC\uB294 \uAE30\uC801\uC744 \uBCF8 \uC0AC\uB78C\uB4E4\uC758
@@ -3183,6 +3446,7 @@ MonoBehaviour:
       \uC694\uCCAD\uD588\uB2E4"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 15
     problem: "\uBE4C\uB77C\uB3C4\uAC00 \uC608\uC218\uB2D8\uC744 \uC2EC\uBB38\uD558\uBA74\uC11C
       \uC81C\uC77C \uCC98\uC74C \uBB3C\uC5C8\uB358 \uB9D0\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -3194,6 +3458,7 @@ MonoBehaviour:
     - "\uB124\uAC00 \uAC00\uC774\uC0AC\uB97C \uB300\uC801\uD558\uB290\uB0D0"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 16
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uC2ED\uC790\uAC00\uC5D0\uC11C \uC8FD\uC73C\uC2DC\uB294
       \uBAA8\uC2B5\uC744 \uBCF4\uACE0 '\uC774 \uC0AC\uB78C\uC740 \uC815\uB155 \uC758\uC778\uC774\uC5C8\uB3C4\uB2E4'\uACE0
@@ -3206,6 +3471,7 @@ MonoBehaviour:
     - "\uB85C\uB9C8 \uBCD1\uC0AC"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 17
     problem: "\uB300\uC81C\uC0AC\uC7A5\uB4E4\uACFC \uC11C\uAE30\uAD00\uB4E4\uC774
       \uC608\uC218\uB2D8\uC744 \uC8FD\uC77C \uBC29\uBC95\uC744 \uC11C\uB85C \uB17C\uC758\uD55C
@@ -3218,6 +3484,7 @@ MonoBehaviour:
     - "\uC608\uC218\uB2D8\uC758 \uB2A5\uB825\uC774 \uB450\uB824\uC6CC\uC11C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 18
     problem: "\uC694\uD55C\uC740 \uC728\uBC95\uC774 \uBAA8\uC138\uB85C \uB9D0\uBBF8\uC554\uC544
       \uC8FC\uC5B4\uC9C4 \uAC83\uC774\uB77C\uACE0 \uB9D0\uD55C\uB2E4. \uADF8\uB807\uB2E4\uBA74
@@ -3231,6 +3498,7 @@ MonoBehaviour:
     - "\uB9D0\uC500\uACFC \uC740\uC0AC"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 19
     problem: "\uC608\uC218\uB2D8\uC740 \uB2C8\uACE0\uB370\uBAA8\uC5D0\uAC8C \uC0AC\uB78C\uC774
       \uAC70\uB4ED\uB098\uC9C0 \uC54A\uC73C\uBA74 \uBB34\uC5C7\uC744 \uBCFC \uC218
@@ -3243,6 +3511,7 @@ MonoBehaviour:
     - "\uD558\uB098\uB2D8 \uB098\uB77C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 20
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uAC08\uB9B4\uB9AC\uC5D0 \uC624\uC154\uC11C
       \uD589\uD558\uC2E0 \uB450 \uBC88\uC9F8 \uD45C\uC801\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -3254,6 +3523,7 @@ MonoBehaviour:
     - "\uC655\uC758 \uC2E0\uD558\uC758 \uC544\uB4E4\uC744 \uACE0\uCE58\uC2EC"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 21
     problem: "\uC6B0\uB9AC\uB3C4 \uC8FC\uC640 \uD568\uAED8 \uC8FD\uC73C\uB7EC \uAC00\uC790\uACE0
       \uB9D0\uD588\uB358 \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -3265,6 +3535,7 @@ MonoBehaviour:
     - "\uBCA0\uB4DC\uB85C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 22
     problem: "\uB2E4\uC74C \uC911 \uBCF4\uD61C\uC0AC \uC131\uB839\uAED8\uC11C \uC624\uC154\uC11C
       \uC138\uC0C1\uC744 \uCC45\uB9DD\uD558\uC2E4 \uC77C\uC5D0 \uC18D\uD558\uC9C0
@@ -3277,6 +3548,7 @@ MonoBehaviour:
     - "\uBBFF\uC74C\uC5D0 \uAD00\uD558\uC5EC"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 23
     problem: "\uB2E4\uC74C\uC911 \uB85C\uB9C8\uCD1D\uB3C5 \uBE4C\uB77C\uB3C4\uAC00
       \uC608\uC218\uB2D8\uC5D0\uAC8C \uC9C8\uBB38\uD55C \uB0B4\uC6A9\uC774 \uC544\uB2CC
@@ -3289,6 +3561,7 @@ MonoBehaviour:
     - "\uB124\uAC00 \uD558\uB098\uB2D8\uC758 \uC544\uB4E4\uC774\uB0D0"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 24
     problem: "\uB9C8\uD0DC\uBCF5\uC74C 1\uC7A5 1\uC808\uC740 \uC608\uC218 \uADF8\uB9AC\uC2A4\uB3C4\uB97C
       \uB204\uAD6C\uC640 \uB204\uAD6C\uC758 \uC790\uC190\uC73C\uB85C \uC18C\uAC1C\uD558\uACE0
@@ -3301,6 +3574,7 @@ MonoBehaviour:
     - "\uC544\uBE0C\uB77C\uD568\uACFC \uC57C\uACF1"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 25
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uD0DC\uC5B4\uB098\uC2E4 \uB54C \uC720\uB300
       \uB545\uC758 \uC655\uC740 \uB204\uAD6C\uC600\uB098?"
@@ -3312,6 +3586,7 @@ MonoBehaviour:
     - "\uBE4C\uB77C\uB3C4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 26
     problem: "\uC608\uC218\uB2D8\uC740 \uAD11\uC57C\uC5D0\uC11C \uBA70\uCE60 \uB3D9\uC548
       \uAE08\uC2DD\uD558\uC168\uB294\uAC00?"
@@ -3323,6 +3598,7 @@ MonoBehaviour:
     - "\uC721\uC2ED \uC77C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 27
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uB9D0\uC500\uD558\uC2E0 \uC5EC\uB35F\uAC00\uC9C0
       \uBCF5\uC5D0 \uAD00\uD55C \uB0B4\uC6A9 \uC911 \uB9C8\uC74C\uC774 \uCCAD\uACB0\uD55C
@@ -3335,6 +3611,7 @@ MonoBehaviour:
     - "\uD558\uB098\uB2D8\uC758 \uC544\uB4E4\uC774\uB77C \uBD88\uB9AC\uC6B8 \uAC83\uC774\uB2E4"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 28
     problem: "\uC608\uC218\uB2D8\uC740 \uAE30\uB3C4\uD560 \uB54C, \uC678\uC2DD\uD558\uB294
       \uC790\uB4E4\uCC98\uB7FC \uAE38\uC5D0\uC11C \uAE30\uB3C4\uD558\uC9C0 \uB9D0\uACE0
@@ -3347,6 +3624,7 @@ MonoBehaviour:
     - "\uAC10\uB78C\uC0B0"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 29
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uBB34\uB364 \uC0AC\uC774\uC5D0\uC11C
       \uB098\uC628 \uADC0\uC2E0\uB4E4\uB9B0 \uC790 \uB450 \uC0AC\uB78C\uC744 \uACE0\uCE58\uC2E0
@@ -3359,6 +3637,7 @@ MonoBehaviour:
     - "\uB370\uAC00\uBCFC\uB9AC"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 30
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C\uB294 \uC5EC\uC790\uAC00 \uB0B3\uC740
       \uC790 \uC911\uC5D0 \uC774 \uC0AC\uB78C\uBCF4\uB2E4 \uB354 \uD070 \uC0AC\uB78C\uC740
@@ -3372,6 +3651,7 @@ MonoBehaviour:
     - "\uC0AC\uB3C4 \uBC14\uC6B8"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 31
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uC548\uC2DD\uC77C\uC758 \uC8FC\uC778\uC740
       \uB204\uAD6C\uB77C\uACE0 \uB9D0\uC500\uD558\uC2DC\uB294\uAC00?"
@@ -3383,6 +3663,7 @@ MonoBehaviour:
     - "\uC720\uB300\uC778"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 32
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uC5BC\uAD74\uC774 \uD574\uCC98\uB7FC
       \uBE5B\uB098\uB294 \uBAA8\uC2B5\uC73C\uB85C \uBCC0\uD654\uD558\uC2E0 \uAC83\uC744
@@ -3396,6 +3677,7 @@ MonoBehaviour:
     - "\uC57C\uACE0\uBCF4"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 33
     problem: "\uC608\uB8E8\uC0B4\uB818\uC5D0 \uC785\uC131\uD558\uC2E4 \uB54C \uC0AC\uB78C\uB4E4\uC740
       \uC608\uC218\uB2D8\uC744 \uB204\uAD6C\uB77C\uACE0 \uBD88\uB800\uB294\uAC00?"
@@ -3407,6 +3689,7 @@ MonoBehaviour:
     - "\uBA54\uC2DC\uC544"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 34
     problem: "\uC608\uC218\uB2D8\uC758 \uC2ED\uC790\uAC00\uB97C \uC5B5\uC9C0\uB85C
       \uB300\uC2E0 \uC9C0\uACE0 \uAC04 \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -3418,6 +3701,7 @@ MonoBehaviour:
     - "\uAD6C\uB808\uB098 \uC0AC\uB78C \uC2DC\uBAAC"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 35
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uC608\uB8E8\uC0B4\uB818\uC5D0 \uC785\uC131\uD558\uC2E4
       \uB54C \uD0D4\uB358 \uC9D0\uC2B9\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -3429,6 +3713,7 @@ MonoBehaviour:
     - "\uB098\uADC0"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 36
     problem: "\uAC00\uC774\uC0AC\uC5D0\uAC8C \uC138\uAE08\uC744 \uBC14\uCE58\uB294\uAC8C
       \uB9DE\uB294\uC9C0\uB97C \uBB3B\uB294 \uBC14\uB9AC\uC0C8\uC778\uB4E4\uC5D0\uAC8C
@@ -3442,6 +3727,7 @@ MonoBehaviour:
       \uAC83\uC740 \uD558\uB098\uB2D8\uAED8 \uBC14\uCCD0\uB77C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 37
     problem: "\uC2E0\uB791\uC744 \uB9DE\uC73C\uB7EC \uB098\uAC04 \uC5F4\uCC98\uB140
       \uBE44\uC720\uC5D0\uC11C \uAE30\uB984\uC744 \uC900\uBE44\uD558\uC9C0 \uBABB\uD55C
@@ -3454,6 +3740,7 @@ MonoBehaviour:
     - "\uC5EC\uB35F \uBA85"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 38
     problem: "\uC608\uC218\uB2D8\uC744 \uC2EC\uBB38\uD588\uB358 \uB300\uC81C\uC0AC\uC7A5\uC758
       \uC774\uB984\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -3465,6 +3752,7 @@ MonoBehaviour:
     - "\uC694\uB098\uB2E8"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 39
     problem: "\uB9C8\uD0DC\uBCF5\uC74C 28\uC7A5\uC5D0\uC11C \uBB34\uB364\uC5D0 \uC654\uB358
       \uC5EC\uC778\uB4E4\uC744 \uD5A5\uD558\uC5EC \uC608\uC218\uB2D8\uAED8\uC11C
@@ -3477,6 +3765,7 @@ MonoBehaviour:
     - "\uB098\uB97C \uC65C \uC54C\uC544\uBCF4\uC9C0 \uBABB\uD558\uB290\uB0D0"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 40
     problem: "\uAC00\uBC84\uB098\uC6C0\uC5D0\uC11C \uB124 \uBA85\uC758 \uC0AC\uB78C\uB4E4\uC774
       \uBCD1\uC790 \uD55C\uBA85\uC744 \uB370\uB9AC\uACE0 \uB098\uC654\uB2E4. \uC774
@@ -3489,6 +3778,7 @@ MonoBehaviour:
     - "\uADC0\uC2E0\uB4E4\uB9B0 \uC790"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 41
     problem: "\uB9C8\uAC00\uBCF5\uC74C 4\uC7A5\uC5D0\uC11C \uC608\uC218\uB2D8\uC740
       \uD48D\uB791\uC744 \uBCF4\uACE0 \uB450\uB824\uC6CC\uD558\uB294 \uC81C\uC790\uB4E4\uC744
@@ -3501,6 +3791,7 @@ MonoBehaviour:
     - "\uB108\uD76C\uAC00 \uC5B4\uCC0C \uAE30\uB3C4\uD558\uC9C0 \uC54A\uB290\uB0D0"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 42
     problem: "\uB9C8\uAC00\uBCF5\uC74C 4\uC7A5\uC5D0\uC11C \uB2E4\uC74C \uC911 \uD76C\uB2F9\uC7A5\uC758
       \uB538\uC744 \uC0B4\uB9AC\uC2E4 \uB54C \uB370\uB824\uAC00\uC9C0 \uC54A\uC740
@@ -3513,6 +3804,7 @@ MonoBehaviour:
     - "\uC544\uACE0\uBCF4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 43
     problem: "\uB2E4\uC74C \uC911 \uC608\uC218\uB2D8\uC758 \uD615\uC81C\uAC00 \uC544\uB2CC
       \uC0AC\uB78C\uC740?"
@@ -3524,6 +3816,7 @@ MonoBehaviour:
     - "\uBE4C\uB9BD"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 44
     problem: "\uC608\uC218\uB2D8 \uC2DC\uB300\uC5D0 \uBD80\uD65C\uC774 \uC5C6\uB2E4\uACE0
       \uC0DD\uAC01\uD588\uB358 \uC0AC\uB78C\uB4E4\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -3535,6 +3828,7 @@ MonoBehaviour:
     - "\uB300\uC81C\uC0AC\uC7A5"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 45
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uD5CC\uAE08\uD568 \uACC1\uC5D0 \uACC4\uC2E4
       \uB54C, \uACFC\uBD80\uAC00 \uBC14\uCCE4\uB358 \uD5CC\uAE08\uC758 \uC561\uC218\uB294?"
@@ -3546,6 +3840,7 @@ MonoBehaviour:
     - "\uB450 \uB370\uB098\uB9AC\uC628"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 46
     problem: "\uC608\uC218\uB2D8\uC740 \uD658\uB780\uC774 \uC774 \uACC4\uC808\uC5D0
       \uC77C\uC5B4\uB098\uC9C0 \uC54A\uB3C4\uB85D \uAE30\uB3C4\uD558\uB77C\uACE0
@@ -3558,6 +3853,7 @@ MonoBehaviour:
     - "\uACA8\uC6B8"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 47
     problem: "\uC608\uC218\uB2D8\uC740 \uC790\uC2E0\uC5D0\uAC8C \uB2E4\uAC00\uC624\uB294
       \uACE0\uB09C\uC744 \uC704\uD574 \uAE30\uB3C4\uD558\uC2DC\uB2E4\uAC00 \uC624\uC168\uC744
@@ -3570,6 +3866,7 @@ MonoBehaviour:
     - "\uB450\uB824\uC6CC \uB5A8\uACE0 \uC788\uC5C8\uB2E4"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 48
     problem: "\uC720\uB300\uC778\uB4E4\uC774 \uC608\uC218\uB2D8 \uB300\uC2E0 \uC11D\uBC29\uC744
       \uC694\uAD6C\uD55C \uC8C4\uC218\uB294 \uB204\uAD6C\uC778\uAC00?"
@@ -3581,6 +3878,7 @@ MonoBehaviour:
     - "\uBC14\uB3CC\uB85C\uB9E4"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 49
     problem: "\uACE8\uACE0\uB2E4\uB77C\uB294 \uACF3\uC744 \uBC88\uC5ED\uD558\uBA74
       \uBB34\uC2A8 \uB73B\uC778\uAC00?"
@@ -3592,6 +3890,7 @@ MonoBehaviour:
     - "\uC2DC\uC2E0\uC744 \uBC84\uB9AC\uB294 \uACF3"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 50
     problem: "\uB9C8\uAC00\uBCF5\uC74C\uC5D0 \uB530\uB974\uBA74 \uC608\uC218\uB2D8\uAED8\uC11C
       \uCC98\uD615\uB418\uB294 \uC7A5\uBA74\uC744 \uBA40\uB9AC\uC11C \uBC14\uB77C\uBD24\uB358
@@ -3604,6 +3903,7 @@ MonoBehaviour:
     - "\uC694\uC138\uC758 \uC5B4\uBA38\uB2C8 \uB9C8\uB9AC\uC544"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 51
     problem: "\uC548\uC2DD\uC77C\uC774 \uC9C0\uB09C \uD6C4 \uC608\uC218\uB2D8\uC758
       \uBB34\uB364\uC73C\uB85C \uAC14\uB358 \uC5EC\uC778\uC774 \uC544\uB2CC \uC0AC\uB78C\uC740
@@ -3616,6 +3916,7 @@ MonoBehaviour:
     - "\uC57C\uACE0\uBCF4\uC758 \uC5B4\uBA38\uB2C8 \uB9C8\uB9AC\uC544"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 52
     problem: "\uC138\uB840 \uC694\uD55C\uC758 \uC544\uBC84\uC9C0 \uC0AC\uAC00\uB7B4\uB294
       \uC5B4\uB290 \uBC18\uC5F4\uC5D0 \uC788\uB294 \uC81C\uC0AC\uC7A5\uC774\uC5C8\uB294\uAC00?"
@@ -3627,6 +3928,7 @@ MonoBehaviour:
     - "\uB4E4\uB77C\uC57C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 53
     problem: "\uC138\uB840 \uC694\uD55C\uC758 \uC5B4\uBA38\uB2C8\uC758 \uC774\uB984\uC740
       \uBB34\uC5C7\uC778\uAC00?"
@@ -3638,6 +3940,7 @@ MonoBehaviour:
     - "\uC5D8\uB9AC\uC0AC\uBCB3"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 54
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uCD9C\uC0DD\uD558\uC2DC\uB358 \uB2F9\uC2DC,
       \uB204\uAC00 \uBA85\uC744 \uB0B4\uB824 \uD638\uC801\uC744 \uD558\uB77C\uACE0
@@ -3650,6 +3953,7 @@ MonoBehaviour:
     - "\uAC00\uC774\uC0AC \uC544\uAD6C\uC2A4\uB3C4"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 55
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uC720\uC6D4\uC808\uC744 \uC9C0\uD0A4\uAE30
       \uC704\uD574 \uBD80\uBAA8\uC640 \uD568\uAED8 \uC608\uB8E8\uC0B4\uB818\uC5D0
@@ -3662,6 +3966,7 @@ MonoBehaviour:
     - "\uC5F4 \uB2E4\uC12F \uC0B4"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 56
     problem: "\uC138\uB840 \uC694\uD55C\uC740 \uAD70\uC778\uB4E4\uC5D0\uAC8C \uC5B4\uB5BB\uAC8C
       \uD558\uB77C\uACE0 \uB9D0\uD558\uB294\uAC00?"
@@ -3673,6 +3978,7 @@ MonoBehaviour:
     - "\uC804\uB9AC\uD488\uC744 \uACFC\uD558\uAC8C \uCDE8\uD558\uC9C0 \uB9D0\uB77C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 57
     problem: "\uC608\uC218\uB2D8\uC740 \uAC8C\uB124\uC0AC\uB81B \uD638\uC218\uC5D0\uC11C
       \uB204\uAD6C\uC758 \uBC30\uC5D0 \uC62C\uB77C\uAC00 \uC0AC\uB78C\uB4E4\uC744
@@ -3685,6 +3991,7 @@ MonoBehaviour:
     - "\uB3C4\uB9C8"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 58
     problem: "\uC608\uC218\uB2D8\uC758 \uC77C\uD589\uC744 \uB3C4\uC640\uC8FC\uC5C8\uB358
       \uB9C9\uB2EC\uB77C \uB9C8\uB9AC\uC544\uC5D0\uAC8C\uB294 \uBA87 \uADC0\uC2E0\uC774
@@ -3697,6 +4004,7 @@ MonoBehaviour:
     - "\uC544\uD649"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 59
     problem: "\uAC70\uB77C\uC0AC \uC9C0\uC5ED\uC5D0\uC11C \uC608\uC218\uB2D8\uAED8\uC11C
       \uADC0\uC2E0\uB4E4\uB9B0 \uC0AC\uB78C\uC744 \uACE0\uCCD0\uC8FC\uC2DC\uC790,
@@ -3711,6 +4019,7 @@ MonoBehaviour:
       \uC694\uAD6C\uD568"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 60
     problem: "\uC120\uD55C \uC0AC\uB9C8\uB9AC\uC544\uC778\uC758 \uBE44\uC720\uC5D0
       \uB4F1\uC7A5\uD558\uC9C0 \uC54A\uB294 \uC0AC\uB78C\uC740?"
@@ -3722,6 +4031,7 @@ MonoBehaviour:
     - "\uC0AC\uB9C8\uB9AC\uC544\uC778"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 61
     problem: "\uC608\uC218\uB2D8\uC740 \uC778\uC790\uC758 \uB0A0\uC5D0 \uB204\uAD6C\uB97C
       \uAE30\uC5B5\uD558\uB77C\uACE0 \uD558\uC168\uB294\uAC00?"
@@ -3733,6 +4043,7 @@ MonoBehaviour:
     - "\uC544\uBE0C\uB77C\uD568\uC758 \uC544\uB0B4"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 62
     problem: "\uC5EC\uB9AC\uACE0\uC5D0 \uAC00\uAE4C\uC774 \uAC00\uC168\uC744 \uB54C
       \uB9CC\uB09C \uB9F9\uC778\uC740 \uC608\uC218\uB2D8\uC744 \uBB34\uC5C7\uC774\uB77C\uACE0
@@ -3745,6 +4056,7 @@ MonoBehaviour:
     - "\uC774\uC2A4\uB77C\uC5D8\uC758 \uAD6C\uC6D0\uC790"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 63
     problem: "\uAC10\uB78C\uC0B0\uC5D0 \uC624\uB974\uC2E0 \uC608\uC218\uB2D8\uAED8\uC11C
       \uAE30\uB3C4\uD558\uC2DC\uAE30 \uC804 \uC81C\uC790\uB4E4\uC5D0\uAC8C \uBD80\uD0C1\uD558\uC2E0
@@ -3757,6 +4069,7 @@ MonoBehaviour:
     - "\uC720\uD639\uC5D0 \uBE60\uC9C0\uC9C0 \uC54A\uAC8C \uAE30\uB3C4\uD558\uB77C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 64
     problem: "\uB204\uAC00\uBCF5\uC74C 23\uC7A5\uC5D0 \uB530\uB974\uBA74, \uD574\uAC00
       \uBE5B\uC744 \uC783\uACE0 \uC628 \uB545\uC5D0 \uC5B4\uB460\uC774 \uC784\uD558\uAE30
@@ -3769,6 +4082,7 @@ MonoBehaviour:
     - "\uC81C\uAD6C\uC2DC"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 65
     problem: "\uBB34\uB364\uC5D0 \uCC3E\uC544\uC628 \uC5EC\uC778\uB4E4\uC5D0\uAC8C
       \uCC9C\uC0AC\uAC00 \uC81C\uC77C \uBA3C\uC800 \uD55C \uB9D0\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -3781,6 +4095,7 @@ MonoBehaviour:
       \uAC00\uC6B4\uB370\uC11C \uCC3E\uB290\uB0D0"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 66
     problem: "\uB204\uAC00\uBCF5\uC74C 24\uC7A5\uC5D0\uC11C \uC608\uC218\uB2D8\uC758
       \uBB34\uB364\uC5D0 \uC81C\uC77C \uBA3C\uC800 \uCC3E\uC544\uAC00 \uB4E4\uC5EC\uB2E4
@@ -3793,6 +4108,7 @@ MonoBehaviour:
     - "\uB9C8\uD0DC"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 67
     problem: "\uC694\uD55C\uBCF5\uC74C\uC740 \uBB34\uC5C7\uC774 \uC0AC\uB78C\uB4E4\uC758
       \uBE5B\uC774\uB77C\uACE0 \uB9D0\uD558\uB294\uAC00?"
@@ -3804,6 +4120,7 @@ MonoBehaviour:
     - "\uBB3C\uC9C8"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 68
     problem: "\uC694\uD55C\uBCF5\uC74C 1\uC7A5\uC5D0\uC11C \uB098\uB2E4\uB098\uC5D8\uC5D0\uAC8C
       \"\"\uC640\uC11C \uBCF4\uB77C\"\"\uACE0 \uAD8C\uBA74\uD588\uB358 \uC0AC\uB78C\uC740
@@ -3816,6 +4133,7 @@ MonoBehaviour:
     - "\uBCA0\uB4DC\uB85C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 69
     problem: "\uC608\uC218\uB2D8\uC740 \uC720\uB300\uC778\uB4E4\uC5D0\uAC8C \uC131\uC804\uC744
       \uD5D0\uBA74 \uBA70\uCE60 \uB9CC\uC5D0 \uB2E4\uC2DC \uC138\uC6B0\uACA0\uB2E4\uACE0
@@ -3828,6 +4146,7 @@ MonoBehaviour:
     - "\uC77C\uC8FC\uC77C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 70
     problem: "\uC694\uD55C\uBCF5\uC74C\uC5D0\uC11C \uD604\uC7A5\uC5D0\uC11C \uAC04\uC74C\uD558\uB2E4
       \uC7A1\uD78C \uC5EC\uC778\uC5D0\uAC8C \uC608\uC218\uB2D8\uAED8\uC11C \uD558\uC2E0
@@ -3840,6 +4159,7 @@ MonoBehaviour:
     - "\uAC00\uC11C \uB2E4\uC2DC\uB294 \uC8C4\uB97C \uBC94\uD558\uC9C0 \uB9D0\uB77C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 71
     problem: "\uC694\uD55C\uBCF5\uC74C\uC5D0\uC11C \uBA85\uC808\uC5D0 \uC608\uBC30\uD558\uB7EC
       \uC628 \uD5EC\uB77C\uC778\uB4E4\uC740 \uC608\uC218\uB2D8\uC744 \uB9CC\uB098\uAE30
@@ -3852,6 +4172,7 @@ MonoBehaviour:
     - "\uAC00\uB86F \uC720\uB2E4"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 72
     problem: "\uC694\uD55C\uBCF5\uC74C\uC5D0\uC11C \uB2E4\uC74C\uC740 \uB204\uAD6C\uC5D0\uAC8C
       \uD558\uC2E0 \uB9D0\uC500\uC778\uAC00? \"\"\uB0B4\uAC00 \uC774\uB807\uAC8C
@@ -3867,6 +4188,7 @@ MonoBehaviour:
     - "\uBC14\uB3CC\uB85C\uB9E4"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 73
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uC790\uC2E0\uC744 \uAC00\uB9AC\uCF1C
       \uD3EC\uB3C4\uB098\uBB34\uB77C\uACE0 \uBD80\uB974\uC2E0 \uD6C4, \uC81C\uC790\uB4E4\uC740
@@ -3879,6 +4201,7 @@ MonoBehaviour:
     - "\uC904\uAE30"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 74
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uAE30\uB3C4\uD558\uC2E4 \uB54C, \uC601\uC0DD\uC774\uB780
       \uBB34\uC5C7\uC774\uB77C\uACE0 \uB9D0\uC500\uD558\uC2DC\uB294\uAC00?"
@@ -3890,6 +4213,7 @@ MonoBehaviour:
     - "\uD558\uB098\uB2D8\uACFC \uC608\uC218 \uADF8\uB9AC\uC2A4\uB3C4\uB97C \uC544\uB294\uAC83"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 75
     problem: "\uC694\uD55C\uBCF5\uC74C 2\uC7A5\uC5D0\uC11C \uC608\uC218\uB2D8\uAED8\uC11C
       \uC131\uC804\uC5D0\uC11C \uBB3C\uAC74\uD30C\uB294 \uC0AC\uB78C\uB4E4\uC744
@@ -3904,6 +4228,7 @@ MonoBehaviour:
       \uC81C\uC0AC\uD558\uB294 \uC9D1\uC774\uB2E4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 76
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uCCB4\uD3EC\uB418\uC2E4 \uB54C, \uBCA0\uB4DC\uB85C\uAC00
       \uCE7C\uB85C \uADC0\uB97C \uBCA0\uC5B4\uBC84\uB9B0 \uB300\uC81C\uC0AC\uC7A5\uC758
@@ -3916,6 +4241,7 @@ MonoBehaviour:
     - "\uC2DC\uBBC0\uC628"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 77
     problem: "\uC608\uC218\uB2D8\uC744 \uCCB4\uD3EC\uD55C \uBB34\uB9AC\uB4E4\uC740
       \uADF8\uB97C \uB300\uC81C\uC0AC\uC7A5 \uC548\uB098\uC2A4\uC5D0\uAC8C \uB370\uB824\uAC14\uB2E4.
@@ -3928,6 +4254,7 @@ MonoBehaviour:
     - "\uAC00\uC57C\uBC14"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 78
     problem: "\uC2ED\uC790\uAC00\uC5D0 \uB2EC\uB9AC\uC2E0 \uC608\uC218\uB2D8\uC758
       \uC8C4\uB97C \uAE30\uB85D\uD55C \uD328\uB294 \uBA87 \uAC1C\uC758 \uC5B8\uC5B4\uB85C
@@ -3940,6 +4267,7 @@ MonoBehaviour:
     - "4\uAC1C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 79
     problem: "\uC608\uC218\uB2D8\uC758 \uC2DC\uC2E0\uC744 \uC7A5\uC0AC\uD558\uAE30
       \uC704\uD574 \uBB3C\uC57D\uACFC \uCE68\uD5A5 \uC11E\uC740 \uAC83\uC744 \uAC00\uC9C0\uACE0
@@ -3952,6 +4280,7 @@ MonoBehaviour:
     - "\uB2C8\uACE0\uB370\uBAA8"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 80
     problem: "\uB3C4\uB9C8\uB294 \uBD80\uD65C\uD558\uC2E0 \uC608\uC218\uB2D8\uC744
       \uB9CC\uB09C \uD6C4 \uC5B4\uB5A4 \uACE0\uBC31\uC744 \uD558\uB294\uAC00?"
@@ -3964,6 +4293,7 @@ MonoBehaviour:
       \uD558\uB098\uB2D8\uC758 \uC544\uB4E4\uC774\uC2DC\uB2C8\uB2E4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 81
     problem: "\uBCA0\uB4DC\uB85C\uAC00 \uBD80\uD65C\uD558\uC2E0 \uC608\uC218\uB2D8\uAED8
       \uC0AC\uB791\uD558\uC2DC\uB294 \uC81C\uC790\uAC00 \uC55E\uC73C\uB85C \uC5B4\uB5BB\uAC8C
@@ -3977,6 +4307,7 @@ MonoBehaviour:
     - "\uADFC\uC2EC\uD558\uC9C0 \uB9D0\uB77C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 82
     problem: "\uC608\uC218\uB2D8\uC758 \uC5B4\uBA38\uB2C8 \uB204\uAD6C\uC778\uAC00?"
     problemType: 0
@@ -3987,6 +4318,7 @@ MonoBehaviour:
     - "\uBCA0\uB4DC\uB85C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 83
     problem: "\uC8FC\uC758 \uC0AC\uC790\uAC00 \uC694\uC149\uC5D0\uAC8C \uD588\uB358
       \uB9D0 \uAC00\uC6B4\uB370 \"\"\uC784\uB9C8\uB204\uC5D8\"\"\uC740 \uBB34\uC2A8
@@ -3999,6 +4331,7 @@ MonoBehaviour:
     - "\uD558\uB098\uB2D8\uC774 \uC6B0\uB9AC\uC758 \uAE30\uB3C4\uB97C \uB4E4\uC73C\uC2E0\uB2E4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 84
     problem: "\uB2E4\uC74C \uC911 \uC544\uAE30 \uC608\uC218\uB97C \uCC3E\uC544\uC628
       \uB3D9\uBC29\uBC15\uC0AC\uB4E4\uC774 \uBC14\uCCE4\uB358 \uC608\uBB3C\uC774
@@ -4011,6 +4344,7 @@ MonoBehaviour:
     - "\uC9C4\uC8FC"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 85
     problem: "\uAD11\uC57C\uC5D0\uC11C \uC608\uC218\uB2D8\uAED8\uC11C \uB9C8\uADC0\uC5D0\uC138
       \uBC1B\uC73C\uC2E0 \uCCAB \uBC88\uC9F8 \uC2DC\uD5D8 \uB0B4\uC6A9\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -4022,6 +4356,7 @@ MonoBehaviour:
     - "\uB3CC\uC744 \uB5A1\uC73C\uB85C \uB9CC\uB4E4\uC5B4\uB77C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 86
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C\uB294 \uC758\uC778\uC774 \uC544\uB2C8\uB77C
       \uB204\uAD6C\uB97C \uBD80\uB974\uB7EC \uC624\uC168\uB2E4\uACE0 \uB9D0\uC500\uD558\uC168\uB294\uAC00?"
@@ -4033,6 +4368,7 @@ MonoBehaviour:
     - "\uC608\uBC30\uD558\uB294 \uC0AC\uB78C"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 87
     problem: "\uB9C8\uD0DC\uBCF5\uC74C 13\uC7A5\uC758 \uBE44\uC720\uC5D0 \uB4F1\uC7A5\uD558\uB294
       \uBC2D\uC758 \uC885\uB958\uC5D0 \uD574\uB2F9\uD558\uC9C0 \uC54A\uB294 \uAC83\uC740
@@ -4045,6 +4381,7 @@ MonoBehaviour:
     - "\uAC00\uC2DC\uB5A8\uAE30"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 88
     problem: "\uC8FC\uB294 \uADF8\uB9AC\uC2A4\uB3C4\uC2DC\uC694 \uC0B4\uC544 \uACC4\uC2E0
       \uD558\uB098\uB2D8\uC758 \uC544\uB4E4\"\"\uC774\uB77C\uACE0 \uACE0\uBC31\uD55C
@@ -4057,6 +4394,7 @@ MonoBehaviour:
     - "\uBCA0\uB4DC\uB85C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 89
     problem: "\uAC00\uB8FB \uC720\uB2E4\uB294 \uC608\uC218\uB2D8\uC744 \uC5BC\uB9C8\uC758
       \uB3C8\uC744 \uBC1B\uACE0 \uB118\uACA8\uC8FC\uAE30\uB85C \uC57D\uC18D\uD558\uB294\uAC00?"
@@ -4068,6 +4406,7 @@ MonoBehaviour:
     - "\uC740 \uC624\uC2ED"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 90
     problem: "\uBCA0\uB4DC\uB85C\uB294 \uB2ED\uC774 \uC6B8\uAE30\uC804\uC5D0 \uC608\uC218\uB2D8\uC744
       \uBA87 \uBC88 \uBD80\uC778\uD588\uB294\uAC00?"
@@ -4079,6 +4418,7 @@ MonoBehaviour:
     - "\uB124 \uBC88"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 91
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uC2DC\uBAAC\uC5D0\uAC8C \uC8FC\uC2E0
       \uC774\uB984\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -4090,6 +4430,7 @@ MonoBehaviour:
     - "\uC6B0\uB808\uC758 \uC544\uB4E4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 92
     problem: "\uC608\uC218\uB2D8\uC774 \uB9D0\uC500\uD558\uC2E0 '\uC5D0\uBC14\uB2E4'\uB294
       \uBB34\uC2A8 \uB73B\uC778\uAC00?"
@@ -4101,6 +4442,7 @@ MonoBehaviour:
     - "\uC77C\uC5B4\uB098\uB77C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 93
     problem: "\uC0B0\uC5D0\uC11C \uC601\uAD11\uC2A4\uB7EC\uC6B4 \uBAA8\uC2B5\uC73C\uB85C
       \uBCC0\uD615\uB418\uC2E0 \uC608\uC218\uB2D8\uACFC \uB300\uD654\uD55C \uC0AC\uB78C\uC740
@@ -4113,6 +4455,7 @@ MonoBehaviour:
     - "\uB2E4\uB2C8\uC5D8\uACFC \uC5D8\uB9AC\uC57C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 94
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C\uB294 \uB2A5\uC695\uC744 \uB2F9\uD558\uACE0
       \uC8FD\uC784\uC744 \uB2F9\uD558\uC2DC\uACA0\uC9C0\uB9CC \uBA70\uCE60\uB9CC\uC5D0
@@ -4125,6 +4468,7 @@ MonoBehaviour:
     - "\uC77C\uC8FC\uC77C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 95
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uC5B4\uB5A4 \uB098\uBB34\uB97C \uC800\uC8FC\uD558\uC154\uC11C
       \uB2E4\uC2DC\uB294 \uC5F4\uB9E4\uB97C \uB9FA\uC9C0 \uBABB\uD558\uAC8C \uD558\uC168\uB294\uAC00?"
@@ -4136,6 +4480,7 @@ MonoBehaviour:
     - "\uBB34\uD654\uACFC\uB098\uBB34"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 96
     problem: "\uAC00\uB86F\uC720\uB2E4\uB294 \uC608\uC218\uB2D8\uC744 \uC7A1\uC73C\uB7EC
       \uC628 \uC0AC\uB78C\uB4E4\uC5D0\uAC8C \uB204\uAC00 \uC608\uC218\uC778\uC9C0
@@ -4149,6 +4494,7 @@ MonoBehaviour:
     - "\uC608\uC218\uC5D0\uAC8C \uC785 \uB9DE\uCD94\uB294 \uAC83"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 97
     problem: "\uBE4C\uB77C\uB3C4\uC5D0\uAC8C \uC608\uC218\uB2D8\uC758 \uC2DC\uC2E0\uC744
       \uB2EC\uB77C\uACE0 \uC694\uAD6C\uD55C \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -4160,6 +4506,7 @@ MonoBehaviour:
     - "\uC544\uB9AC\uB9C8\uB300 \uC694\uC149"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 98
     problem: "\uB9C8\uAC00\uBCF5\uC74C 16\uC7A5\uC5D0\uC11C \uBD80\uD65C\uD558\uC2E0
       \uC608\uC218\uB2D8\uC744 \uAC00\uC7A5 \uBA3C\uC800 \uB9CC\uB0AC\uB358 \uC5EC\uC778\uC740
@@ -4172,6 +4519,7 @@ MonoBehaviour:
     - "\uC608\uC218\uC758 \uC5B4\uBA38\uB2C8 \uB9C8\uB9AC\uC544"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 99
     problem: "\uBE48\uBB34\uB364\uC5D0\uC11C \uB9CC\uB09C \uCCAD\uB144\uC740 \uC5EC\uC778\uB4E4\uC5D0\uAC8C
       \uC608\uC218\uB2D8\uC774 \uC5B4\uB514\uB85C \uAC00\uC2E0\uB2E4\uACE0 \uB9D0\uD558\uB294\uAC00?"
@@ -4183,6 +4531,7 @@ MonoBehaviour:
     - "\uC0AC\uB9C8\uB9AC\uC544\uC778"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 100
     problem: "\uB204\uAC00\uBCF5\uC74C\uC758 \uC218\uC2E0\uC790\uB294 \uB204\uAD6C\uC778\uAC00?"
     problemType: 0
@@ -4193,6 +4542,7 @@ MonoBehaviour:
     - "\uB370\uC624\uBE4C\uB85C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 101
     problem: "\uB204\uAC00\uBCF5\uC74C 2\uC7A5\uC5D0\uC11C \uC544\uAE30 \uC608\uC218\uB2D8\uAED8
       \uAC00\uC7A5 \uBA3C\uC800 \uCC3E\uC544\uC640 \uACBD\uBC30\uD55C \uC0AC\uB78C\uB4E4\uC740
@@ -4205,6 +4555,7 @@ MonoBehaviour:
     - "\uB098\uADF8\uB124"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 102
     problem: "\uC608\uC218\uB2D8\uC740 \uC5D8\uB9AC\uC0AC \uB54C\uC5D0 \uC218 \uB9CE\uC740
       \uB098\uBCD1\uD658\uC790\uB4E4 \uAC00\uC6B4\uB370 \uCE58\uC720\uD568\uC744
@@ -4218,6 +4569,7 @@ MonoBehaviour:
     - "\uBAA8\uB974\uB4DC\uAC1C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 103
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uC0AC\uB78C\uB4E4\uC774 \uC790\uC2E0\uC744
       \uB204\uAD6C\uB77C\uACE0 \uBD80\uB974\uB294\uC9C0 \uBB3C\uC73C\uC2E4 \uB54C,
@@ -4231,6 +4583,7 @@ MonoBehaviour:
     - "\uC61B \uC120\uC9C0\uC790"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 104
     problem: "\uC608\uC218\uB2D8\uC740 \"\"\uC774 \uC138\uB300\uB294 \uC545\uD55C
       \uC138\uB300\uB77C \uD45C\uC801\uC744 \uAD6C\uD558\uB418 \uB204\uAD6C\uC758
@@ -4244,6 +4597,7 @@ MonoBehaviour:
     - "\uB2E4\uB2C8\uC5D8"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 105
     problem: "\uC608\uC218\uB2D8\uC740 \uC81C\uC790\uB4E4\uC5D0\uAC8C \uD615\uC81C\uAC00
       \uD558\uB8E8\uC5D0 \uBA87 \uBC88\uC774\uB77C\uB3C4 \uC8C4\uB97C \uC9D3\uACE0
@@ -4256,6 +4610,7 @@ MonoBehaviour:
     - "10\uBC88"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 106
     problem: "\uC138\uB9AC\uC7A5 \uC0AD\uAC1C\uC624\uB294 \uC608\uC218\uB2D8\uC744
       \uBCF4\uAE30 \uC704\uD574\uC11C \uBB34\uC2A8 \uB098\uBB34 \uC704\uB85C \uC62C\uB77C\uAC14\uB294\uAC00?"
@@ -4267,6 +4622,7 @@ MonoBehaviour:
     - "\uB3CC\uBB34\uD654\uACFC\uB098\uBB34"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 107
     problem: "\uC608\uC218\uB2D8\uC758 \uC2ED\uC790\uAC00 \uC704\uC5D0 \uC4F0\uC5EC\uC9C4
       \uD328\uC758 \uB0B4\uC6A9\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -4278,6 +4634,7 @@ MonoBehaviour:
     - "\uC774\uC2A4\uB77C\uC5D8\uC758 \uBA54\uC2DC\uC544"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 108
     problem: "\uC5E0\uB9C8\uC624\uB85C \uD5A5\uD558\uB358 \uC81C\uC790\uB4E4 \uC911
       \uD55C \uC0AC\uB78C\uC758 \uC774\uB984\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -4289,6 +4646,7 @@ MonoBehaviour:
     - "\uBC14\uB3CC\uB85C\uB9E4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 109
     problem: "\uC694\uD55C\uBCF5\uC74C 1\uC7A5 1\uC808\uC740 \uD0DC\uCD08\uC5D0 \uBB34\uC5C7\uC774
       \uC788\uC5C8\uB2E4\uACE0 \uB9D0\uD558\uB294\uAC00?"
@@ -4300,6 +4658,7 @@ MonoBehaviour:
     - "\uBB3C\uC9C8"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 110
     problem: "\uC138\uB808 \uC694\uD55C\uC740 \uC790\uC2E0\uC744 \uC120\uC9C0\uC790
       \uC774\uC0AC\uC57C\uC758 \uB9D0\uACFC \uAC19\uC774 \uC8FC\uC758 \uAE38\uC744
@@ -4313,6 +4672,7 @@ MonoBehaviour:
     - "\uAC08\uB9B4\uB9AC"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 111
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uBB3C\uB85C \uD3EC\uB3C4\uC8FC\uB97C
       \uB9CC\uB4DC\uC2E0 \uC7A5\uC18C\uB294 \uC5B4\uB514\uC778\uAC00?"
@@ -4324,6 +4684,7 @@ MonoBehaviour:
     - "\uC608\uB8E8\uC0B4\uB818"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 112
     problem: "\uC694\uD55C\uBCF5\uC74C 10\uC7A5\uC5D0 \uB530\uB974\uBA74, \uC218\uC804\uC808\uC740
       \uC5B4\uB5A4 \uACC4\uC808\uC5D0 \uC788\uB294 \uC808\uAE30\uC778\uAC00?"
@@ -4335,6 +4696,7 @@ MonoBehaviour:
     - "\uACA8\uC6B8"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 113
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uB3C4\uCC29\uD558\uC168\uC744 \uB54C,
       \uB098\uC0AC\uB85C\uB294 \uC8FD\uC740\uC9C0 \uBA70\uCE60\uC774 \uB418\uC5C8\uB294\uAC00?"
@@ -4346,6 +4708,7 @@ MonoBehaviour:
     - "\uC77C\uC8FC\uC77C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 114
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uC624\uCC9C\uBA85\uC744 \uBA39\uC774\uC2E4
       \uB54C \uC0AC\uC6A9\uD588\uB358 \uBCF4\uB9AC\uB5A1\uACFC \uBB3C\uACE0\uAE30\uC758
@@ -4358,6 +4721,7 @@ MonoBehaviour:
     - "\uBCF4\uB9AC\uB5A1 \uB2E4\uC12F \uAC1C\uC640 \uBB3C\uACE0\uAE30 \uB450 \uB9C8\uB9AC"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 115
     problem: "\uC694\uD55C\uBCF5\uC74C 4\uC7A5\uC5D0\uC11C \uC608\uC218\uB2D8\uAED8\uC11C
       \uC0AC\uB9C8\uB9AC\uC544 \uC5EC\uC778\uC744 \uBCF4\uC2DC\uACE0 \uBB34\uC5C7\uC744
@@ -4370,6 +4734,7 @@ MonoBehaviour:
     - "\uBCF4\uB9AC\uB5A1 "
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 116
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C 38\uB144\uB41C \uBCD1\uC790\uB97C \uACE0\uCE58\uC168\uB358
       \uC7A5\uC18C\uB294 \uC5B4\uB514\uC778\uAC00?"
@@ -4381,6 +4746,7 @@ MonoBehaviour:
     - "\uAC00\uBC84\uB098\uC6C0"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 117
     problem: "\uC720\uB300 \uC9C0\uB3C4\uC790\uB4E4\uC5D0 \uC758\uD574 \uCCB4\uD3EC\uB418\uC5B4
       \uB04C\uB824\uAC00\uC2DC\uB294 \uC608\uC218\uB2D8\uC758 \uB4A4\uB97C \uB530\uB77C\uAC14\uB358
@@ -4393,6 +4759,7 @@ MonoBehaviour:
     - "4\uBA85"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 118
     problem: "\uBD80\uD65C\uD558\uC2E0 \uC608\uC218\uB2D8\uAED8\uC11C \uADF8\uBB3C\uC744
       \uBC30 \uC624\uB978\uD3B8\uC5D0 \uB358\uC9C0\uB77C \uB9D0\uC500\uD558\uC2E0
@@ -4406,6 +4773,7 @@ MonoBehaviour:
     - "154\uB9C8\uB9AC"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 119
     problem: "\uBD80\uD65C\uD558\uC2E0 \uC608\uC218\uB2D8\uC740 \uBCA0\uB4DC\uB85C\uB97C
       \uB2E4\uC2DC \uCC3E\uC544\uC624\uC154\uC11C \uBB34\uC5C7\uC744 \uC138 \uBC88\uC774\uB098
@@ -4418,6 +4786,7 @@ MonoBehaviour:
     - "\uB124\uAC00 \uB098\uC758 \uB9D0\uC744 \uBB35\uC0C1\uD558\uB290\uB0D0"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 120
     problem: "\uBD80\uD65C\uD558\uC2E0 \uC608\uC218\uB2D8\uC740 \uC5B4\uB514\uC5D0\uC11C
       \uC77C\uACF1 \uC81C\uC790\uB97C \uB9CC\uB098\uC168\uB294\uAC00?"
@@ -4429,6 +4798,7 @@ MonoBehaviour:
     - "\uB514\uBCA0\uB7B4 \uD638\uC218"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 121
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C\uB294 \uBD80\uD65C\uD558\uC2E0 \uD6C4
       \uC0AC\uC2ED\uC77C \uB3D9\uC548 \uC81C\uC790\uB4E4\uACFC \uD568\uAED8 \uACC4\uC2DC\uBA70
@@ -4442,6 +4812,7 @@ MonoBehaviour:
       \uB9D0\uC500\uD558\uC168\uB2E4"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 122
     problem: "\uAC00\uB86F \uC720\uB2E4\uC758 \uC8FD\uC74C\uACFC \uAD00\uB828\uB41C
       \uB0B4\uC6A9\uC744 \uC5B8\uAE09\uD558\uB294 \uAD6C\uC57D\uC131\uACBD\uC740
@@ -4454,6 +4825,7 @@ MonoBehaviour:
     - "\uC774\uC0AC\uC57C"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 123
     problem: "\uBC14\uB098\uBC14\uB294 \uC5B4\uB290 \uC9C0\uD30C \uCD9C\uC2E0\uC778\uAC00?"
     problemType: 0
@@ -4464,6 +4836,7 @@ MonoBehaviour:
     - "\uC2DC\uBBC0\uC628"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 124
     problem: "\uC0AC\uB3C4\uB4E4\uC774 \uAD50\uD68C\uB97C \uC704\uD574 \uD5CC\uC2E0\uD560
       \uC77C\uACF1\uBA85\uC758 \uC9D1\uC0AC\uB97C \uBF51\uACE0\uB098\uBA74 \uC790\uC2E0\uB4E4\uC740
@@ -4476,6 +4849,7 @@ MonoBehaviour:
     - "\uC608\uC5B8\uD558\uB294 \uC77C, \uC120\uAD50 \uC0AC\uC5ED"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 125
     problem: "\uC774\uBC29\uC778\uB4E4\uC774 \uC608\uC218\uB97C \uBBFF\uACE0 \uC131\uB839\uC744
       \uBC1B\uAC8C \uB418\uC5C8\uB2E4\uB294 \uC774\uC57C\uAE30\uB97C \uB4E3\uACE0
@@ -4491,6 +4865,7 @@ MonoBehaviour:
     - "\uC608\uB8E8\uC0B4\uB818\uC5D0 \uBC29\uBB38\uD558\uB294 \uAC83"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 126
     problem: "\uBC14\uC6B8\uC774 \uB4DC\uB85C\uC544\uC5D0 \uAC14\uC744 \uB54C, \uBC24\uC5D0
       \uC5B4\uB290 \uC9C0\uC5ED\uC73C\uB85C \uC640\uB2EC\uB77C\uB294 \uD658\uC0C1\uC744
@@ -4503,6 +4878,7 @@ MonoBehaviour:
     - "\uB9C8\uAC8C\uB3C4\uB0D0"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 127
     problem: "\uCC9C\uBD80\uC7A5\uC740 \uBC14\uC6B8\uC5D0\uAC8C \uB85C\uB9C8 \uC2DC\uBBFC\uAD8C\uC774
       \uC788\uB2E4\uB294 \uB9D0\uC744 \uB4E4\uC5C8\uB2E4. \uADF8\uB9AC\uACE0 \uC790\uC2E0\uC740
@@ -4516,6 +4892,7 @@ MonoBehaviour:
     - "\uB85C\uB9C8 \uD669\uC81C\uC5D0\uAC8C \uC798 \uBCF4\uC5EC\uC11C \uC5BB\uC5C8\uC74C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 128
     problem: "\uC608\uC218\uB2D8\uAED8\uC11C \uD558\uB298\uB85C \uC62C\uB77C\uAC00\uC2E0
       \uD6C4, \uB2E4\uB77D\uBC29\uC5D0 \uD568\uAED8 \uBAA8\uC5EC\uC11C \uAE30\uB3C4\uD588\uB358
@@ -4528,6 +4905,7 @@ MonoBehaviour:
     - "\uC57D \uBC31\uC0AC\uC2ED\uBA85"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 129
     problem: "\uC608\uB8E8\uC0B4\uB818\uC5D0 \uBAA8\uC5EC\uC788\uB358 \uC81C\uC790\uB4E4\uC5D0\uAC8C
       \uC131\uB839\uC774 \uC784\uD558\uC168\uB358 \uC808\uAE30\uB294 \uC5B8\uC81C\uC778\uAC00?"
@@ -4539,6 +4917,7 @@ MonoBehaviour:
     - "\uCD08\uB9C9\uC808"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 130
     problem: "\uC131\uB839\uC774 \uC784\uD558\uC790 \uC608\uC218\uB2D8\uC758 \uC81C\uC790\uB4E4\uC740
       \uBC29\uC5B8\uC744 \uB9D0\uD558\uAE30 \uC2DC\uC791\uD588\uB2E4. \uC774\uB97C
@@ -4554,6 +4933,7 @@ MonoBehaviour:
     - "\uC608\uB808\uBBF8\uC57C"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 131
     problem: "\uC608\uB8E8\uC0B4\uB818\uC5D0\uC11C \uBCA0\uB4DC\uB85C\uC758 \uC124\uAD50\uB97C
       \uB4E3\uACE0 \uC138\uB840\uB97C \uBC1B\uC740 \uC131\uB3C4\uC758 \uC22B\uC790\uB294
@@ -4566,6 +4946,7 @@ MonoBehaviour:
     - "\uC0AC\uCC9C\uBA85"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 132
     problem: "\uC720\uB300 \uC9C0\uB3C4\uC790\uB4E4\uC774 \uBCA0\uB4DC\uB85C\uC5D0\uAC8C
       \uC608\uC218\uC758 \uC774\uB984\uC73C\uB85C \uC544\uBB34\uAC83\uB3C4 \uAC00\uB974\uCE58\uC9C0
@@ -4581,6 +4962,7 @@ MonoBehaviour:
       \uC54A\uC744 \uC218 \uC5C6\uB2E4"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 133
     problem: "\uC720\uB300 \uACF5\uD68C\uC5D0\uC11C \uC0AC\uB3C4\uB4E4\uC744 \uC8FD\uC774\uACE0\uC790
       \uD560 \uB54C \uADF8\uAC83\uC744 \uB9C9\uC558\uB358 \uC728\uBC95\uAD50\uC0AC\uC758
@@ -4593,6 +4975,7 @@ MonoBehaviour:
     - "\uB2C8\uACE0\uB370\uBAA8"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 134
     problem: "\uB2E4\uC74C \uC911 \uC77C\uACF1\uC9D1\uC0AC\uC5D0 \uD574\uB2F9\uD558\uC9C0
       \uC54A\uB294 \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -4604,6 +4987,7 @@ MonoBehaviour:
     - "\uB2C8\uAC00\uB178\uB974"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 135
     problem: "\uC0AC\uB3C4 \uBCA0\uB4DC\uB85C\uB85C \uB9D0\uBBF8\uC554\uC544 \uD314\uB144\uB3D9\uC548
       \uC553\uB358 \uC911\uD48D\uBCD1\uC5D0\uC11C \uD574\uBC29\uB418\uC5C8\uB358
@@ -4616,6 +5000,7 @@ MonoBehaviour:
     - "\uC0B4\uB85C\uB9E4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 136
     problem: "\uCC98\uC74C\uC73C\uB85C \uADF8\uB9AC\uC2A4\uB3C4\uC778\uC774\uB77C
       \uBD88\uB9AC\uC6B0\uAC8C \uB41C \uC7A5\uC18C\uB294 \uC5B4\uB514\uC778\uAC00?"
@@ -4627,6 +5012,7 @@ MonoBehaviour:
     - "\uAC08\uB77C\uB514\uC544"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 137
     problem: "\uBC14\uB098\uBC14\uC640 \uBC14\uC6B8\uC774 \uBD80\uC870\uD558\uB294
       \uC77C\uC744 \uB9C8\uCE58\uACE0 \uC608\uB8E8\uC0B4\uB818\uC73C\uB85C \uB3CC\uC544\uC62C
@@ -4639,6 +5025,7 @@ MonoBehaviour:
     - "\uC57C\uACE0\uBCF4"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 138
     problem: "\uB8E8\uC2A4\uB4DC\uB77C \uC9C0\uC5ED\uC5D0\uC11C \uBC14\uC6B8\uC774
       \uBC1C\uC744 \uC4F0\uC9C0 \uBABB\uD558\uB294 \uC0AC\uB78C\uC744 \uCE58\uC720\uD558\uC790
@@ -4653,6 +5040,7 @@ MonoBehaviour:
     - "\uBC14\uC6B8-\uC81C\uC6B0\uC2A4, \uBC14\uB098\uBC14-\uB514\uC624\uB2C8\uC18C\uC2A4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 139
     problem: "\uB450\uC544\uB514\uB77C \uC2DC\uC5D0 \uC788\uB294 \uC790\uC0C9 \uC637\uAC10
       \uC7A5\uC0AC\uB85C \uBC14\uC6B8\uC5D0\uAC8C \uAE30\uB3C4\uD560 \uC7A5\uC18C\uB97C
@@ -4665,6 +5053,7 @@ MonoBehaviour:
     - "\uC0B4\uB85C\uBA54"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 140
     problem: "\uBC14\uC6B8\uC774 \uACE0\uB9B0\uB3C4\uC5D0\uC11C \uC804\uB3C4\uD560
       \uB54C, \uC608\uC218\uB97C \uBBFF\uC5C8\uB358 \uD68C\uB2F9\uC7A5\uC758 \uC774\uB984\uC740
@@ -4677,6 +5066,7 @@ MonoBehaviour:
     - "\uB8E8\uD3EC"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 141
     problem: "\uB4DC\uB85C\uC544\uC5D0\uC11C \uBC14\uC6B8\uC774 \uC124\uAD50\uD560
       \uB54C \uCC3D\uC5D0 \uC549\uC544 \uC878\uB2E4\uAC00 \uB5A8\uC5B4\uC838 \uC8FD\uC5C8\uC73C\uB098
@@ -4690,6 +5080,7 @@ MonoBehaviour:
     - "\uD22C\uB85C\uBE44\uBAA8"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 142
     problem: "\uC544\uADF8\uB9BD\uBC14 \uC655\uC5D0\uAC8C \uBC14\uC6B8\uC774 \uC120\uC9C0\uC790\uB97C
       \uBBFF\uB290\uB0D0\uACE0 \uBB3B\uC790, \uC655\uC740 \uBB34\uC5C7\uC774\uB77C\uACE0
@@ -4705,6 +5096,7 @@ MonoBehaviour:
       \uBBFF\uB294\uC9C0 \uAD00\uC2EC\uC774 \uC5C6\uB2E4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 143
     problem: "\uBC14\uC6B8\uC774 \uD0C4 \uBC30\uAC00 \uAD11\uD48D\uC744 \uB9CC\uB098
       \uD30C\uC120\uD55C \uD6C4, \uBA5C\uB9AC\uB370 \uC12C\uC5D0 \uB3C4\uCC29\uD558\uAC8C
@@ -4718,6 +5110,7 @@ MonoBehaviour:
     - "\uBCF4\uBE14\uB9AC\uC624"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 144
     problem: "\uB2E4\uC74C \uC911 \uC9D1\uC0AC\uC758 \uC790\uACA9\uC694\uAC74\uC5D0
       \uD574\uB2F9\uD558\uC9C0 \uC54A\uB294 \uAC83\uC740?"
@@ -4729,6 +5122,7 @@ MonoBehaviour:
     - "\uC131\uB839\uC774 \uCDA9\uB9CC\uD55C \uC790"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 145
     problem: "\uAC00\uB8FB \uC720\uB2E4\uAC00 \uC608\uC218\uB97C \uD310 \uB3C8\uC73C\uB85C
       \uC0B0 \uBC2D\uC758 \uC774\uB984\uC740 \uC544\uAC94\uB2E4\uB9C8\uC774\uB2E4.
@@ -4741,6 +5135,7 @@ MonoBehaviour:
     - "\uCF69\uBC2D"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 146
     problem: "\uAC00\uB8FB \uC720\uB2E4\uB97C \uB300\uC2E0\uD558\uC5EC \uC0AC\uB3C4\uC758
       \uC790\uB9AC\uC5D0 \uBF51\uD78C \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -4752,6 +5147,7 @@ MonoBehaviour:
     - "\uC720\uC2A4\uB3C4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 147
     problem: "\uBCA0\uB4DC\uB85C\uC640 \uC694\uD55C\uC774 \uB098\uBA74\uC11C\uBD80\uD130
       \uBABB \uAC77\uB294 \uC0AC\uB78C\uC744 \uACE0\uCCD0\uC900 \uC7A5\uC18C\uB294
@@ -4764,6 +5160,7 @@ MonoBehaviour:
     - "\uBD81\uBB38"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 148
     problem: "\uBC14\uB098\uBC14\uB77C\uB294 \uC774\uB984\uC740 \uBC88\uC5ED\uD558\uBA74
       \uBB34\uC2A8 \uB73B\uC778\uAC00?"
@@ -4775,6 +5172,7 @@ MonoBehaviour:
     - "\uC704\uB85C\uC758 \uC544\uB4E4"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 149
     problem: "\uAD50\uD68C\uC5D0 \uBC14\uCE58\uAE30 \uC704\uD574 \uB545\uC744 \uD310\uD6C4,
       \uB3C8\uC744 \uC77C\uBD80 \uAC10\uCD94\uC5C8\uB2E4\uAC00 \uBCA0\uB4DC\uB85C\uC5D0\uAC8C
@@ -4788,6 +5186,7 @@ MonoBehaviour:
     - "\uBE0C\uB9AC\uC2A4\uAE38\uB77C, \uC544\uAD74\uB77C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 150
     problem: "\uCD08\uB300\uAD50\uD68C\uC758 \uC77C\uACF1 \uC9D1\uC0AC\uB4E4 \uAC00\uC6B4\uB370
       \uCC98\uC74C\uC73C\uB85C \uC21C\uAD50\uD55C \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -4799,6 +5198,7 @@ MonoBehaviour:
     - "\uB2C8\uAC00\uB178\uB974"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 151
     problem: "\uD558\uB098\uB2D8\uC758 \uC544\uB4E4\uC774\uC2E0 \uC608\uC218 \uADF8\uB9AC\uC2A4\uB3C4\uB294
       \uB204\uAD6C\uC758 \uD608\uD1B5\uC5D0\uC11C \uD0DC\uC5B4\uB098\uC168\uB294\uAC00?"
@@ -4810,6 +5210,7 @@ MonoBehaviour:
     - "\uB9C8\uB9AC\uC544"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 152
     problem: "\uBAA8\uB4E0 \uBBFF\uB294 \uC790\uC5D0\uAC8C \uAD6C\uC6D0\uC744 \uC8FC\uC2DC\uB294
       \uD558\uB098\uB2D8\uC758 \uB2A5\uB825\uC774\uB780 \uBB34\uC5C7\uC778\uAC00?"
@@ -4821,6 +5222,7 @@ MonoBehaviour:
     - "\uC0AC\uB791"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 153
     problem: "\uBC14\uC6B8\uC774 \uC9C1\uC811 \uC804\uB3C4\uD574\uC11C \uC138\uC6B0\uC9C0
       \uC54A\uC740 \uAD50\uD68C\uB294 \uC5B4\uB514\uC778\uAC00?"
@@ -4832,6 +5234,7 @@ MonoBehaviour:
     - "\uBE4C\uB9BD\uBCF4\uAD50\uD68C"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 154
     problem: "\uC728\uBC95\uC73C\uB85C\uB294 \uBB34\uC5C7\uC744 \uAE68\uB2EC\uC744
       \uC218 \uC788\uB2E4\uACE0 \uB9D0\uD558\uB294\uAC00?"
@@ -4843,6 +5246,7 @@ MonoBehaviour:
     - "\uAE30\uC068"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 155
     problem: "\uB85C\uB9C8\uC11C\uC5D0\uC11C \uC544\uBE0C\uB77C\uD568\uC740 \uD558\uB098\uB2D8\uC73C\uB85C\uBD80\uD130
       \uBB34\uC5C7\uC73C\uB85C '\uC758\uB86D\uB2E4'\uD568\uC744 \uC5BB\uC5C8\uB294\uAC00?"
@@ -4854,6 +5258,7 @@ MonoBehaviour:
     - "\uC728\uBC95\uC5D0 \uC21C\uC885\uD568\uC73C\uB85C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 156
     problem: "\uB85C\uB9C8\uC11C 6\uC7A5\uC5D0\uC11C \uC8C4\uC758 \uC0AD\uC740 \uBB34\uC5C7\uC774\uB77C\uACE0
       \uB9D0\uD558\uB294\uAC00?"
@@ -4865,6 +5270,7 @@ MonoBehaviour:
     - "\uD76C\uC0DD"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 157
     problem: "\uD558\uB098\uB2D8\uC758 \uC601\uC740 \uC138\uC0C1\uC5D0\uC11C \uC0AC\uB294
       \uC2E0\uC790\uB97C \uBB34\uC5C7\uC73C\uB85C \uC778\uB3C4\uD558\uB294\uAC00?"
@@ -4876,6 +5282,7 @@ MonoBehaviour:
     - "\uC0DD\uBA85, \uD3B8\uC548"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 158
     problem: "\uC2E0\uC790\uC758 \uC5F0\uC57D\uD568\uC744 \uB9D0\uD560 \uC218 \uC5C6\uB294
       \uD0C4\uC2DD\uC73C\uB85C \uAE30\uB3C4\uD558\uC5EC \uB3D5\uB294 \uBD84\uC740
@@ -4888,6 +5295,7 @@ MonoBehaviour:
     - "\uC120\uC9C0\uC790"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 159
     problem: "\uBC14\uC6B8\uC740 \uB85C\uB9C8\uC11C\uC5D0\uC11C \uC790\uC2E0\uC744
       \uC774\uC2A4\uB77C\uC5D8 12\uC9C0\uD30C \uAC00\uC6B4\uB370 \uC5B4\uB5A4 \uC9C0\uD30C\uC5D0
@@ -4900,6 +5308,7 @@ MonoBehaviour:
     - "\uC5D0\uBE0C\uB77C\uC784 \uC9C0\uD30C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 160
     problem: "\uBC14\uC6B8\uC740 \uB85C\uB9C8 \uAD50\uD68C\uC5D0 \uC18D\uD55C \uC9C0\uCCB4\uB4E4\uC744
       \uBC15\uD574\uD558\uB294 \uC790\uB97C \uC704\uD574 \uBB34\uC5C7\uC744 \uD558\uB77C\uACE0
@@ -4912,6 +5321,7 @@ MonoBehaviour:
     - "\uD654\uBAA9"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 161
     problem: "\uC728\uBC95\uC758 \uC644\uC131\uC740 \uBB34\uC5C7\uC778\uAC00?"
     problemType: 0
@@ -4922,6 +5332,7 @@ MonoBehaviour:
     - "\uAD6C\uC6D0"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 162
     problem: "\uBC14\uC6B8\uC774 \uC790\uC2E0\uC744 \uC704\uD574 \uBAA9\uC228\uAE4C\uC9C0
       \uB0B4\uC904 \uC218 \uC788\uB294 \uC0AC\uB78C\uB4E4\uC774\uB77C\uACE0 \uCE6D\uCC2C\uD55C
@@ -4934,6 +5345,7 @@ MonoBehaviour:
     - "\uBE0C\uB9AC\uC2A4\uAC00, \uC544\uAD74\uB77C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 163
     problem: "\uBC14\uC6B8\uC774 \uB85C\uB9C8 \uAD50\uD68C\uC5D0 \uC18C\uAC1C\uD55C
       \uAC90\uADF8\uB808\uC544 \uAD50\uD68C\uC758 \uC77C\uAFBC\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -4945,6 +5357,7 @@ MonoBehaviour:
     - "\uBE0C\uB9AC\uC2A4\uAE38\uB77C"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 164
     problem: "\uACE0\uB9B0\uB3C4\uAD50\uD68C\uC5D0 \uC788\uC5C8\uB358 \uBD84\uD30C\uAC00
       \uC544\uB2CC \uC9C0\uD30C\uB294 \uB204\uAD6C\uC778\uAC00?"
@@ -4956,6 +5369,7 @@ MonoBehaviour:
     - "\uC544\uBCFC\uB85C\uD30C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 165
     problem: "\uBA78\uB9DD\uD558\uB294 \uC790\uB4E4\uC5D0\uAC8C\uB294 \uBBF8\uB828\uD55C
       \uAC83\uC774\uC9C0\uB9CC, \uAD6C\uC6D0\uC744 \uBC1B\uC740 \uC790\uB4E4\uC5D0\uAC8C\uB294
@@ -4968,6 +5382,7 @@ MonoBehaviour:
     - "\uC131\uB839\uC758 \uAE30\uB3C4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 166
     problem: "\uBC14\uC6B8\uC774 \uACE0\uB9B0\uB3C4\uAD50\uD68C \uC131\uB3C4\uB4E4\uC744
       \uCE6D\uD558\uB294 \uB9D0\uB85C \uC0AC\uC6A9\uD558\uC9C0 \uC54A\uC740 \uAC83\uC740
@@ -4980,6 +5395,7 @@ MonoBehaviour:
     - "\uD558\uB098\uB2D8\uC758 \uC131\uC804"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 167
     problem: "\uD558\uB098\uB2D8\uC758 \uBE44\uBC00\uC744 \uB9E1\uC740 \uC790\uB4E4\uC5D0\uAC8C
       \uAD6C\uD560 \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -4991,6 +5407,7 @@ MonoBehaviour:
     - "\uD5CC\uAE08"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 168
     problem: "\uACE0\uB9B0\uB3C4\uAD50\uD68C\uC5D0\uC11C \uC77C\uC5B4\uB09C \uBB38\uC81C\uAC00
       \uC544\uB2CC \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -5002,6 +5419,7 @@ MonoBehaviour:
     - "\uBD80\uD65C \uB17C\uC7C1"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 169
     problem: "\uBC14\uC6B8\uC774 \uB354 \uB9CE\uC740 \uC0AC\uB78C\uB4E4\uC5D0\uAC8C
       \uBCF5\uC74C\uC744 \uC804\uD30C\uD558\uAE30 \uC704\uD558\uC5EC \uC758\uB3C4\uC801\uC73C\uB85C
@@ -5018,6 +5436,7 @@ MonoBehaviour:
       \uC704\uD574 \uC728\uBC95 \uC5C6\uB294 \uC0AC\uB78C\uAC19\uC774 \uB418\uC5C8\uB2E4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 170
     problem: "\uBC14\uC6B8\uC740 \uACE0\uB9B0\uB3C4\uAD50\uD68C\uC5D0 \uC18D\uD55C
       \uC2E0\uC790\uB4E4\uC5D0\uAC8C \uBA39\uB4E0\uC9C0 \uB9C8\uC2DC\uB4E0\uC9C0
@@ -5031,6 +5450,7 @@ MonoBehaviour:
     - "\uD558\uB098\uB2D8"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 171
     problem: "\uACE0\uB9B0\uB3C4\uC804\uC11C 13\uC7A5\uC5D0 \uB098\uC624\uB294 \uC0AC\uB791\uC758
       \uC18D\uC131\uC774 \uC544\uB2CC \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -5042,6 +5462,7 @@ MonoBehaviour:
     - "\uC545\uD55C \uAC83\uC744 \uC0DD\uAC01\uD558\uC9C0 \uC54A\uC74C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 172
     problem: "\uBC14\uC6B8\uC758 \uD3B8\uC9C0\uB4E4 \uAC00\uC6B4\uB370 \uB208\uBB3C\uC758
       \uD3B8\uC9C0\uB77C\uACE0 \uBD88\uB9AC\uB294 \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -5053,6 +5474,7 @@ MonoBehaviour:
     - "\uACE0\uB9B0\uB3C4\uD6C4\uC11C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 173
     problem: "\uBC14\uC6B8\uC740 \uB204\uAD6C \uC548\uC5D0\uC11C \uC788\uC73C\uBA74
       \uC0C8\uB85C\uC6B4 \uD53C\uC870\uBB3C\uC774\uB77C\uACE0 \uD588\uB294\uAC00?"
@@ -5064,6 +5486,7 @@ MonoBehaviour:
     - "\uC138\uB808 \uC694\uD55C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 174
     problem: "\uBC14\uC6B8\uC774 \uAC00\uB974\uCCD0\uC900 \uC5F0\uBCF4 \uC0DD\uD65C\uC758
       \uC790\uC138\uB77C\uACE0 \uD560 \uC218 \uC5C6\uB294 \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -5075,6 +5498,7 @@ MonoBehaviour:
     - "\uC778\uC0C9\uD558\uAC70\uB098 \uC5B5\uC9C0\uB85C \uD558\uC9C0 \uC54A\uC74C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 175
     problem: "\uBC14\uC6B8\uC740 \uD558\uB098\uB2D8\uAED8\uC11C \uC790\uC2E0\uC758
       \uBAB8\uC5D0 \"\"\uC721\uCCB4\uC758 \uAC00\uC2DC\"\" \uB450\uC2E0 \uC774\uC720\uB97C
@@ -5088,6 +5512,7 @@ MonoBehaviour:
       \uC54C\uB9AC\uAE30 \uC704\uD558\uC5EC"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 176
     problem: "\uBC14\uC6B8\uC740 \uACE0\uB9B0\uB3C4\uAD50\uD68C\uC5D0 \uBA87 \uCC28\uB840
       \uAC00\uB824\uACE0 \uC900\uBE44\uD588\uC9C0\uB9CC \uBABB\uAC00\uACE0 \uD3B8\uC9C0\uB9CC
@@ -5100,6 +5525,7 @@ MonoBehaviour:
     - "\uB2E4\uC12F \uCC28\uB840"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 177
     problem: "\uAC08\uB77C\uB514\uC544\uC11C\uC5D0\uC11C \uBC14\uC6B8\uC740 \uB204\uAD6C\uB85C
       \uB9D0\uBBF8\uC554\uC544 \uC0AC\uB3C4\uAC00 \uB418\uC5C8\uB2E4\uACE0 \uAC15\uC870\uD558\uB294\uAC00?"
@@ -5111,6 +5537,7 @@ MonoBehaviour:
     - "\uC608\uC218 \uADF8\uB9AC\uC2A4\uB3C4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 178
     problem: "\uBC14\uC6B8\uC774 \uC5B5\uC9C0\uB85C \uD560\uB840\uB97C \uBC1B\uC9C0
       \uBABB\uD558\uAC8C \uD55C \uD5EC\uB77C \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -5122,6 +5549,7 @@ MonoBehaviour:
     - "\uC624\uB124\uC2DC\uBAA8"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 179
     problem: "\uC608\uB8E8\uC0B4\uB818 \uAD50\uD68C\uC758 \uAE30\uB465 \uAC19\uC740
       \uC138 \uC0AC\uB78C\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -5133,6 +5561,7 @@ MonoBehaviour:
     - "\uBCA0\uB4DC\uB85C, \uC548\uB4DC\uB808, \uBE4C\uB9BD"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 180
     problem: "\uAC08\uB77C\uB514\uC544\uC11C 5\uC7A5\uC5D0 \uB098\uC624\uB294 \uC131\uB839\uC758
       \uC544\uD649 \uAC00\uC9C0 \uC5F4\uB9E4\uAC00 \uC544\uB2CC \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -5144,6 +5573,7 @@ MonoBehaviour:
     - "\uC808\uC81C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 181
     problem: "\uBC14\uC6B8\uC774 \uAC08\uB77C\uB514\uC544\uC11C 6\uC790\uC5D0\uC11C
       \uC624\uB85C\uC9C0 \uC790\uB791\uD558\uACE0 \uC2F6\uB2E4\uACE0 \uB9D0\uD55C
@@ -5156,6 +5586,7 @@ MonoBehaviour:
     - "\uC608\uC218 \uADF8\uB9AC\uC2A4\uB3C4\uC758 \uC2ED\uC790\uAC00"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 182
     problem: "\uC5D0\uBCA0\uC18C \uAD50\uD68C\uC758 \uC131\uB3C4\uB4E4\uC744 \uC704\uD574
       \uBCF4\uC99D\uC774 \uB418\uC2E0 \uBD84\uC740 \uB204\uAD6C\uC778\uAC00?"
@@ -5167,6 +5598,7 @@ MonoBehaviour:
     - "\uC608\uC218\uB2D8\uC758 \uC81C\uC790\uB4E4"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 183
     problem: "\uBC14\uC6B8\uC740 \uC5D0\uBCA0\uC18C\uC11C\uC5D0\uC11C \uAD6C\uC6D0\uC744
       \uC5B4\uB5BB\uAC8C \uBE44\uC720\uD558\uB294\uAC00?"
@@ -5178,6 +5610,7 @@ MonoBehaviour:
     - "\uD558\uB098\uB2D8\uC758 \uC0AC\uB791"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 184
     problem: "\uC774\uBC29\uC778\uB4E4\uACFC \uC774\uBC29\uC778\uB4E4\uC774 \uADF8\uB9AC\uC2A4\uB3C4
       \uC608\uC218 \uC548\uC5D0\uC11C \uBB34\uC5C7\uC73C\uB85C \uAC00\uAE4C\uC6CC\uC84C\uB294\uAC00?"
@@ -5189,6 +5622,7 @@ MonoBehaviour:
     - "\uADF8\uB9AC\uC2A4\uB3C4\uC758 \uBBFF\uC74C"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 185
     problem: "\uBC14\uC6B8\uC774 \uC5D0\uBCA0\uC18C \uAD50\uD68C\uC5D0\uAC8C \uAC00\uB974\uCE5C
       \uBD80\uBD80\uC5D0 \uAD00\uD55C \uAD50\uD6C8\uC774 \uC544\uB2CC \uAC83\uC740
@@ -5204,6 +5638,7 @@ MonoBehaviour:
       \uC790\uC2E0\uC744 \uC0AC\uB791\uD558\uB294 \uAC83 \uAC19\uC774 \uD558\uB77C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 186
     problem: "\uD558\uB098\uB2D8\uC758 \uC804\uC2E0 \uAC11\uC8FC\uC5D0 \uD574\uB2F9\uD558\uC9C0
       \uC54A\uB294 \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -5215,6 +5650,7 @@ MonoBehaviour:
     - "\uBBFF\uC74C\uC758 \uBC29\uD328"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 187
     problem: "\uBE4C\uB9BD\uBCF4\uC11C\uC5D0\uC11C \uAC00\uC7A5 \uC911\uC694\uD55C
       \uC8FC\uC81C\uB294 \uBB34\uC5C7\uC778\uAC00?"
@@ -5226,6 +5662,7 @@ MonoBehaviour:
     - "\uC778\uB0B4"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 188
     problem: "\uBE4C\uB9BD\uBCF4\uC11C 2\uC7A5\uC5D0 \uB098\uC624\uB294 \uADF8\uB9AC\uC2A4\uB3C4
       \uCC2C\uC1A1\uC2DC\uC5D0\uC11C \uC608\uC218 \uADF8\uB9AC\uC2A4\uB3C4\uAED8\uC11C
@@ -5240,6 +5677,7 @@ MonoBehaviour:
     - "\uC120\uC9C0\uC790\uC758 \uD615\uCCB4"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 189
     problem: "\uBC14\uC6B8\uC774 \uB204\uAD6C\uB97C \uC704\uD558\uC5EC \uC790\uC2E0\uC774
       \uC18C\uC720\uD55C \uBAA8\uB4E0 \uAC83\uC744 \uD574\uB85C \uC5EC\uAE34\uB2E4\uACE0
@@ -5252,6 +5690,7 @@ MonoBehaviour:
     - "\uBCA0\uB0D0\uBBFC\uC9C0\uD30C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 190
     problem: "\uBC14\uC6B8\uC740 \uBE4C\uB9BD\uBCF4\uAD50\uD68C\uC5D0\uAC8C \uC790\uC2E0\uC5D0\uAC8C
       \uBC30\uC6B0\uACE0, \uBC1B\uACE0, \uB4E3\uACE0, \uBCF8 \uBC14\uB97C \uC5B4\uB5BB\uAC8C
@@ -5264,6 +5703,7 @@ MonoBehaviour:
     - "\uAE30\uC5B5\uD558\uB77C"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 191
     problem: "\uACE8\uB85C\uC0C8\uAD50\uD68C\uB294 \uB204\uAD6C\uB85C\uBD80\uD130
       \uBCF5\uC74C\uC744 \uBC30\uC6E0\uB294\uAC00?"
@@ -5275,6 +5715,7 @@ MonoBehaviour:
     - "\uC5D0\uBC14\uBE0C\uB77C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 192
     problem: "\uACE8\uB85C\uC0C8\uC11C 3\uC7A5\uC5D0\uC11C \uC0DD\uBA85\uC774\uC2E0
       \uADF8\uB9AC\uC2A4\uB3C4\uAED8\uC11C \uB098\uD0C0\uB098\uC2E4 \uB54C\uC5D0
@@ -5287,6 +5728,7 @@ MonoBehaviour:
     - "\uCC2C\uC591"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 193
     problem: "\uBC14\uC6B8\uC740 \uACE8\uB85C\uC0C8\uAD50\uD68C\uC5D0\uAC8C \uD0D0\uC2EC\uC744
       \uAC00\uB9AC\uCF1C \uBB34\uC5C7\uC774\uB77C\uACE0 \uAD50\uD6C8\uD558\uB294\uAC00?"
@@ -5298,6 +5740,7 @@ MonoBehaviour:
     - "\uC6B0\uC0C1\uC22D\uBC30"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 194
     problem: "\uBC14\uC6B8\uC740 \uACE8\uB85C\uC0C8\uAD50\uD68C\uC5D0\uAC8C \uB9D0\uC744
       \uD56D\uC0C1 \uC740\uD61C \uAC00\uC6B4\uB370 \uBB34\uC5C7\uC73C\uB85C \uB9DB\uC744
@@ -5310,6 +5753,7 @@ MonoBehaviour:
     - "\uAC10\uB78C\uB098\uBB34"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 195
     problem: "\uBC14\uC6B8\uC774 \uD558\uB098\uB2D8 \uC55E\uC5D0\uC11C \uB370\uC0B4\uB85C\uB2C8\uAC00\uAD50\uD68C\uC5D0
       \uB300\uD558\uC5EC \uC26C\uC9C0 \uC54A\uACE0 \uAE30\uC5B5\uD55C \uAC83\uB4E4
@@ -5322,6 +5766,7 @@ MonoBehaviour:
     - "\uC18C\uB9DD\uC758 \uC778\uB0B4"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 196
     problem: "\uB370\uC0B4\uB85C\uB2C8\uAC00\uAD50\uD68C\uB294 \uBC14\uC6B8\uC758
       \uB9D0\uC744 \uB204\uAD6C\uC758 \uB9D0\uC500\uC73C\uB85C \uBC1B\uC544\uB4DC\uB838\uB294\uAC00?"
@@ -5333,6 +5778,7 @@ MonoBehaviour:
     - "\uD558\uB098\uB2D8\uC758 \uB9D0\uC500"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 197
     problem: "\uBC14\uC6B8\uC774 \uC544\uB374\uC5D0 \uBA38\uBB3C\uACE0 \uC788\uC744
       \uB54C \uB514\uBAA8\uB370\uB97C \uB300\uC2E0 \uB370\uC0B4\uB85C\uB2C8\uAC00\uAD50\uD68C\uC5D0
@@ -5348,6 +5794,7 @@ MonoBehaviour:
       \uC804\uD558\uAC8C \uD558\uAE30 \uC704\uD574"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 198
     problem: "\uB370\uC0B4\uB85C\uB2C8\uAC00\uC804\uC11C\uC5D0\uC11C \uC8FC\uAED8\uC11C
       \uC7AC\uB9BC\uD558\uC2DC\uB294 \uB0A0\uC744 \uC5B4\uB5BB\uAC8C \uBE44\uC720\uD558\uB294\uAC00?"
@@ -5360,6 +5807,7 @@ MonoBehaviour:
       \uC624\uC2EC"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 199
     problem: "\uB370\uC0B4\uB85C\uB2C8\uAC00\uC804\uC11C\uC758 \uD575\uC2EC \uC8FC\uC81C\uB294
       \uBB34\uC5C7\uC778\uAC00?"
@@ -5371,6 +5819,7 @@ MonoBehaviour:
     - "\uBCF5\uC74C \uC804\uD30C"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 200
     problem: "\uB370\uC0B4\uB85C\uB2C8\uAC00\uD6C4\uC11C\uC5D0\uC11C \uBC14\uC6B8\uC740
       '\uC77C\uD558\uB294 \uAC83\uC744 \uC2EB\uC5B4\uD558\uB294 \uC0AC\uB78C'\uC5D0\uAC8C
@@ -5383,6 +5832,7 @@ MonoBehaviour:
     - "\uBA39\uC744 \uAC83\uC744 \uB098\uB204\uC5B4 \uC8FC\uB77C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 201
     problem: "\uB514\uBAA8\uB370\uC804\uC11C\uC5D0\uC11C \uBC14\uC6B8\uC5D0\uAC8C
       \uADF8\uB9AC\uC2A4\uB3C4\uAED8\uC11C \uC0AC\uB3C4\uC758 \uC9C1\uBD84\uC744
@@ -5395,6 +5845,7 @@ MonoBehaviour:
     - "\uC131\uACBD \uD574\uC11D\uC758 \uD0C1\uC6D4\uC131"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 202
     problem: "\uB514\uBAA8\uB370\uC804\uC11C\uC5D0\uC11C \uBC14\uC6B8\uC774 '\uCC29\uD55C
       \uC591\uC2EC\uC744 \uBC84\uB9AC\uACE0 \uBBFF\uC74C\uC5D0 \uD30C\uC120\uD55C
@@ -5408,6 +5859,7 @@ MonoBehaviour:
     - "\uD6C4\uBA54\uB0B4\uC624, \uC54C\uB809\uC0B0\uB354"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 203
     problem: "\uB514\uBAA8\uB370\uC804\uC11C\uC5D0\uC11C \uAC10\uB3C5\uC758 \uC790\uACA9\uC774
       \uC544\uB2CC \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -5421,6 +5873,7 @@ MonoBehaviour:
       \uD55C\uB2E4"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 204
     problem: "\uB514\uBAA8\uB370\uC5D0\uC11C \uB0A8\uC790 \uC9D1\uC0AC\uC758 \uC790\uACA9\uC774
       \uC544\uB2CC \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -5432,6 +5885,7 @@ MonoBehaviour:
     - "\uB354\uB7EC\uC6B4 \uC774\uC775\uC744 \uD0D0\uD558\uC9C0 \uC54A\uC74C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 205
     problem: "\uBC14\uC6B8\uC740 '\uC77C\uB9CC \uC545\uC758 \uBFCC\uB9AC'\uAC00 \uB418\uB294
       \uADFC\uC6D0\uC744 \uBB34\uC5C7\uC774\uB77C \uC124\uBA85\uD558\uB294\uAC00?"
@@ -5443,6 +5897,7 @@ MonoBehaviour:
     - "\uCF8C\uB77D\uC744 \uC0AC\uB791\uD568"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 206
     problem: "\uB514\uBAA8\uB370\uD6C4\uC11C\uC5D0\uC11C \uBC14\uC6B8\uC774 \uB514\uBAA8\uB370\uC5D0\uAC8C
       \uC88B\uC740 \uAD50\uD68C \uC9C0\uB3C4\uC790\uC758 \uC790\uC138\uB97C \uAC00\uB974\uCCD0\uC8FC\uAE30
@@ -5456,6 +5911,7 @@ MonoBehaviour:
     - "\uACBD\uAE30\uD558\uB294 \uC790(\uC6B4\uB3D9\uC120\uC218)"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 207
     problem: "\uBC14\uC6B8\uC740 \uC0AC\uBA85\uC744 \uB2E4\uD55C \uB0A0, \uC989 \uBCF5\uC74C\uC744
       \uC804\uD30C\uD558\uB2E4\uAC00 \uC8FD\uB294 \uB0A0\uC5D0 \uD558\uB098\uB2D8\uAED8\uC11C
@@ -5470,6 +5926,7 @@ MonoBehaviour:
     - "\uC874\uADC0\uC758 \uBA74\uB958\uAD00"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 208
     problem: "\uBC14\uC6B8\uC774 \uB514\uB3C4\uB97C \uADF8\uB808\uB370\uC5D0 \uB0A8\uACA8\uB454
       \uC774\uC720\uB294 \uBB34\uC5C7\uC778\uAC00?"
@@ -5484,6 +5941,7 @@ MonoBehaviour:
       \uBC14\uB85C \uC7A1\uC544\uC8FC\uAE30 \uC704\uD558\uC5EC"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 209
     problem: "\uBC14\uC6B8\uC774 \uB514\uB3C4\uC11C\uC5D0\uC11C \uC774\uB2E8\uC5D0
       \uC18D\uD55C \uC0AC\uB78C\uC744 \uD55C\uB450 \uBC88 \uD6C8\uACC4\uD55C \uD6C4\uC5D0,
@@ -5497,6 +5955,7 @@ MonoBehaviour:
     - "\uAE30\uB3C4\uD558\uB77C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 210
     problem: "\uC8FC\uC778\uC774 \uBE4C\uB808\uBAAC\uC758 \uC9D1\uC5D0\uC11C \uB3C4\uB9DD\uCE5C
       \uB178\uC608\uC600\uC9C0\uB9CC \uBC14\uC6B8\uC5D0\uAC8C \uBCF5\uC74C\uC744
@@ -5509,6 +5968,7 @@ MonoBehaviour:
     - "\uC624\uB124\uC2DC\uBAA8"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 211
     problem: "\uD788\uBE0C\uB9AC\uC11C 1\uC7A5\uC5D0\uC11C \uC608\uC218 \uADF8\uB9AC\uC2A4\uB3C4\uC5D0
       \uAD00\uD55C \uBB18\uC0AC\uAC00 \uC544\uB2CC \uAC83\uC740?"
@@ -5521,6 +5981,7 @@ MonoBehaviour:
       \uACC4\uC2E0 \uBD84"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 212
     problem: "\uADF8\uB97C \uC7A0\uC2DC \uB3D9\uC548 \uCC9C\uC0AC\uBCF4\uB2E4 \uBABB\uD558\uAC8C
       \uD558\uC2DC\uBA70 \uC601\uAD11\uACFC \uC874\uADC0\uB85C \uAD00\uC744 \uC50C\uC6B0\uC2DC\uBA70
@@ -5535,6 +5996,7 @@ MonoBehaviour:
     - "\uC608\uC218 \uADF8\uB9AC\uC2A4\uB3C4"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 213
     problem: "\uD788\uBE0C\uB9AC\uC11C\uC5D0\uC11C \uC124\uBA85\uD558\uB294 \uD558\uB098\uB2D8
       \uB9D0\uC500\uC5D0 \uB300\uD558\uC5EC \uD2C0\uB9B0 \uC124\uBA85\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -5546,6 +6008,7 @@ MonoBehaviour:
     - "\uC88C\uC6B0\uC5D0 \uB0A0 \uC120 \uC5B4\uB5A4 \uAC80\uBCF4\uB2E4\uB3C4 \uC608\uB9AC\uD558\uB2E4"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 214
     problem: "\uBA5C\uAE30\uC138\uB371\uC5D0 \uAD00\uD55C \uC124\uBA85 \uC911 \uD2C0\uB9B0
       \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -5559,6 +6022,7 @@ MonoBehaviour:
       \uAC00\uC7A5 \uC704\uB300\uD55C \uC655"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 215
     problem: "\uD788\uBE0C\uB9AC\uC11C\uC5D0\uC11C \uC2E0\uC790\uB4E4\uC740 \uC131\uC18C\uC5D0
       \uB4E4\uC5B4\uAC08 \uB2F4\uB825\uC744 \uBB34\uC5C7\uC5D0 \uD798\uC785\uC5C8\uAE30
@@ -5571,6 +6035,7 @@ MonoBehaviour:
     - "\uD558\uB098\uB2D8\uC758 \uC0AC\uB791"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 216
     problem: "\uBC14\uB77C\uB294 \uAC83\uB4E4\uC758 \uC2E4\uC0C1\uC774\uC694 \uBCF4\uC774\uC9C0
       \uC54A\uB294 \uAC83\uB4E4\uC758 \uC99D\uAC70\uB294 \uBB34\uC5C7\uC778\uAC00?"
@@ -5582,6 +6047,7 @@ MonoBehaviour:
     - "\uD5CC\uC2E0"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 217
     problem: "\uD788\uBE0C\uB9AC\uC11C 11\uC7A5\uC5D0\uC11C \uC5B8\uAE09\uB41C \uBBFF\uC74C\uC758
       \uC0AC\uB78C\uC5D0 \uC18D\uD558\uC9C0 \uC54A\uB294 \uC790\uB294 \uB204\uAD6C\uC778\uAC00?"
@@ -5593,6 +6059,7 @@ MonoBehaviour:
     - "\uAE30\uC0DD \uB77C\uD569"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 218
     problem: "\uD558\uB098\uB2D8 \uC544\uBC84\uC9C0 \uC55E\uC5D0\uC11C \uC815\uACB0\uD558\uACE0
       \uB354\uB7EC\uC6C0\uC774 \uC5C6\uB294 \uACBD\uAC74\uC5D0 \uC18D\uD558\uC9C0
@@ -5605,6 +6072,7 @@ MonoBehaviour:
     - "\uC790\uAE30\uB97C \uC9C0\uCF1C \uC138\uC18D\uC5D0 \uBB3C\uB4E4\uC9C0 \uC544\uB2C8\uD568"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 219
     problem: "\uC57C\uACE0\uBCF4\uC11C\uC5D0\uC11C \uB9D0\uC758 \uC911\uC694\uC131\uC744
       \uAC15\uC870\uD558\uAE30 \uC704\uD574 \uC0AC\uC6A9\uB41C \uBE44\uC720\uAC00
@@ -5617,6 +6085,7 @@ MonoBehaviour:
     - "\uB9D0"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 220
     problem: "\uC57C\uBCF4\uACE0\uC11C\uC5D0\uC11C \uC2E0\uC790\uC758 \uC778\uB0B4\uB97C
       \uAC15\uC870\uD558\uAE30 \uC704\uD574 \uC778\uC751\uB41C \uAD6C\uC57D \uC778\uBB3C\uC740
@@ -5629,6 +6098,7 @@ MonoBehaviour:
     - "\uB2E4\uB2C8\uC5D8"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 221
     problem: "\uC57C\uBCF4\uACE0\uC11C\uC5D0\uC11C \uAD50\uD68C \uACF5\uB3D9\uCCB4
       \uB0B4\uC5D0\uC11C \uC11C\uB85C\uB97C \uC704\uD55C \uAE30\uB3C4\uB97C \uAC15\uC870\uD558\uAE30
@@ -5641,6 +6111,7 @@ MonoBehaviour:
     - "\uC5EC\uD638\uC218\uC544"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 222
     problem: "\uBCA0\uB4DC\uB85C\uC120\uC11C\uC758 \uC218\uC2E0 \uC9C0\uC5ED\uC774
       \uC544\uB2CC \uAC83\uC740?"
@@ -5652,6 +6123,7 @@ MonoBehaviour:
     - "\uAC08\uB77C\uB514\uC544"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 223
     problem: "\uBCA0\uB4DC\uB85C\uC804\uC11C 2:9\uC808\uC5D0\uC11C \uC2E0\uC790\uB97C
       \uD45C\uD604\uD55C \uB9D0\uC774 \uC544\uB2CC \uAC83\uC740?"
@@ -5663,6 +6135,7 @@ MonoBehaviour:
     - "\uC774\uBC29\uC778\uC758 \uB098\uB77C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 224
     problem: "\uBCF4\uBC30\uB85C\uC6B4 \uC0B0 \uB3CC\uC740 \uB204\uAD6C\uB97C \uAC00\uB974\uD0A4\uB294
       \uB9D0\uC778\uAC00?"
@@ -5674,6 +6147,7 @@ MonoBehaviour:
     - "\uBCA0\uB4DC\uB85C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 225
     problem: "\uBCA0\uB4DC\uB85C\uAC00 \uBCA0\uB4DC\uB85C\uC804\uC11C\uC5D0\uC11C
       \"\"\uB9CC\uBB3C\uC758 \uB9C8\uC9C0\uB9C9\uC774 \uAC00\uAE4C\uC774 \uC654\uB2E4\"\"\uB77C\uACE0
@@ -5688,6 +6162,7 @@ MonoBehaviour:
       \uC11C\uB85C \uBD09\uC0AC\uD558\uB77C"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 226
     problem: "\uC2E0\uC131\uD55C \uC131\uD488\uC744 \uC21C\uC11C\uB300\uB85C \uC62C\uBC14\uB974\uAC8C
       \uB098\uC5F4\uD55C \uAC83\uC740?"
@@ -5703,6 +6178,7 @@ MonoBehaviour:
       \uD615\uC81C \uC6B0\uC560 - \uC0AC\uB791"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 227
     problem: "\uBCA0\uB4DC\uB85C\uD6C4\uC11C\uC5D0\uC11C \uAC70\uC9D3 \uC120\uC0DD\uB4E4\uC758
       \uD589\uB3D9\uC5D0 \uAD00\uD55C \uC124\uBA85\uC73C\uB85C \uAD00\uACC4\uC5C6\uB294
@@ -5715,6 +6191,7 @@ MonoBehaviour:
     - "\uC9C0\uC5B4\uB0B8 \uB9D0\uB85C \uC774\uB4DD\uC744 \uC0BC\uC74C"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 228
     problem: "\uBCA0\uB4DC\uB85C\uD6C4\uC11C\uC5D0\uC11C \uD558\uB098\uB2D8\uAED8\uC11C
       \uACBD\uAC74\uD55C \uC790\uB4E4\uC744 \uAD6C\uC6D0\uD558\uC2DC\uACE0 \uBD88\uC758\uD55C
@@ -5729,6 +6206,7 @@ MonoBehaviour:
     - "\uC18C\uB3D4\uACFC \uACE0\uBAA8\uB77C \uBA78\uB9DD"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 229
     problem: "\uC0AC\uB3C4 \uC694\uD55C\uC774 \uC694\uD55C\uC77C\uC11C\uC5D0\uC11C
       \"\"\uD0DC\uCD08\uBD80\uD130 \uC788\uB294 \uC0DD\uBA85\uC758 \uB9D0\uC500\uC5D0
@@ -5742,6 +6220,7 @@ MonoBehaviour:
     - "\uC190\uC73C\uB85C \uB9CC\uC84C\uB2E4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 230
     problem: "\uC0AC\uB3C4 \uC694\uD55C\uC774 \uD558\uB098\uB2D8\uC744 \uBE5B\uC774\uB77C\uACE0
       \uC124\uBA85\uD558\uBA74\uC11C, \uD558\uB098\uB2D8\uAED8 \uBB34\uC5C7\uC774
@@ -5754,6 +6233,7 @@ MonoBehaviour:
     - "\uC5B4\uB460"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 231
     problem: "\uC694\uD55C\uC77C\uC11C\uC5D0\uC11C \uC0AC\uB3C4 \uC694\uD55C\uC774
       \uC801\uADF8\uB9AC\uC2A4\uB3C4\uC758 \uAC00\uC7A5 \uD070 \uD2B9\uC9D5\uC744
@@ -5766,6 +6246,7 @@ MonoBehaviour:
     - "\uC778\uAC04\uCC98\uB7FC \uC624\uC2E0 \uC608\uC218\uB97C \uBD80\uC778\uD568"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 232
     problem: "\uC694\uD55C\uC77C\uC11C\uC5D0\uC11C \uC2E0\uC790\uB97C \uC704\uD574
       \uC911\uBCF4\uD558\uC2DC\uB294 \uC758\uB85C\uC6B0\uC2E0 \uADF8\uB9AC\uC2A4\uB3C4\uB97C
@@ -5778,6 +6259,7 @@ MonoBehaviour:
     - "\uB300\uB9AC\uC790"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 233
     problem: "\uC694\uD55C\uC77C\uC11C\uC5D0\uC11C \uD558\uB098\uB2D8\uC744 \uC0AC\uB791\uD558\uB294
       \uC790\uB294 \uB610 \uB204\uAD6C\uB97C \uC0AC\uB791\uD574\uC57C \uD55C\uB2E4\uACE0
@@ -5790,6 +6272,7 @@ MonoBehaviour:
     - "\uC8C4\uC778"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 234
     problem: "\uC0AC\uB3C4 \uC694\uD55C\uC774 \uD558\uB098\uB2D8\uC758 \uC544\uB4E4\uC758
       \uC774\uB984\uC744 \uBBFF\uB294 \uC2E0\uC790\uB4E4\uC5D0\uAC8C \uC694\uD55C\uC77C\uC11C\uB97C
@@ -5802,6 +6285,7 @@ MonoBehaviour:
     - "\uBB3C\uC798\uC758 \uBCF5"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 235
     problem: "\uC694\uD55C\uC774\uC11C\uC5D0\uC11C \uC0AC\uB3C4 \uC694\uD55C\uC740
       \uC2E0\uC790\uB4E4\uC5D0\uAC8C \uBBF8\uD639\uD558\uB294 \uC790\uB97C \uC5B4\uB5BB\uAC8C
@@ -5815,6 +6299,7 @@ MonoBehaviour:
       \uB9D0\uB77C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 236
     problem: "\uC720\uB2E4\uB294 \uC720\uB2E4\uC11C\uC5D0\uC11C \"\"\uAC00\uB9CC\uD788
       \uB4E4\uC5B4\uC628 \uBA87 \uC0AC\uB78C\"\"\uC744 \uAD6C\uC57D\uC758 \uC138
@@ -5829,6 +6314,7 @@ MonoBehaviour:
     - "\uC774\uC138\uBCA8"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 237
     problem: "\uC0AC\uB3C4 \uC694\uD55C\uC774 \uC694\uD55C\uACC4\uC2DC\uB85D\uC5D0\uC11C
       \uC5B8\uAE09\uD55C \uC544\uC2DC\uC544\uC758 \uC77C\uACF1 \uAD50\uD68C\uB97C
@@ -5841,6 +6327,7 @@ MonoBehaviour:
     - 
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 238
     problem: "\uC0AC\uB3C4 \uC694\uD55C\uC774 \uBCF8 \uC608\uC218 \uADF8\uB9AC\uC2A4\uB3C4\uC758
       \uBAA8\uC2B5\uC774 \uC544\uB2CC \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -5852,6 +6339,7 @@ MonoBehaviour:
     - "\uBC1C\uC5D0 \uB04C\uB9AC\uB294 \uC637\uC744 \uC785\uACE0 \uC788\uB2E4"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 239
     problem: "\uC5D0\uBCA0\uC18C\uAD50\uD68C\uAC00 \uCC45\uB9DD\uBC1B\uC740 \uC774\uC720\uB294
       \uBB34\uC5C7\uC778\uAC00?"
@@ -5863,6 +6351,7 @@ MonoBehaviour:
     - "\uBD80\uD65C\uC5D0 \uC18C\uB9DD\uC774 \uC5C6\uB2E4"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 240
     problem: "\uC544\uC2DC\uC544\uC758 \uC77C\uACF1 \uAD50\uD68C \uAC00\uC6B4\uB370
       \uCE6D\uCC2C\uBC1B\uC740 \uB450 \uAD50\uD68C\uB294 \uC5B4\uB514\uC778\uAC00?"
@@ -5874,6 +6363,7 @@ MonoBehaviour:
     - "\uB77C\uC624\uB514\uAC8C\uC544\uAD50\uD68C, \uBE4C\uB77C\uB378\uBE44\uC544\uAD50\uD68C"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 241
     problem: "\uC544\uC2DC\uC544\uC758 \uC77C\uACF1 \uAD50\uD68C \uAC00\uC6B4\uB370
       '\uCC28\uB4E0\uC9C0 \uB728\uAC81\uB4E0\uC9C0 \uD558\uB77C'\uB294 \uCC45\uB9DD\uC744
@@ -5886,6 +6376,7 @@ MonoBehaviour:
     - "\uB77C\uC624\uB514\uAC8C\uC544\uAD50\uD68C"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 242
     problem: "\uC694\uD55C\uAC8C\uC2DC\uB85D 6-16\uC7A5\uC5D0 \uB4F1\uC7A5\uD558\uB294
       \uC77C\uACF1 \uC2EC\uD310\uB4E4\uC744 \uC62C\uBC14\uB974\uAC8C \uB098\uC5F4\uD55C
@@ -5898,6 +6389,7 @@ MonoBehaviour:
     - "\uC778-\uB098\uD314-\uB300\uC811"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 243
     problem: "\uC0AC\uB3C4 \uC694\uD55C\uC774 \uCC9C\uC0C1\uC744 \uBCF4\uC558\uC744
       \uB54C\uC5D0 \uB124 \uC0DD\uBB3C\uACFC \uC774\uC2ED\uC0AC \uC7A5\uB85C\uB4E4\uC774
@@ -5912,6 +6404,7 @@ MonoBehaviour:
     - "\uC608\uC218 \uADF8\uB9AC\uC2A4\uB3C4\uC758 \uD53C"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0
   - number: 244
     problem: "\uC694\uD55C\uAC8C\uC2DC\uB85D 12\uC7A5\uC5D0\uC11C \uC0AC\uD0C4\uC744
       \uC0C1\uC9D5\uD558\uB294 \uD070 \uC6A9\uC744 \uBA87 \uAC00\uC9C0\uB85C \uBB18\uC0AC\uD55C\uB2E4.
@@ -5925,6 +6418,7 @@ MonoBehaviour:
     - "\uC628 \uCC9C\uD558\uB97C \uAF80\uB294 \uC790"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 245
     problem: "\uB2E4\uC74C \uC911 \uC11C\uB85C \uAD00\uACC4\uAC00 \uC5C6\uB294 \uAC83\uC740
       \uBB34\uC5C7\uC778\uAC00?"
@@ -5936,6 +6430,7 @@ MonoBehaviour:
     - "\uB450 \uAC10\uB78C\uB098\uBB34"
     answerIndex: 2
     testamentType: 2
+    solvedType: 0
   - number: 246
     problem: "\uC544\uB9C8\uAC9F\uB3C8\uC5D0 \uB300\uD55C \uC124\uBA85\uC73C\uB85C
       \uC62C\uBC14\uB978 \uAC83\uC740 \uBB34\uC5C7\uC778\uAC00?"
@@ -5948,6 +6443,7 @@ MonoBehaviour:
       \uACF3"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 247
     problem: "\uC5B4\uB9B0 \uC591 \uD63C\uC778 \uC794\uCE58\uC5D0\uC11C \uBE5B\uB098\uACE0
       \uAE68\uB057\uD55C \uC138\uB9C8\uD3EC\uB294 \uBB34\uC5C7\uC744 \uC758\uBBF8\uD558\uB294\uAC00?"
@@ -5959,6 +6455,7 @@ MonoBehaviour:
     - "\uC131\uB3C4\uB4E4\uC758 \uC633\uC740 \uD589\uC2F1"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 248
     problem: "\uC0DD\uBA85\uCC45\uC5D0 \uAE30\uB85D\uB418\uC9C0 \uBABB\uD55C \uC0AC\uB78C\uC740
       \uC5B4\uB5BB\uAC8C \uB418\uB294\uAC00?"
@@ -5970,6 +6467,7 @@ MonoBehaviour:
     - "\uBC14\uB2E4\uC5D0 \uB358\uC838\uC9D0"
     answerIndex: 3
     testamentType: 2
+    solvedType: 0
   - number: 249
     problem: "\uC694\uD55C\uACC4\uC2DC\uB85D\uC5D0\uC11C \uC608\uC218 \uADF8\uB9AC\uC2A4\uB3C4\uB294
       \uC790\uC2E0\uC744 \uC5B4\uB5BB\uAC8C \uC124\uBA85\uD558\uB294\uAC00?"
@@ -5981,6 +6479,7 @@ MonoBehaviour:
     - "\uC54C\uD30C\uC640 \uC624\uBA54\uAC00"
     answerIndex: 4
     testamentType: 2
+    solvedType: 0
   - number: 250
     problem: "\uC694\uD55C\uACC4\uC2DC\uB85D \uB9C8\uC9C0\uB9C9\uC5D0\uC11C \uC8FC
       \uC608\uC218\uC758 \uBB34\uC5C7\uC774 \uBAA8\uB4E0 \uC790\uB4E4\uC5D0\uAC8C
@@ -5993,3 +6492,4 @@ MonoBehaviour:
     - "\uC0AC\uB791"
     answerIndex: 1
     testamentType: 2
+    solvedType: 0

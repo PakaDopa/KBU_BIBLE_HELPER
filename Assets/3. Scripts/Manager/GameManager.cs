@@ -109,7 +109,20 @@ namespace Manager
             //Shot Event
             EventManager.Instance.PostNotification(MEventType.GameStart, this, new TransformEventArgs(transform));
         }
-
+        public void SaveDictionaryData(TestamentDictionary[] testaments)
+        {
+            //30문제가 testaments에 들어옴
+            foreach(TestamentDictionary t in testaments)
+            {
+                bool isSolved = t.isSolved;
+                datas.bibleDatas
+                    .Where(x => x.testamentType == t.type)
+                    .Where(y => y.number == t.number).ToList().ForEach(key =>
+                    {
+                        key.solvedType = isSolved == true ? SolvedType.Solved : SolvedType.NotSolved;
+                    });
+            }
+        }
         //접근 가능 변수 함수
         public BibleData GetCurrentProblem() => problems[problemIndex];
 

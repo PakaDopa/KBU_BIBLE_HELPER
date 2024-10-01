@@ -12,6 +12,7 @@ namespace DataLoader.Data
         public string[] answers;            //답 4개
         public int answerIndex;             //정답 번호
         public TestamentType testamentType; //구약, 신약 타입 나누기
+        public SolvedType solvedType;       //해당 문제 풀었는지 안 풀었는지
     }
 
     [Serializable]

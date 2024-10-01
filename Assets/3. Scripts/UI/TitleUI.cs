@@ -21,20 +21,28 @@ public class TitleUI : MonoBehaviour
     [SerializeField] private TransitionSettings transition;
     [SerializeField] private float startDelay;
 
+    [Header("BGM SoundSO")]
+    [SerializeField] private SoundEventSO soEvent;
+    [Header("Swipe SoundSO")]
+    [SerializeField] private SoundEventSO swipeEvent;
+
     void Start()
     {
         //Dotween 실행
         DoTextEffect();
+        soEvent.Raise();
     }
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
+            swipeEvent.Raise();
             DOTween.KillAll();
             TransitionManager.Instance().Transition("LobbyScene", transition, startDelay);
         }
         if (Input.touchCount > 0)
         {
+            swipeEvent.Raise();
             DOTween.KillAll();
             var touch = Input.GetTouch(0);
             if(touch.phase == TouchPhase.Began)

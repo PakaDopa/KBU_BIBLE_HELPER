@@ -21,6 +21,11 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private float moveValue;
     [SerializeField] private float moveTime;
 
+    [Header("Sound SO")]
+    [SerializeField] private SoundEventSO soEvent;
+    [Header("Swipe SoundSO")]
+    [SerializeField] private SoundEventSO swipeEvent;
+
     public void Start()
     {
         // Start Aniamtion
@@ -36,6 +41,8 @@ public class LobbyUI : MonoBehaviour
 
         DoInterfaceEffect(goldUI);
         DoInterfaceEffect(playerUI);
+
+        soEvent.Raise();
     }
     void DoInterfaceEffect(RectTransform _rect)
     {
@@ -55,6 +62,7 @@ public class LobbyUI : MonoBehaviour
     //Button Event
     public void SceneChangeMainGame()
     {
+        swipeEvent.Raise();
         TransitionManager.Instance().Transition("MainGameScene", transition, startDelay);
     }
     public void OnClick_ShowLogPanel(bool isEnable)

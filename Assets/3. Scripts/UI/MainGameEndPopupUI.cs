@@ -24,6 +24,8 @@ public class MainGameEndPopupUI : MonoBehaviour
 
     [Header("Effect Componet")]
     [SerializeField] private GameObject[] effectComponets;
+    [Header("Swipe SoundSO")]
+    [SerializeField] private SoundEventSO swipeEvent;
     public void SetText(int score, int problemCount, int maxCombo)
     {
         scoreTexts[0].text = score.ToString();
@@ -57,6 +59,7 @@ public class MainGameEndPopupUI : MonoBehaviour
         TestamentDictionary[] testamentDictionaries = gameManager.TestamentDictionaries;
         gameManager.SaveDictionaryData(testamentDictionaries);
         //
+        swipeEvent.Raise();
         TransitionManager.Instance().Transition("LobbyScene", transitionSettings, 0.0f);
     }
     private QuizLog MakeQuizLog()

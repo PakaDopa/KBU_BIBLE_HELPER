@@ -42,4 +42,19 @@ namespace Utils
         Subjective,         //주관식
         None,               //예외처리
     }
+
+    [Serializable]
+    public enum SoundType
+    {
+        MainBGM = 0,
+        SecondBGM,
+        Click_1,
+        Click_2,
+        Click_3,
+        Click_4,
+        Combo,
+        ComboUpgrade,
+        GameClear_1,
+        Swipe
+    }
 }

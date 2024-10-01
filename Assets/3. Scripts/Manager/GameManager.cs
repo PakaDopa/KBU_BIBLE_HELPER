@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using Utils;
+using static Manager.EventManager;
 
 namespace Manager
 {
@@ -40,9 +41,20 @@ namespace Manager
         private TestamentDictionary[] testamentDictionaries;    //정답 저장 (오답노트용) -> 사전에도 등록해야함. (게임끝)
         public TestamentDictionary[] TestamentDictionaries { get { return testamentDictionaries; } }
 
+        [Header("BGM So Event")]
+        [SerializeField] private SoundEventSO soEvent;
+        [Header("Combo So Event")]
+        [SerializeField] private SoundEventSO comboEvent;
+        [Header("End So Event")]
+        [SerializeField] private SoundEventSO EndEvent;
         private void Awake()
         {
             EventManager.Instance.AddListener(MEventType.GameNextProblem, NextProblem);
+        }
+
+        private void Start()
+        {
+            soEvent.Raise();
         }
         /// <summary>
         /// CSV 데이터에서 SettingCount(Component Setting Value)를 토대로 문제지를 만듭니다.
@@ -139,6 +151,7 @@ namespace Manager
             //정답일 때
             if (bool.Parse(tArgs.value[0].ToString()) == true)
             {
+                comboEvent.Raise();
                 TestamentDictionaryInit(true);
                 combo++;
                 answerCount++;
@@ -156,13 +169,15 @@ namespace Manager
             if (problemIndex >= problemCount)
             {
                 EventManager.Instance.PostNotification(MEventType.GameEnd, this, new TransformEventArgs(transform));
-
+                EndEvent.Raise();
                 gameEndPanel.gameObject.SetActive(true);
                 gameEndPanel.GetComponent<MainGameEndPopupUI>().SetText(answerCount, problemCount, maxCombo);
                 halfAlphaPanel.gameObject.SetActive(true);
             }
             else
+            {
                 EventManager.Instance.PostNotification(MEventType.GameStart, this, new TransformEventArgs(transform));
+            }
         }
         private void TestamentDictionaryInit(bool isSovled)
         {

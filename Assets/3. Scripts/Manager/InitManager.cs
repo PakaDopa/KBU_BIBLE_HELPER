@@ -17,6 +17,7 @@ namespace Manager
             PlayerDataManager.Instance.Init();
             TimeManager.Instance.Init();
             SceneLoadManager.Instance.Init();
+            ParticleManager.Instance.Init();
         }
 
         private void Start()

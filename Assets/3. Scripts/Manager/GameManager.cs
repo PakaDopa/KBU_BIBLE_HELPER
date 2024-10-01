@@ -35,6 +35,7 @@ namespace Manager
 
         private int maxCombo = 0;                               //최대 콤보
         private int combo = 0;                                  //현재 콤보
+        public int Combo { get { return combo; } }
         private int answerCount = 0;                            //정답 횟수
         private TestamentDictionary[] testamentDictionaries;    //정답 저장 (오답노트용) -> 사전에도 등록해야함. (게임끝)
         public TestamentDictionary[] TestamentDictionaries { get { return testamentDictionaries; } }
@@ -141,12 +142,14 @@ namespace Manager
                 TestamentDictionaryInit(true);
                 combo++;
                 answerCount++;
+                EventManager.Instance.PostNotification(MEventType.GameEffect, this, new TransformEventArgs(transform, true));
             }
             else //오답일 때
             {
                 TestamentDictionaryInit(false);
                 maxCombo = Math.Max(maxCombo, combo);
                 combo = 0;
+                EventManager.Instance.PostNotification(MEventType.GameEffect, this, new TransformEventArgs(transform, false));
             }
 
             problemIndex++;

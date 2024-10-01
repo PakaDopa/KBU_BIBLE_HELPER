@@ -23,7 +23,7 @@ namespace Utils
         GameEnd,
         GameStop,
         GameNextProblem,
-
+        GameEffect,
         //Error Control
         None,
     }

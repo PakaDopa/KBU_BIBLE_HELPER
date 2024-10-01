@@ -22,6 +22,8 @@ public class MainGameEndPopupUI : MonoBehaviour
     [Header("TransitionSettings")]
     [SerializeField] private TransitionSettings transitionSettings;
 
+    [Header("Effect Componet")]
+    [SerializeField] private GameObject[] effectComponets;
     public void SetText(int score, int problemCount, int maxCombo)
     {
         scoreTexts[0].text = score.ToString();
@@ -43,6 +45,11 @@ public class MainGameEndPopupUI : MonoBehaviour
         EventManager.Instance.RemoveEvent(MEventType.GameEnd);
         EventManager.Instance.RemoveEvent(MEventType.GameStop);
         EventManager.Instance.RemoveEvent(MEventType.GameNextProblem);
+        EventManager.Instance.RemoveEvent(MEventType.GameEffect);
+
+        //이벤트 관련 다 제거
+        for (int i = 0; i < effectComponets.Length; i++)
+            effectComponets[i].SetActive(false);
 
         //Save Quiz Log
         PlayerDataManager.Instance.SaveData(MakeQuizLog());

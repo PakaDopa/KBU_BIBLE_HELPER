@@ -18,7 +18,6 @@ public class TitleUI : MonoBehaviour
     [SerializeField] private Vector3 _scaleValue;
 
     [Header("Transition 값")]
-    TransitionManager transitionManager;
     [SerializeField] private TransitionSettings transition;
     [SerializeField] private float startDelay;
 
@@ -29,7 +28,7 @@ public class TitleUI : MonoBehaviour
     }
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             DOTween.KillAll();
             TransitionManager.Instance().Transition("LobbyScene", transition, startDelay);
@@ -44,11 +43,17 @@ public class TitleUI : MonoBehaviour
     }
     void DoTextEffect()
     {
-        if (_titleText == null || _subTitleText == null || _infoText == null)
-            return;
-
-        DoTitleEffect(_titleText);
-        DoTitleEffect(_subTitleText);
+        Sequence seq = DOTween.Sequence();
+        seq.SetAutoKill(true);
+        seq
+            .PrependInterval(2f)
+            .Append(_titleText.DOAnchorPosY(-46, 1.5f)).SetEase(Ease.OutBack)
+            .Join(_subTitleText.DOAnchorPosY(-343, 2f)).SetEase(Ease.OutBack)
+            .OnComplete(() =>
+            {
+                DoTitleEffect(_titleText);
+                DoTitleEffect(_subTitleText);
+            });
 
         _infoText.transform.DOScale(_scaleValue, 0.5f).SetLoops(-1, LoopType.Yoyo);
     }

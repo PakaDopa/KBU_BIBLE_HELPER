@@ -1,5 +1,6 @@
 using DG.Tweening;
 using EasyTransition;
+using Manager;
 using UnityEngine;
 
 public class LobbyUI : MonoBehaviour
@@ -63,5 +64,17 @@ public class LobbyUI : MonoBehaviour
     public void OnClick_DicPanel(bool isEnable)
     {
         dicPanel.gameObject.SetActive(isEnable);
+    }
+    public void OnClick_GameExit()
+    {
+        //PlayerDataManager.Instance.SaveData();
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#elif UNITY_ANDROID
+        AndroidJavaObject activity = new AndroidJavaClass("com.unity3d.player.UnityPlayer").GetStatic<AndroidJavaObject>("currentActivity");
+        activity.Call<bool>("moveTaskToBack", true);
+#else
+        Application.Quit();
+#endif
     }
 }

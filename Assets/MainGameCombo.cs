@@ -58,8 +58,8 @@ public class MainGameCombo : MonoBehaviour
             effect = DOTween.Sequence();
             effect
                 .SetAutoKill(true)
-                .Append(rectTrans.DOAnchorPosY(-220, 0))
-                .Append(rectTrans.DOAnchorPosY(400, 1f)).SetEase(Ease.InQuart)
+                .Append(rectTrans.DOAnchorPosY(-220, 0.01f))
+                .Append(rectTrans.DOAnchorPosY(400, 9f))
                 .Play();
             numberText.text = gameManager.Combo.ToString();
         }

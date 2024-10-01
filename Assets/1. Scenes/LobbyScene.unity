@@ -496,7 +496,7 @@ PrefabInstance:
       objectReference: {fileID: 437437468}
     - target: {fileID: 2266745491163547221, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnClick_DicPanel
+      value: OnClick_GameExit
       objectReference: {fileID: 0}
     - target: {fileID: 3920084819462125143, guid: aa84e805ba9231948a82b6fb3d9309e3, type: 3}
       propertyPath: m_Pivot.x
@@ -832,6 +832,7 @@ MonoBehaviour:
   - {fileID: 2005302619}
   - {fileID: 2077385804}
   - {fileID: 1936225737}
+  - {fileID: 230119121}
   goldUI: {fileID: 1385143469}
   playerUI: {fileID: 706772188}
   moveValue: 2

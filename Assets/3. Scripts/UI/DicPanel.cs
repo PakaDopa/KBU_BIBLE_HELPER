@@ -14,18 +14,15 @@ public class DicPanel : MonoBehaviour
     //quiz db를 적용
     private void InitPrefabs()
     {
+        while (container.childCount > 0)
+            Destroy(container.GetChild(0).gameObject);
+
         foreach(BibleData bibleData in allBibleData.bibleDatas)
         {
             var obj = Instantiate(slotPrefab);
             obj.GetComponent<DicSlot>().Init(bibleData);
             obj.transform.SetParent(container, false);
         }
-    }
-
-    //quiz db의 아이디 값으로, playerData 기반으로 푼 문제들을 체크
-    private void AdjustPlayerData()
-    {
-
     }
     private void Start()
     {

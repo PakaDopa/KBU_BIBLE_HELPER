@@ -3,6 +3,7 @@ using DataLoader.Data;
 using Manager;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using Utils;
 
 public class DicSlot : MonoBehaviour
@@ -10,17 +11,28 @@ public class DicSlot : MonoBehaviour
     [SerializeField] private TMP_Text text;
 
     [SerializeField]
-    [ColorUsage(false, true)] private Color noTypeColor;
+    private Image highlightImage;
     [SerializeField]
-    [ColorUsage(false, true)] private Color solvedTypeColor;
+    private Image iconImage;
+
+    [Header("Color Viusal")]
     [SerializeField]
-    [ColorUsage(false, true)] private Color UnSolvedTypeColor;
+    [ColorUsage(true, true)] private Color noTypeColor;
+    [SerializeField]
+    [ColorUsage(true, true)] private Color solvedTypeColor;
+    [SerializeField]
+    [ColorUsage(true, true)] private Color unsolvedTypeColor;
     //문제 푼 여부에 따라서 어떻게 보일지를 정함 (퀴즈에서 안 나온 경우, 푼 경우, 틀린 경우)
+
+    [Header("Icon Viusal")]
+    [SerializeField] private Sprite noImage;
+    [SerializeField] private Sprite sovledImage;
+    [SerializeField] private Sprite unsolvedImage;
 
     public void Init(BibleData bibleData)
     {
         SetText(bibleData);
-        SetViusal(bibleData);
+        //SetViusal(bibleData);
     }
     public void SetViusal(BibleData bibleData)
     {
@@ -28,10 +40,16 @@ public class DicSlot : MonoBehaviour
         switch(type)
         {
             case SolvedType.Hidden:
+                highlightImage.color = noTypeColor;
+                iconImage.sprite = noImage;
                 break;
             case SolvedType.Solved:
+                highlightImage.color = solvedTypeColor;
+                iconImage.sprite = sovledImage;
                 break;
             case SolvedType.NotSolved:
+                highlightImage.color = unsolvedTypeColor;
+                iconImage.sprite = unsolvedImage;
                 break;
             default:
                 break;

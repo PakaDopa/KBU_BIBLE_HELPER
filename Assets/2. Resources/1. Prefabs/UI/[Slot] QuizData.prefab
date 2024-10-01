@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 60.0933, y: -0.0000038146973}
-  m_SizeDelta: {x: 120.1907, y: 112.62}
+  m_AnchoredPosition: {x: 30.8823, y: -0.0000038146973}
+  m_SizeDelta: {x: 61.7646, y: 112.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4072958408242344920
 CanvasRenderer:
@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3294118, g: 0.7647059, b: 0.35556936, a: 1}
+  m_Color: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -109,8 +109,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 60.093, y: 0}
-  m_SizeDelta: {x: 88.4674, y: 84.5016}
+  m_AnchoredPosition: {x: 30.883, y: 0}
+  m_SizeDelta: {x: 61.764, y: 112.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3157739103008702495
 CanvasRenderer:
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922502171994769233}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -243,6 +243,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 7427253908136164069}
+  highlightImage: {fileID: 5254469355920757570}
+  iconImage: {fileID: 6560843569979651124}
+  noTypeColor: {r: 0.76052475, g: 0.76052475, b: 0.76052475, a: 1}
+  solvedTypeColor: {r: 0.088655606, g: 0.5457247, b: 0.10461649, a: 1}
+  unsolvedTypeColor: {r: 0.93011117, g: 0.07227186, b: 0.06301003, a: 1}
+  noImage: {fileID: -149030467, guid: 23500b9c5d0beb041a54c6e38d3461ab, type: 3}
+  sovledImage: {fileID: 1784047623, guid: 23500b9c5d0beb041a54c6e38d3461ab, type: 3}
+  unsolvedImage: {fileID: -1881697255, guid: 23500b9c5d0beb041a54c6e38d3461ab, type: 3}
 --- !u!114 &9141415530096384652
 MonoBehaviour:
   m_ObjectHideFlags: 0

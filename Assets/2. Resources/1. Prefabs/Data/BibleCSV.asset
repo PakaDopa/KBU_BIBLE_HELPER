@@ -36,7 +36,7 @@ MonoBehaviour:
     - "10\uC77C"
     answerIndex: 2
     testamentType: 1
-    solvedType: 0
+    solvedType: 1
   - number: 3
     problem: "\uD558\uB098\uB2D8\uC740 \uBA70\uCE60 \uB0A0\uC5D0 \uC778\uAC04\uC744
       \uCC3D\uC870\uD558\uC168\uB294\uAC00?"
@@ -48,7 +48,7 @@ MonoBehaviour:
     - "\uC77C\uACF1\uC9F8 \uB0A0"
     answerIndex: 3
     testamentType: 1
-    solvedType: 0
+    solvedType: 1
   - number: 4
     problem: "\uB2E4\uC74C\uC740 \uD558\uB098\uB2D8\uC774 \uB204\uAD6C\uC5D0\uAC8C
       \uD55C \uB9D0\uC778\uAC00? \"\"\uB0B4\uAC00 \uB108\uB85C \uC5EC\uC790\uC640
@@ -115,7 +115,7 @@ MonoBehaviour:
     - "\uC544\uBE0C\uB77C\uD568"
     answerIndex: 2
     testamentType: 1
-    solvedType: 0
+    solvedType: 1
   - number: 9
     problem: "\uB178\uC544\uC758 \uB300\uD64D\uC218 \uB54C \uBA70\uCE60 \uB3D9\uC548
       \uBE44\uAC00 \uB545\uC5D0 \uC3DF\uC544\uC84C\uB294\uAC00?"

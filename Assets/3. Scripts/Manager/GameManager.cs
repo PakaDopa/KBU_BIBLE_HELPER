@@ -120,6 +120,7 @@ namespace Manager
                     .Where(y => y.number == t.number).ToList().ForEach(key =>
                     {
                         key.solvedType = isSolved == true ? SolvedType.Solved : SolvedType.NotSolved;
+                        Debug.Log(key.solvedType);
                     });
             }
         }

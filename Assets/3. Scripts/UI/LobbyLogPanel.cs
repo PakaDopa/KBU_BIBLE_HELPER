@@ -10,6 +10,9 @@ public class LobbyLogPanel : MonoBehaviour
 
     private void Start()
     {
+        while(container.childCount > 0)
+            Destroy(container.GetChild(0));
+
         var playerData = PlayerDataManager.Instance.LoadData();
         var logList = playerData.quizLogs;
         int index = 1;

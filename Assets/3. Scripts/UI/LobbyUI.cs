@@ -21,6 +21,9 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private float moveValue;
     [SerializeField] private float moveTime;
 
+    [Header("Credit Panel")]
+    [SerializeField] private RectTransform creditPanel;
+
     [Header("Sound SO")]
     [SerializeField] private SoundEventSO soEvent;
     [Header("Swipe SoundSO")]
@@ -72,6 +75,10 @@ public class LobbyUI : MonoBehaviour
     public void OnClick_DicPanel(bool isEnable)
     {
         dicPanel.gameObject.SetActive(isEnable);
+    }
+    public void OnClick_CreditPanel(bool isEnable)
+    {
+        creditPanel.gameObject.SetActive(isEnable);
     }
     public void OnClick_GameExit()
     {

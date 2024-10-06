@@ -12,7 +12,6 @@ namespace Manager
             DOTween.Init();
 
             EventManager.Instance.Init();
-            //SaveManager.Instance.Init();
             PlayerDataManager.Instance.Init();
             TimeManager.Instance.Init();
             SceneLoadManager.Instance.Init();
